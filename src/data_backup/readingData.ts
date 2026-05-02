@@ -1,0 +1,1876 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+export interface ReadingQuestion {
+  id: string;
+  type: 'mcq' | 'tfng' | 'fill' | 'matching' | 'completion';
+  question: string;
+  options?: string[];
+  answer: string;
+  explanation: string;
+}
+
+export interface ReadingSet {
+  id: string;
+  title: string;
+  category: 'Science' | 'Technology' | 'Environment' | 'Society' | 'History' | 'Psychology';
+  difficulty: 'Hard';
+  description: string;
+  passage: string;
+  questions: ReadingQuestion[];
+}
+
+export const READING_DATA: ReadingSet[] = [
+  {
+    "id": "r1",
+    "title": "Quantum mechanics",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding quantum mechanics with analytical questions.",
+    "passage": "Quantum mechanics is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms. It is the foundation of all quantum physics, which includes quantum chemistry, quantum biology, quantum field theory, quantum technology, and quantum information science. Quantum mechanics can describe many systems that classical physics cannot. Classical physics can describe many aspects of nature at an ordinary (macroscopic and (optical) microscopic) scale, however is insufficient for describing them at very small submicroscopic (atomic and subatomic) scales. Classical mechanics can be derived from quantum mechanics as an approximation that is valid at ordinary scales. Quantum systems have bound states that are quantized to discrete values of energy, momentum, angular momentum, and other quantities, in contrast to classical systems where these quantities can be measured continuously. Measurements of quantum systems show characteristics of both particles and waves (wave\u2013particle duality), and there are limits to how accurately the value of a physical quantity can be predicted prior to its measurement, given a complete set of initial conditions (the uncertainty principle). Quantum mechanics arose gradually from theories to explain observations that could not be reconciled with classical physics, such as Max Planck's solution in 1900 to the black-body radiation problem, and the correspondence between energy and frequency in Albert Einstein's 1905 paper, which explained the photoelectric effect. These early attempts to understand microscopic phenomena, now known as the \"old quantum theory\", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schr\u00f6dinger, Werner Heisenberg, Max Born, Paul Dirac and others. The modern theory is formulated in various specially developed mathematical formalisms. In one of them, a mathematical entity called the wave function provides information, in the form of probability amplitudes, about what measurements of a particle's energy, momentum, and other physical properties may yield. Quantum mechanics allows the calculation of properties and behaviour of physical systems. It is typically applied to microscopic systems: molecules, atoms and subatomic particles. It has been demonstrated to hold for complex molecules with thousands of atoms, but its application to human beings raises philosophical problems, such as Wigner's friend, and its application to the universe as a whole remains speculative. Predictions of quantum mechanics have been verified experimentally to an extremely high degree of accuracy. For example, the refinement of quantum mechanics for the interaction of light and matter, known as quantum electrodynamics (QED), has been shown to agree with experiment to within 1 part in 1012 when predicting the magnetic properties of an electron. A fundamental feature of the theory is that it usually cannot predict with certainty what will happen, but only gives probabilities. Mathematically, a probability is found by taking the square of the absolute value of a complex number, known as a probability amplitude. This is known as the Born rule, named after physicist Max Born. For example, a quantum particle like an electron can be described by a wave function, which associates to each point in space a probability amplitude. Applying the Born rule to these amplitudes gives a probability density function for the position that the electron will be found to have when an experiment is performed to measure it. This is the best the theory can do; it cannot say for certain where the electron will be found. The Schr\u00f6dinger equation relates the collection of probability amplitudes that pertain to one moment of time to the collection of probability amplitudes that pertain to another. One consequence of the mathematical rules of quantum mechanics is a tradeoff in predictability between measurable quantities. The most famous form of this uncertainty principle says that no matter how a quantum particle is prepared or how carefully experiments upon it are arranged, it is impossible to have a precise prediction for a measurement of its position and also at the same time for a measurement of its momentum. Another consequence of the mathematical rules of quantum mechanics is the phenomenon of quantum interference, which is often illustrated with the double-slit experiment. In the basic version of this experiment, a coherent light source, such as a laser beam, illuminates a plate pierced by two parallel slits, and the light passing through the slits is observed on a screen behind the plate. The wave nature of light causes the light waves passing through the two slits to interfere, producing bright and dark bands on the screen \u2013 a result that would not be expected if light consisted of classical particles. However, the light is always found to be absorbed at the screen at discrete points, as individual particles rather than waves; the interference pattern appears via the varying density of these particle hits on the screen. Furthermore, versions of the experiment that include detectors at the slits find that...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which statement accurately distinguishes a fundamental characteristic of quantum systems from classical systems, according to the passage?",
+        "options": [
+          "A) Classical systems can only describe macroscopic phenomena, while quantum systems are limited to microscopic scales.",
+          "B) Unlike classical systems where physical quantities can be measured continuously, quantum systems exhibit bound states with quantities quantized to discrete values.",
+          "C) Quantum mechanics can be derived from classical mechanics as a valid approximation at ordinary scales.",
+          "D) Classical physics incorporates the uncertainty principle, whereas quantum mechanics focuses solely on deterministic predictions."
+        ],
+        "answer": "B",
+        "explanation": "The passage explicitly states: 'Quantum systems have bound states that are quantized to discrete values of energy, momentum, angular momentum, and other quantities, in contrast to classical systems where these quantities can be measured continuously.' This directly supports option B. Option A is incorrect as classical physics describes macroscopic and optical microscopic, and quantum is applied to microscopic, not necessarily 'limited'. Option C is incorrect; the passage states 'Classical mechanics can be derived from quantum mechanics'. Option D is incorrect; the uncertainty principle is a quantum mechanical concept, and quantum mechanics usually gives probabilities, not certain predictions.",
+        "id": "r1-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The application of quantum mechanics to human beings has been experimentally verified to an extremely high degree of accuracy, similar to its verification for electron properties.",
+        "answer": "False",
+        "explanation": "The passage states that 'Predictions of quantum mechanics have been verified experimentally to an extremely high degree of accuracy' for certain phenomena, citing quantum electrodynamics (QED) and the magnetic properties of an electron. However, it explicitly mentions that 'its application to human beings raises philosophical problems, such as Wigner's friend, and its application to the universe as a whole remains speculative.' This indicates that its application to human beings is not experimentally verified to a high degree of accuracy, but rather problematic and speculative.",
+        "id": "r1-2"
+      },
+      {
+        "type": "fill",
+        "question": "In one mathematical formalism of modern quantum mechanics, a mathematical entity known as the _______ provides information, in the form of probability amplitudes, about potential measurements of a particle's physical properties.",
+        "answer": "wave function",
+        "explanation": "The passage states: 'In one of them, a mathematical entity called the wave function provides information, in the form of probability amplitudes, about what measurements of a particle's energy, momentum, and other physical properties may yield.' Therefore, 'wave function' is the correct term.",
+        "id": "r1-3"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "title": "Artificial intelligence",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding artificial intelligence with analytical questions.",
+    "passage": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals. High-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, and play and analysis in strategy games (e.g., chess and Go). Since the 2020s, generative AI has become widely available to generate images, audio, and videos from text prompts. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI researchers have used techniques including state space search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics. AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields. Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) \u2013 AI that can complete virtually any cognitive task at least as well as a human. Artificial intelligence was founded as an academic discipline in 1956, and the field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest increased substantially after 2012, when graphics processing units began being used to accelerate neural networks, and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an AI boom has coincided with advances in generative AI, which allowed for the creation and modification of media. In addition to AI safety and unintended consequences and harms from the use of AI, ethical concerns, AI's long-term effects, and potential existential risks have prompted discussions of AI regulation. The general problem of simulating (or creating) intelligence has been broken into subproblems. These consist of particular traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention and cover the scope of AI research. Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions. By the late 1980s and 1990s, methods were developed for dealing with uncertain or incomplete information, employing concepts from probability and economics. Many of these algorithms are insufficient for solving large reasoning problems because they experience a \"combinatorial explosion\": They become exponentially slower as the problems grow. Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments. Accurate and efficient reasoning is an unsolved problem. Knowledge representation and knowledge engineering allow AI programs to answer questions intelligently and make deductions about real-world facts. Formal knowledge representations are used in content-based indexing and retrieval, scene interpretation, clinical decision support, knowledge discovery (mining \"interesting\" and actionable inferences from large databases), and other areas. A knowledge base is a body of knowledge represented in a form that can be used by a program. An ontology is the set of objects, relations, concepts, and properties used by a particular domain of knowledge. Knowledge bases need to represent things such as objects, properties, categories, and relations between objects; situations, events, states, and time; causes and effects; knowledge about knowledge (what we know about what other people know); default reasoning (things that humans assume are true until they are told differently and will remain true even when other facts are changing); and many other aspects and domains of knowledge. Among the most difficult problems in knowledge representation are the breadth of commonsense knowledge (the set of atomic facts that the average person knows is enormous); and the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as \"facts\" or \"statements\" that they could express verbally). There is also the difficulty of knowledge acquisition, the problem of obtaining knowledge for AI applications. An \"agent\" is any entity (artificial or not) that perceives and takes actions in the world. A rational agent has goals or preferences and takes actions to make them happen. In automated planning, the agent has a specific goal. In automated decision-making, the agent has preferences\u2014there are some situations it would prefer to be in, and some situations it is trying to avoid. The decision-making agent assigns a number to each situation (called the \"utility\") that measures how much the agent prefers it. For each possible action, it can calculate the \"expected utility\": the utility of all possible outcomes of the action, weighted by the probability that the outcome will occur. It can then choose the...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, what is the primary reason that many current AI algorithms struggle with large reasoning problems, and how does this contrast with human problem-solving?",
+        "options": [
+          "A. They lack the ability to process uncertain information, unlike humans who can easily disregard irrelevant data.",
+          "B. They suffer from 'combinatorial explosion' making them exponentially slower, whereas humans rely more on quick, intuitive judgments.",
+          "C. Their reliance on formal logic prevents them from adapting to real-world complexities that humans naturally handle.",
+          "D. AI algorithms are designed for specific tasks, while humans possess general intelligence capable of diverse problem-solving."
+        ],
+        "answer": "B",
+        "explanation": "The passage states that 'Many of these algorithms are insufficient for solving large reasoning problems because they experience a 'combinatorial explosion': They become exponentially slower as the problems grow.' It then contrasts this with human reasoning by noting, 'Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments.'",
+        "id": "r2-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The periods of reduced funding and diminished interest in Artificial Intelligence, known as 'AI winters', have entirely ceased since the advent of deep learning technologies.",
+        "answer": "False",
+        "explanation": "The passage indicates a significant increase in funding and interest after 2012 and 2017, leading to an 'AI boom' in the 2020s. However, it only describes the current positive trend and does not state that the cycles of 'AI winters' have 'entirely ceased' or will not occur again in the future. The passage simply mentions that funding and interest increased substantially, not that the pattern of winters is over.",
+        "id": "r2-2"
+      },
+      {
+        "type": "fill",
+        "question": "One significant challenge in knowledge representation for AI is the ___________ of commonsense knowledge, where much of what humans know exists in a form that cannot be easily expressed verbally.",
+        "answer": "sub-symbolic form",
+        "explanation": "The passage directly identifies this challenge: 'Among the most difficult problems in knowledge representation are... the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as 'facts' or 'statements' that they could express verbally).'",
+        "id": "r2-3"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "title": "French Revolution",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding french revolution with analytical questions.",
+    "passage": "The French Revolution was a period of political and societal change in France that began with the Estates General of 1789 and ended with the Coup of 18 Brumaire on 9 November 1799. Many of the revolution's ideas are considered fundamental principles of liberal democracy, and its values remain central to modern French political discourse. It was caused by a combination of social, political, and economic factors which the existing regime proved unable to manage. Financial crisis and widespread social distress led to the convocation of the Estates General in May 1789, its first meeting since 1614. The representatives of the Third Estate broke away and re-constituted themselves as a National Assembly in June. The Storming of the Bastille in Paris on 14 July led to a series of radical measures by the Assembly, including the abolition of feudalism, state control over the Catholic Church in France, and issuing the Declaration of the Rights of Man and of the Citizen. The next three years were dominated by a struggle for political control. King Louis XVI's attempted flight to Varennes in June 1791 further discredited the monarchy, and military defeats after the outbreak of the French Revolutionary Wars in April 1792 led to the insurrection of 10 August 1792. As a result, the monarchy was replaced by the French First Republic in September, followed by the execution of Louis XVI himself in January 1793. After another revolt in June 1793, the constitution was suspended, and political power passed from the National Convention to the Committee of Public Safety, dominated by radical Jacobins led by Maximilien Robespierre. About 16,000 people were sentenced by the Revolutionary Tribunal and executed in the Reign of Terror, which ended in July 1794 with the Thermidorian Reaction. Weakened by external threats and internal opposition, the Committee of Public Safety was replaced in November 1795 by the Directory. Its instability ended in 1799 with the coup of 18 Brumaire and the establishment of the Consulate, with Napoleon Bonaparte as First Consul. The Revolution resulted from multiple long-term and short-term factors, culminating in a social, economic, financial and political crisis in the late 1780s. Combined with resistance to reform by the ruling elite and indecisive policy by Louis XVI and his ministers, the result was a crisis the state was unable to manage. Between 1715 and 1789, the French population grew from 21 to 28 million, 20% of whom lived in towns or cities, Paris alone having over 600,000 inhabitants. This was accompanied by a tripling in the size of the middle class, which comprised almost 10% of the population by 1789. Despite increases in overall prosperity, its benefits were largely restricted to the rentier and mercantile classes, while the living standards fell for wage labourers and peasant farmers who rented their land. Economic recession from 1785, combined with bad harvests in 1787 and 1788, led to high unemployment and food prices, causing a financial and political crisis. While the state also experienced a debt crisis, the level of debt itself was not high compared with Britain's. A significant problem was that tax rates varied widely from one region to another, were often different from the official amounts, and were collected inconsistently. The complexity and lack of accountability caused resentment among all taxpayers. Attempts to simplify the system were blocked by the regional Parlements which approved financial policy. The resulting impasse led to the calling of the Estates General of 1789, which became radicalised by the struggle for control of public finances. Louis XVI was willing to consider reforms, but he often backed down when faced with opposition from conservative elements within the nobility. Enlightenment critiques of social institutions were widely discussed among the educated French elite. At the same time, the American Revolution and the European revolts of the 1780s inspired public debate on issues such as patriotism, liberty, equality, and democracy. These shaped the response of the educated public to the crisis, while scandals such as the Affair of the Diamond Necklace fuelled widespread anger at the court, nobility, and church officials. France faced a series of budgetary crises during the 18th century as revenues failed to keep pace with expenditure. Despite solid economic growth, the use of tax farmers meant this was not reflected in a proportional growth in state tax income. As the nobility and Church benefited from a variety of exemptions, the tax burden fell mainly on the lower classes. Reform was difficult because new tax laws had to be registered with regional judicial bodies or parlements that were able to block them. The king could impose laws by decree, but this risked open conflict with the parlements, the nobility, and those subject to new taxes. France primarily used loans to fund the 1778 to 1783 Anglo-French War. Even after it ended, the monarchy...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, what was a primary systemic obstacle to addressing France's financial difficulties leading up to the Revolution?",
+        "options": [
+          "King Louis XVI's absolute refusal to sanction any new financial regulations.",
+          "France's national debt being astronomically larger than that of Great Britain.",
+          "The decentralized authority of regional parliaments to impede comprehensive tax reform.",
+          "The insufficient growth of the middle class to support increased taxation."
+        ],
+        "answer": "The decentralized authority of regional parliaments to impede comprehensive tax reform.",
+        "explanation": "The passage explicitly states, 'Attempts to simplify the system were blocked by the regional Parlements which approved financial policy' and later, 'Reform was difficult because new tax laws had to be registered with regional judicial bodies or parlements that were able to block them.' This highlights the structural impediment posed by these regional bodies to comprehensive reform. Options A, B, and D are contradicted by the passage, which mentions Louis XVI being 'willing to consider reforms', the debt 'was not high compared with Britain's', and the middle class had 'tripled' in size.",
+        "id": "r3-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The primary reason for France's state debt crisis in the late 1780s was the unprecedented magnitude of its national debt, far surpassing that of other major European nations like Britain.",
+        "answer": "False",
+        "explanation": "The passage states, 'While the state also experienced a debt crisis, the level of debt itself was not high compared with Britain's.' This directly refutes the claim that France's national debt was of unprecedented magnitude or far surpassed Britain's. The passage attributes the crisis to multiple factors, including revenues failing to keep pace with expenditure, inconsistent tax collection, and exemptions for the nobility and Church, not solely the sheer size of the debt.",
+        "id": "r3-2"
+      },
+      {
+        "type": "fill",
+        "question": "The period of extreme political repression and executions, known as the Reign of Terror, concluded in July 1794 with the __________.",
+        "answer": "Thermidorian Reaction",
+        "explanation": "The passage explicitly states, 'About 16,000 people were sentenced by the Revolutionary Tribunal and executed in the Reign of Terror, which ended in July 1794 with the Thermidorian Reaction.' This identifies the specific event that marked the end of the Reign of Terror.",
+        "id": "r3-3"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "title": "Cognitive psychology",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cognitive psychology with analytical questions.",
+    "passage": "Cognitive psychology is the scientific study of human mental processes such as attention, language use, memory, perception, problem solving, creativity, and reasoning. Cognitive psychology originated in the 1960s in a break from behaviorism, which held from the 1920s to 1950s that unobservable mental processes were outside the realm of empirical science. This break came as researchers in linguistics, cybernetics, and applied psychology used models of mental processing to explain human behavior. Work derived from cognitive psychology was integrated into other branches of psychology and into various other modern disciplines, such as cognitive science, linguistics, and economics. Philosophically, ruminations on the human mind and its processes have been around since the time of the ancient Greeks. In 387 BCE, Plato suggested that the brain was the seat of mental processes. In 1637, Ren\u00e9 Descartes posited that humans have innate ideas and promulgated mind-body dualism, which came to be known as substance dualism (essentially the idea that the mind and the body are two separate substances). From that time, major debates ensued through the 19th century about whether human thought is solely experiential (empiricism) or includes innate knowledge (nativism). Some of those involved in this debate include George Berkeley and John Locke on the side of empiricism, and Immanuel Kant on the side of nativism. With the philosophical debate continuing, the mid- to late 19th century was a critical time in the development of psychology as a scientific discipline. Two discoveries that later played substantial roles in cognitive psychology were Paul Broca's discovery of the area of the brain largely responsible for language production and Carl Wernicke's discovery of an area thought to be mostly responsible for comprehension of language. Both areas were subsequently formally named for their founders, and disruptions of an individual's language production or comprehension due to trauma or malformation in these areas have come to commonly be known as Broca's aphasia and Wernicke's aphasia. From the 1920s to the 1950s, the main approach to psychology was behaviorism. Initially, its adherents viewed mental events such as thoughts, ideas, attention, and consciousness as unobservable and thus outside the realm of psychology as a science. A pioneer of cognitive psychology, whose work predated much of the behaviorist literature, was Carl Jung. Jung introduced the hypothesis of cognitive functions in his 1921 book Psychological Types. Another pioneer of cognitive psychology, who worked outside the boundaries (both intellectual and geographical) of behaviorism, was Jean Piaget. From 1926 to the 1950s and into the 1980s, he studied the thoughts, language, and intelligence of children and adults. In the mid-20th century, four main influences arose that inspired and shaped cognitive psychology as a formal school of thought: With the development of new warfare technology during World War II came a need for a greater understanding of human performance. Problems such as how best to train soldiers to use new technology and how to handle matters of attention under duress became important to military personnel. Behaviorism provided little if any insight into these matters, and the work of Donald Broadbent, integrating concepts from human performance research and the recently developed information theory, forged the way in this area. Developments in computer science led to parallels being drawn between human thought and the computational functionality of computers, opening entirely new areas of psychological thought. Allen Newell and Herbert Simon spent years developing the concept of artificial intelligence (AI) and later collaborated with cognitive psychologists to explore its implications. This encouraged a concept of mental functions patterned on the way computers handle memory storage and retrieval, and it opened an important doorway for cognitivism. Noam Chomsky's 1959 critique of behaviorism, and empiricism more generally, initiated what came to be known as the \"cognitive revolution\". Within psychology, in response to behaviorism, J. S. Bruner, J. J. Goodnow & G. A. Austin wrote \"A Study of Thinking\" in 1956. In 1960, G. A. Miller, E. Galanter, and K. Pribram wrote \"Plans and the Structure of Behavior\". The same year, Bruner and Miller founded the Harvard Center for Cognitive Studies, which institutionalized the revolution and launched the field of cognitive science. Formal recognition of the field involved the establishment of research institutions such as George Mandler's Center for Human Information Processing in 1964. Mandler described the origins of cognitive psychology in a 2002 article in the Journal of the History of the Behavioral Sciences. Ulric Neisser put the term \"cognitive psychology\" into common use through his 1967 book Cognitive Psychology. Neisser's definition of \"cognition\" illustrates the then-progressive concept of cognitive processes: The term \"cognition\" refers to all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used. It is concerned with these processes even when they operate in the absence of relevant stimulation, as in images and hallucinations. ... Given such a sweeping definition, it is apparent...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which combination of factors most significantly contributed to the establishment of cognitive psychology as a formal school of thought, challenging the prevailing behaviorist paradigm in the mid-20th century?",
+        "options": [
+          "The philosophical explorations of innate ideas and the empirical findings regarding language processing centers in the brain.",
+          "The practical demands of wartime human performance and the theoretical framework provided by the burgeoning field of computer science.",
+          "Carl Jung's hypothesis of cognitive functions and Jean Piaget's extensive research on child intelligence and language.",
+          "Noam Chomsky's critique of empiricism and the foundational work of Plato and Ren\u00e9 Descartes on mental processes."
+        ],
+        "answer": "Option B",
+        "explanation": "The passage explicitly details 'four main influences [that] arose that inspired and shaped cognitive psychology as a formal school of thought.' Among these, it highlights 'a need for a greater understanding of human performance' due to World War II and 'Developments in computer science' which led to 'parallels being drawn between human thought and the computational functionality of computers.' These two influences are presented as key drivers for the formal emergence of cognitive psychology in the mid-20th century.",
+        "id": "r4-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The research contributions of Carl Jung and Jean Piaget were primarily responsible for the immediate instigation of the 'cognitive revolution' in the 1960s.",
+        "answer": "False",
+        "explanation": "The passage describes Jung and Piaget as 'pioneers' of cognitive psychology whose work either 'predated much of the behaviorist literature' or was conducted 'outside the boundaries' of behaviorism. However, it explicitly states that 'Noam Chomsky's 1959 critique of behaviorism... initiated what came to be known as the 'cognitive revolution'.' Therefore, while Jung and Piaget were important figures, they were not the *primary immediate instigators* of the cognitive revolution itself in the 1960s.",
+        "id": "r4-2"
+      },
+      {
+        "type": "fill",
+        "question": "According to Ulric Neisser's influential definition, 'cognition' refers to all processes by which sensory input is transformed, reduced, elaborated, stored, recovered, and used, even when these processes operate in the absence of relevant _________.",
+        "answer": "stimulation",
+        "explanation": "The passage directly quotes Ulric Neisser's definition: 'The term 'cognition' refers to all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used. It is concerned with these processes even when they operate in the absence of relevant stimulation, as in images and hallucinations.' The missing word 'stimulation' completes the sentence precisely as found in the text.",
+        "id": "r4-3"
+      }
+    ]
+  },
+  {
+    "id": "r5",
+    "title": "Climate change",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding climate change with analytical questions.",
+    "passage": "Present-day climate change includes both global warming\u2014the ongoing increase in global average temperature\u2014and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices release greenhouse gases. These gases absorb some of the heat that the Earth radiates after it warms from sunlight, warming the lower atmosphere. Earth's atmosphere now has roughly 50% more carbon dioxide, the main gas driving global warming, than it did at the end of the pre-industrial era, reaching levels not seen for millions of years. Climate change has an increasingly large impact on the environment. Heat waves and wildfires are becoming more common. Amplified warming in the Arctic has contributed to thawing permafrost, retreat of glaciers and sea ice decline. Higher temperatures are also causing more intense storms, droughts, and other weather extremes. Rapid environmental change in mountains, coral reefs, and the Arctic is forcing many species to relocate or become extinct. Even if efforts to minimize future warming are successful, some effects will continue for centuries. These include ocean heating, ocean acidification and sea level rise. Climate change threatens people with increased flooding, extreme heat, increased food and water scarcity, more disease, and economic loss. Human migration and conflict can also be a result. The World Health Organization calls climate change one of the biggest threats to global health in the 21st century. Societies and ecosystems will experience more severe risks without action to limit warming. Adapting to climate change through efforts like flood control measures or drought-resistant crops partially reduces climate change risks, although some limits to adaptation have already been reached. Poorer communities are responsible for a small share of global emissions, yet have the least ability to adapt and are most vulnerable to climate change. Many climate change impacts have been observed in the first decades of the 21st century, with 2024 the warmest on record at +1.60 \u00b0C (2.88 \u00b0F) since regular tracking began in 1850. Additional warming will increase these impacts and can trigger tipping points, such as melting all of the Greenland ice sheet. Under the 2015 Paris Agreement, nations collectively agreed to keep warming \"well under 2 \u00b0C\". However, with pledges made under the Agreement, global warming would still reach about 2.8 \u00b0C (5.0 \u00b0F) by the end of the century. There is widespread support for climate action worldwide, and most countries aim to stop emitting carbon dioxide. Fossil fuels can be phased out by stopping subsidising them, conserving energy and switching to energy sources that do not produce significant carbon pollution. These energy sources include wind, solar, hydro, and nuclear power. Cleanly generated electricity can replace fossil fuels for powering transportation, heating buildings, and running industrial processes. Carbon can also be removed from the atmosphere, for instance by increasing forest cover and farming with methods that store carbon in soil. Before the 1980s, it was unclear whether the warming effect of increased greenhouse gases was stronger than the cooling effect of airborne particulates in air pollution. Scientists used the term inadvertent climate modification to refer to human impacts on the climate at this time. In the 1980s, the terms global warming and climate change became more common, often being used interchangeably. Scientifically, global warming refers only to increased global average surface temperature, while climate change describes both global warming and its effects on Earth's climate system, such as precipitation changes. Climate change can also be used more broadly to include changes to the climate that have happened throughout Earth's history as result of natural processes. The term anthropogenic climate change is sometimes used to describe climate change resulting from human activities. Global warming\u2014used as early as 1975\u2014became the more popular term after NASA climate scientist James Hansen used it in his 1988 testimony in the U.S. Senate. Since the 2000s, usage of climate change has increased. Various scientists, politicians and media may use the terms climate crisis or climate emergency to talk about climate change, and may use the term global heating instead of global warming. Over the last few million years the climate cycled through ice ages. One of the hotter periods was the Last Interglacial, around 125,000 years ago, where temperatures were between 0.5 \u00b0C and 1.5 \u00b0C warmer than before the start of global warming. This period saw sea levels 5 to 10 metres higher than today. The most recent glacial maximum 20,000 years ago was some 5\u20137 \u00b0C colder. This period has sea levels that were over 125 metres (410 ft) lower than today. Temperatures stabilized in the current interglacial period beginning 11,700 years ago. This period also...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following statements accurately reflects the historical usage and scientific definitions of climate-related terms according to the passage?",
+        "options": [
+          "Before the 1980s, the scientific community consistently used 'global warming' to describe both temperature increases and their broader climatic effects.",
+          "James Hansen's 1988 testimony in the U.S. Senate primarily popularized the term 'climate change', leading to its increased usage over 'global warming'.",
+          "Scientifically, 'global warming' refers specifically to the rise in global average surface temperature, whereas 'climate change' encompasses this warming along with its wider system effects.",
+          "The term 'inadvertent climate modification' became obsolete immediately after the introduction of 'global warming' in the mid-1970s."
+        ],
+        "answer": "Scientifically, 'global warming' refers specifically to the rise in global average surface temperature, whereas 'climate change' encompasses this warming along with its wider system effects.",
+        "explanation": "The passage states: 'Scientifically, global warming refers only to increased global average surface temperature, while climate change describes both global warming and its effects on Earth's climate system, such as precipitation changes.' It also mentions 'global warming\u2014used as early as 1975\u2014became the more popular term after NASA climate scientist James Hansen used it in his 1988 testimony,' but doesn't state he primarily popularized 'climate change'. The passage clearly indicates 'inadvertent climate modification' was used *before* the 1980s when the balance of warming/cooling was unclear, and that 'climate change' usage increased *after* the 2000s, not immediately rendering older terms obsolete.",
+        "id": "r5-1"
+      },
+      {
+        "type": "tfng",
+        "question": "Current pledges made under the 2015 Paris Agreement are projected to achieve the target of keeping global warming 'well under 2 \u00b0C'.",
+        "answer": "False",
+        "explanation": "The passage explicitly states: 'Under the 2015 Paris Agreement, nations collectively agreed to keep warming 'well under 2 \u00b0C'. However, with pledges made under the Agreement, global warming would still reach about 2.8 \u00b0C (5.0 \u00b0F) by the end of the century.' This indicates that current pledges are insufficient to meet the agreed target, making the statement false.",
+        "id": "r5-2"
+      },
+      {
+        "type": "fill",
+        "question": "Poorer communities are disproportionately vulnerable to climate change impacts because they possess the least ability for _______, even though their contribution to global emissions is minimal.",
+        "answer": "adaptation",
+        "explanation": "The passage states: 'Poorer communities are responsible for a small share of global emissions, yet have the least ability to adapt and are most vulnerable to climate change.' The word 'adaptation' directly completes the sentence, referring to their limited capacity to respond to climate change risks.",
+        "id": "r5-3"
+      }
+    ]
+  },
+  {
+    "id": "r6",
+    "title": "Sociology",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding sociology with analytical questions.",
+    "passage": "Sociology is the scientific study of human society that focuses on society, human social behavior, patterns of social relationships, social interaction, and aspects of culture associated with everyday life. The term sociology was coined in the late 18th century to describe the scientific study of society. Regarded as a part of both the social sciences and humanities, sociology uses various methods of empirical investigation and critical analysis to develop a body of knowledge about social order and social change. Sociological subject matter ranges from micro-level analyses of individual interaction and agency to macro-level analyses of social systems and social structure. Applied sociological research may be directed toward social policy and welfare, whereas theoretical approaches may focus on understanding social processes and the phenomenological method. Traditional focuses of sociology include social stratification, social class, social mobility, religion, secularization, law, sexuality, gender, and deviance. Recent studies have added socio-technical aspects of the digital divide as a new focus. Digital sociology examines the impact of digital technologies on social behavior and institutions, encompassing professional, analytical, critical, and public dimensions. The internet has reshaped social networks and power relations, illustrating the growing importance of digital sociology. As all spheres of human activity are affected by the interplay between social structure and individual agency, sociology has gradually expanded its focus to other subjects and institutions, such as health and the institution of medicine; economy; military; punishment and systems of control; the Internet; sociology of education; social capital; and the role of social activity in the development of scientific knowledge. The range of social scientific methods has also expanded, as social researchers draw upon a variety of qualitative and quantitative techniques. The linguistic and cultural turns of the mid-20th century, in particular, have led to increasingly interpretative, hermeneutic, and philosophical approaches to the analysis of society. Conversely, the turn of the 21st century has seen the rise of new analytically, mathematically, and computationally rigorous techniques, such as agent-based modelling and social network analysis. Social research influences various industries and sectors of life, such as among politicians, policy makers, and legislators; educators; planners; administrators; developers; business magnates and managers; social workers; non-governmental organizations; and non-profit organizations, as well as individuals interested in resolving social issues in general. Sociological reasoning predates the foundation of the discipline itself. Social analysis has origins in the common stock of universal, global knowledge and philosophy, having been carried out as far back as the time of old comic poetry which features social and political criticism, and ancient Greek philosophers Socrates, Plato, and Aristotle. For instance, the origin of the survey can be traced back to at least the Domesday Book in 1086, while ancient philosophers such as Confucius wrote about the importance of social roles. Medieval Arabic writings encompass a rich tradition that offers early insights into sociology. Some sources consider Ibn Khaldun, a 14th-century Muslim scholar from Tunisia, to have been the father of sociology, although there is no reference to his work in the writings of European contributors to modern sociology. Khaldun's Muqaddimah was considered to be amongst the first works to advance social-scientific reasoning on social cohesion and social conflict. The word sociology derives part of its name from the Latin word socius ('companion' or 'fellowship'). The suffix -logy ('the study of') comes from that of the Greek -\u03bb\u03bf\u03b3\u03af\u03b1, derived from \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos, 'word' or 'knowledge'). The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Siey\u00e8s in an unpublished manuscript. Sociology was later defined independently by French philosopher of science Auguste Comte (1798\u20131857) in 1838 as a new way of looking at society. Comte had earlier used the term social physics, but it had been subsequently appropriated by others, most notably the Belgian statistician Adolphe Quetelet. Comte endeavored to unify history, psychology, and economics through the scientific understanding of social life. Writing shortly after the malaise of the French Revolution, he proposed that social ills could be remedied through sociological positivism, an epistemological approach outlined in the Course in Positive Philosophy (1830\u20131842), later included in A General View of Positivism (1848). Comte believed a positivist stage would mark the final era in the progression of human understanding, after conjectural theological and metaphysical phases. In observing the circular dependence of theory and observation in science, and having classified the sciences, Comte may be regarded as the first philosopher of science in the modern sense of the term. Comte gave a powerful impetus to the development of sociology, an impetus that bore fruit in the later decades of the nineteenth century. To say this is certainly not to claim that French sociologists such as Durkheim were devoted disciples of the high priest of positivism. But by insisting on the irreducibility of each of his basic sciences to the particular science of sciences which it presupposed in the...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, which of the following statements best describes Auguste Comte's primary contribution to the development of sociology?",
+        "options": [
+          "He was the first to coin the term 'sociology' in an unpublished manuscript in 1780.",
+          "He independently defined sociology, proposing 'sociological positivism' as a remedy for social ills and endeavoring to unify various social sciences.",
+          "He merely appropriated the term 'social physics' from Adolphe Quetelet, rebranding it as sociology.",
+          "His work primarily focused on analyzing social cohesion and conflict, building upon the foundations laid by Ibn Khaldun."
+        ],
+        "answer": "He independently defined sociology, proposing 'sociological positivism' as a remedy for social ills and endeavoring to unify various social sciences.",
+        "explanation": "The passage states, 'Sociology was later defined independently by French philosopher of science Auguste Comte (1798\u20131857) in 1838 as a new way of looking at society.' It further explains that 'Comte endeavored to unify history, psychology, and economics through the scientific understanding of social life' and 'proposed that social ills could be remedied through sociological positivism.' Option A is incorrect as Siey\u00e8s coined the term. Option C misrepresents Comte's relationship with 'social physics'. Option D incorrectly attributes the focus and connection to Ibn Khaldun.",
+        "id": "r6-1"
+      },
+      {
+        "type": "tfng",
+        "question": "Although Ibn Khaldun is regarded by some as the father of sociology, his theoretical frameworks were foundational and directly incorporated into the works of early European sociologists like Durkheim.",
+        "answer": "False",
+        "explanation": "The passage states, 'Some sources consider Ibn Khaldun, a 14th-century Muslim scholar from Tunisia, to have been the father of sociology, although there is no reference to his work in the writings of European contributors to modern sociology.' This explicitly contradicts the idea that his frameworks were directly incorporated or referenced by European contributors.",
+        "id": "r6-2"
+      },
+      {
+        "type": "fill",
+        "question": "The turn of the 21st century has witnessed the emergence of new analytically, mathematically, and computationally rigorous techniques in social research, such as agent-based modelling and ______.",
+        "answer": "social network analysis",
+        "explanation": "The passage states, 'Conversely, the turn of the 21st century has seen the rise of new analytically, mathematically, and computationally rigorous techniques, such as agent-based modelling and social network analysis.' The missing phrase directly completes this list of modern techniques mentioned in the passage.",
+        "id": "r6-3"
+      }
+    ]
+  },
+  {
+    "id": "r7",
+    "title": "Black hole",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding black hole with analytical questions.",
+    "passage": "A black hole is an astronomical body so compact that its gravity prevents anything, including light, from escaping. Albert Einstein's theory of general relativity, which describes gravitation as the curvature of spacetime, predicts that any sufficiently compact mass will form a black hole. The boundary of no escape is called the event horizon. In general relativity, crossing a black hole's event horizon traps an object inside but produces no locally detectable change. General relativity also predicts that every black hole should have a central singularity, where the curvature of spacetime is infinite. Objects whose gravitational fields are too strong for light to escape were first considered in the 18th century. In 1916, the first solution of general relativity that would characterise a black hole was found. By the late 1950s, this solution began to be interpreted physically as a region of space from which nothing can escape. Black holes were long considered a mathematical curiosity; it was not until the 1960s that theoretical work showed they were a generic prediction of general relativity. The first widely accepted black hole was Cygnus X-1, identified by several researchers independently in 1971. Black holes typically form when very massive stars collapse at the end of their life cycle. After a black hole has formed, it can grow by absorbing mass from its surroundings. Supermassive black holes of millions of solar masses may form by absorbing stars and merging with other black holes, or via direct collapse of gas clouds. There is consensus that supermassive black holes exist in the centres of most galaxies. Quantum field theory in curved spacetime predicts that event horizons emit Hawking radiation, with its rate of emission being inversely proportional to its mass. This causes the black hole to lose mass very slowly, provided it is not accreting matter. However, even the smallest class of black holes observed, stellar black holes, are gaining mass from the cosmic microwave background faster than they are losing mass via Hawking radiation. The presence of a black hole can be inferred through its interaction with matter and electromagnetic radiation such as visible light. Matter falling toward a black hole can form an accretion disk of infalling plasma, heated by friction and emitting light. In extreme cases, this creates a quasar, some of the brightest objects in the universe. Merging black holes can be detected by the gravitational waves they emit. If stars are orbiting a black hole, their motions can be used to determine the black hole's mass and location. In this way, astronomers have identified numerous stellar black hole candidates in binary systems and established that the radio source known as Sagittarius A*, at the core of the Milky Way galaxy, contains a supermassive black hole of about 4.3 million solar masses. The idea of a body so massive that even light could not escape was first proposed in the late 18th century by English astronomer and clergyman John Michell and independently by French scientist Pierre-Simon Laplace. Both scholars proposed very large stars in contrast to the modern concept of an extremely dense object. Michell's idea, in a short part of a letter published in 1784, calculated that a star with the same density but 500 times the radius of the sun would not let any emitted light escape; the surface escape velocity would exceed the speed of light. Michell correctly hypothesized that such non-radiating bodies might be detectable through their gravitational effects on nearby visible bodies. In 1796, while speculating on the origin of the Solar System in his book Exposition du Syst\u00e8me du Monde, Laplace made a qualitative suggestion that a star could be invisible if it were sufficiently large. Franz Xaver von Zach asked Laplace for a mathematical analysis, which Laplace provided and published in von Zach's journal Allgemeine Geographische Ephemeriden. In 1905, Albert Einstein showed that the laws of electromagnetism are identical for observers travelling at different velocities relative to each other. The laws of mechanics had already been shown to be invariant in this way. However, the theory of gravitation was yet to be included. In 1907, Einstein published a paper proposing his equivalence principle, the hypothesis that inertial mass and gravitational mass have a common cause. Using the principle, Einstein predicted the redshift and the lensing effect of gravity on light; his prediction of gravitational lensing was one-half of the value that the full theory of general relativity would predict. By 1915, Einstein refined these ideas into his general theory of relativity, which explained how matter affects spacetime, which in turn affects the motion of other matter. This formed the basis for black hole physics. Only a few months after Einstein published the field equations describing general relativity, astrophysicist Karl Schwarzschild set out to apply the idea to stars. He assumed spherical symmetry with no spin...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following best describes the key conceptual shift from 18th-century ideas about objects from which light cannot escape to the modern understanding of black holes?",
+        "options": [
+          "The 18th-century theories accurately predicted the existence of a central singularity, which modern theory disproved.",
+          "Early proposals envisioned extraordinarily massive stars with conventional densities, while modern theory defines black holes by extreme compactness and spacetime curvature.",
+          "The initial theories suggested that these bodies would be undetectable, whereas modern astronomy relies on direct observation of the event horizon.",
+          "Both historical and contemporary models agree on the quantum mechanical basis for light retention, but differ on the method of their formation."
+        ],
+        "answer": "Option B",
+        "explanation": "The passage states that Michell and Laplace proposed 'very large stars in contrast to the modern concept of an extremely dense object' and that Einstein's theory of general relativity 'describes gravitation as the curvature of spacetime.' Option B accurately captures this shift from large, conventionally dense stars to extremely compact objects defined by spacetime curvature, making it the most accurate description of the conceptual shift.",
+        "id": "r7-1"
+      },
+      {
+        "type": "tfng",
+        "question": "According to quantum field theory, all black holes, regardless of their size, are currently experiencing a net loss of mass due to Hawking radiation.",
+        "answer": "False",
+        "explanation": "The passage clarifies that 'Quantum field theory in curved spacetime predicts that event horizons emit Hawking radiation... This causes the black hole to lose mass very slowly... However, even the smallest class of black holes observed, stellar black holes, are gaining mass from the cosmic microwave background faster than they are losing mass via Hawking radiation.' This directly contradicts the statement that *all* black holes are experiencing a net loss of mass, as stellar black holes are gaining mass.",
+        "id": "r7-2"
+      },
+      {
+        "type": "fill",
+        "question": "The phenomenon known as a _______, characterized as one of the brightest objects in the universe, is formed when matter falling toward a black hole creates an accretion disk of heated, emitting plasma.",
+        "answer": "quasar",
+        "explanation": "The passage states, 'Matter falling toward a black hole can form an accretion disk of infalling plasma, heated by friction and emitting light. In extreme cases, this creates a quasar, some of the brightest objects in the universe.' The missing word 'quasar' precisely describes this extreme phenomenon.",
+        "id": "r7-3"
+      }
+    ]
+  },
+  {
+    "id": "r8",
+    "title": "Blockchain",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding blockchain with analytical questions.",
+    "passage": "A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves). Since each block contains information about the previous block, they effectively form a chain (viz. linked list data structure), with each additional block linking to the ones before it. Consequently, blockchain transactions are resistant to alteration because, once recorded, the data in any given block cannot be changed retroactively without altering all subsequent blocks and obtaining network consensus to accept these changes. Blockchains are typically managed by a peer-to-peer (P2P) computer network for use as a public distributed ledger, where nodes collectively adhere to a consensus algorithm protocol to add and validate new transaction blocks. Although blockchain records are not unalterable, since blockchain forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance. A blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008 to serve as the public distributed ledger for bitcoin cryptocurrency transactions, based on previous work by Stuart Haber, W. Scott Stornetta, and Dave Bayer. The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need for a trusted authority or central server. The bitcoin design has inspired other applications and blockchains that are readable by the public and are widely used by cryptocurrencies. The blockchain may be considered a type of payment rail. Private blockchains have been proposed for business use. Computerworld called the marketing of such privatized blockchains without a proper security model \"snake oil\"; however, others have argued that permissioned blockchains, if carefully designed, may be more decentralized and therefore more secure in practice than permissionless ones. Cryptographer David Chaum first proposed a blockchain-like protocol in his 1982 dissertation \"Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups\". Further work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. They wanted to implement a system wherein document timestamps could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees into the design, which improved its efficiency by allowing several document certificates to be collected into one block. Under their company Surety, their document certificate hashes have been published in The New York Times every week since 1995. The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize the rate at which blocks are added to the chain. The design was implemented the following year by Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the network. In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20 GB (gigabytes). By 2024, the bitcoin blockchain exceeded 600 GB. The words block and chain were used separately in Satoshi Nakamoto's original paper, but were eventually popularized as a single word, blockchain, by 2016. According to Accenture, an application of the diffusion of innovations theory suggests that blockchains attained a 13.5% adoption rate within financial services in 2016, therefore reaching the early adopters' phase. Industry trade groups joined to create the Global Blockchain Forum in 2016, an initiative of the Chamber of Digital Commerce. In May 2018, Gartner found that only 1% of CIOs indicated any kind of blockchain adoption within their organisations, and only 8% of CIOs were in the short-term \"planning or [looking at] active experimentation with blockchain\". For the year 2019 Gartner reported 5% of CIOs believed blockchain technology was a 'game-changer' for their business. A blockchain is a decentralized, distributed, and often public, digital ledger consisting of records called blocks that are used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks. This allows the participants to verify and audit transactions independently and relatively inexpensively. A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests. Such a design facilitates robust workflow where participants' uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was transferred only once, solving the long-standing problem of double-spending....",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following describes a key advancement introduced by Satoshi Nakamoto's blockchain design, distinguishing it from prior cryptographically secured chain concepts?",
+        "options": [
+          "The invention of cryptographic hashes to link records securely within a chain structure.",
+          "The integration of Merkle trees to enhance the efficiency of collecting multiple document certificates.",
+          "A mechanism to timestamp blocks without needing validation from a central, trusted authority.",
+          "The initial proposal for a distributed ledger protocol by mutually suspicious groups."
+        ],
+        "answer": "A mechanism to timestamp blocks without needing validation from a central, trusted authority.",
+        "explanation": "The passage states: 'Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party'. Options A and B were contributions by Haber, Stornetta, and Bayer. Option D was proposed by David Chaum. Nakamoto's innovation specifically addressed the trustless timestamping aspect.",
+        "id": "r8-1"
+      },
+      {
+        "type": "tfng",
+        "question": "Permissioned blockchains, if designed carefully, are universally considered to be less secure than their public, permissionless counterparts.",
+        "answer": "False",
+        "explanation": "The passage notes conflicting views on private/permissioned blockchains: 'Computerworld called the marketing of such privatized blockchains without a proper security model 'snake oil'; however, others have argued that permissioned blockchains, if carefully designed, may be more decentralized and therefore more secure in practice than permissionless ones.' This directly contradicts the idea that they are *universally considered* less secure, indicating that some can be more secure.",
+        "id": "r8-2"
+      },
+      {
+        "type": "fill",
+        "question": "The implementation of the blockchain within Bitcoin was groundbreaking because it was the first digital currency to resolve the long-standing ___________ problem without relying on a central authority.",
+        "answer": "double-spending",
+        "explanation": "The passage explicitly states: 'The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need for a trusted authority or central server.' and later 'It confirms that each unit of value was transferred only once, solving the long-standing problem of double-spending.'",
+        "id": "r8-3"
+      }
+    ]
+  },
+  {
+    "id": "r9",
+    "title": "Industrial Revolution",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding industrial revolution with analytical questions.",
+    "passage": "The Industrial Revolution, sometimes called the First Industrial Revolution in contrast to the subsequent Second Industrial Revolution, was a transitional period of the global economy toward more widespread, efficient and stable manufacturing processes, succeeding the Second Agricultural Revolution. Beginning in Great Britain around 1760, the Industrial Revolution had spread to continental Europe and the United States by about 1840. Economic historians agree that the onset of the Industrial Revolution is the most important event in human history, comparable only to the adoption of agriculture with respect to material advancement. This transition included going from hand production methods to machines; new chemical manufacturing and iron production processes; the increasing use of water power and steam power; the development of machine tools; and rise of the mechanised factory system. Output greatly increased, and the result was an unprecedented rise in population and population growth. Many technological and architectural innovations were British. By the mid-18th century, Britain was the leading commercial nation, with GDP per capita considerably over the world average. The textile industry was the first to use modern production methods, and textiles became the dominant industry in terms of employment, value of output, and capital invested. The precise start and end of the Industrial Revolution is debated among historians, as is the pace of economic and social changes. Rapid adoption of mechanized textiles spinning occurred in Britain in the 1780s, and high rates of growth in steam power and iron production occurred after 1800. Mechanised textile production spread from Britain to continental Europe and the US in the early 19th century. A recession occurred from the late 1830s when the adoption of the Industrial Revolution's early innovations, such as mechanised spinning and weaving, slowed as markets matured despite increased adoption of locomotives, steamships, and hot blast iron smelting. New technologies such as the electrical telegraph, widely introduced in the 1840s in the UK and US, were not sufficient to drive high rates of growth. Rapid growth reoccurred after 1870, springing from new innovations in the Second Industrial Revolution. These included steel-making processes, mass production, assembly lines, electrical grid systems, large-scale manufacture of machine tools, and use of advanced machinery in steam-powered factories. The Industrial Revolution influenced almost every aspect of life. In particular, average income and population began to exhibit unprecedented sustained growth, with the standard of living for most in the Western world, though others have said it did not begin to improve meaningfully until the 20th century. Prior to the Industrial Revolution, most manufacturing occurred in China and India; after the Industrial Revolution, most manufacturing took place in North America and Western Europe. The earliest recorded use of \"Industrial Revolution\" was in 1799 by French envoy Louis-Guillaume Otto, announcing that France had entered the race to industrialise. Raymond Williams states: \"The idea of a new social order based on major industrial change was clear in Southey and Owen, between 1811\u201318, and was implicit as early as Blake in the early 1790s and Wordsworth at the turn of the [19th] century.\" The term Industrial Revolution applied to technological change became more common by the 1830s, as in J\u00e9r\u00f4me-Adolphe Blanqui's description in 1837 of la r\u00e9volution industrielle. Friedrich Engels in The Condition of the Working Class in England in 1844 spoke of \"an industrial revolution, a revolution which...changed the whole of civil society\". His book was not translated into English until the late 19th century, and the expression did not enter everyday language till then. Credit for its popularisation is given to Arnold Toynbee, whose 1881 lectures gave a detailed account of the term. Economic historians such as Mendels, Pomeranz, and Kridte argue proto-industrialisation in parts of Europe, the Islamic world, Mughal India, and China created the social and economic conditions that led to the Industrial Revolution, thus causing the Great Divergence. Some historians, such as John Clapham and Nicholas Crafts, have argued that the economic and social changes occurred gradually and that revolution is a misnomer. Several key factors enabled industrialisation. High agricultural productivity\u2014exemplified by the British Agricultural Revolution\u2014freed up labor and ensured food surpluses. The presence of skilled managers and entrepreneurs, an extensive network of ports, rivers, canals, and roads for efficient transport, and abundant natural resources such as coal, iron, and water power further supported industrial growth. Political stability, a legal system favorable to business, and access to financial capital also played crucial roles. Once industrialisation began in Britain in the 18th century, its spread was facilitated by the eagerness of British entrepreneurs to export industrial methods and the willingness of other nations to adopt them. By the early 19th century, industrialisation had reached Western Europe and the United States, and by the late 19th century, Japan. The commencement of the Industrial Revolution is closely linked to a small number of innovations, beginning in the second half of...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which statement accurately characterises the economic period between the late 1830s and 1870, preceding the Second Industrial Revolution?",
+        "options": [
+          "A) This era was marked by consistent high growth driven by the continuous maturation of early industrial markets.",
+          "B) Newly introduced technologies, such as the electrical telegraph, successfully sustained the rapid pace of industrial expansion.",
+          "C) The adoption rate of initial industrial innovations, like mechanised textiles, slowed down, leading to a recession despite other technological advancements.",
+          "D) Economic progress largely stagnated, with no significant new technological adoptions occurring until after 1870."
+        ],
+        "answer": "C",
+        "explanation": "The passage states, 'A recession occurred from the late 1830s when the adoption of the Industrial Revolution's early innovations, such as mechanised spinning and weaving, slowed as markets matured despite increased adoption of locomotives, steamships, and hot blast iron smelting.' It further clarifies that 'New technologies such as the electrical telegraph... were not sufficient to drive high rates of growth.' This confirms a deceleration in early innovation adoption and a period of recession, rather than sustained high growth or complete stagnation.",
+        "id": "r9-1"
+      },
+      {
+        "type": "tfng",
+        "question": "A universal consensus exists among historians regarding the Industrial Revolution being solely a period of abrupt and comprehensive change, justifying the term 'revolution'.",
+        "answer": "False",
+        "explanation": "The passage explicitly notes that 'The precise start and end of the Industrial Revolution is debated among historians, as is the pace of economic and social changes.' Furthermore, it states, 'Some historians, such as John Clapham and Nicholas Crafts, have argued that the economic and social changes occurred gradually and that revolution is a misnomer.' This directly contradicts the idea of a 'universal consensus' on the abrupt nature of the changes.",
+        "id": "r9-2"
+      },
+      {
+        "type": "fill",
+        "question": "Beyond abundant natural resources and a well-developed transportation system, Britain's early industrialisation was critically supported by political stability, access to financial capital, and a legal system ______ to business.",
+        "answer": "favorable",
+        "explanation": "The passage lists 'Political stability, a legal system favorable to business, and access to financial capital also played crucial roles' among the 'key factors [that] enabled industrialisation' in Britain.",
+        "id": "r9-3"
+      }
+    ]
+  },
+  {
+    "id": "r10",
+    "title": "Behavioral economics",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding behavioral economics with analytical questions.",
+    "passage": "Behavioral economics is the study of the psychological (e.g. cognitive, behavioral, affective, social) factors involved in the decisions of individuals or institutions, and how these decisions deviate from those implied by traditional economic theory. Behavioral economics is primarily concerned with the bounds of rationality of economic agents. Behavioral models typically integrate insights from psychology, neuroscience and microeconomic theory. Behavioral economics began as a distinct field of study in the 1970s and 1980s, but can be traced back to 18th-century economists, such as Adam Smith, who deliberated how the economic behavior of individuals could be influenced by their desires. The status of behavioral economics as a subfield of economics is a fairly recent development; the breakthroughs that laid the foundation for it were published through the last three decades of the 20th century. Behavioral economics is still growing as a field, being used increasingly in research and in teaching. Behavioral economics is widely used to understand and improve real-world economic decision-making, particularly in areas such as public policy, finance, and market design. The field has become increasingly influential in informing economic analysis and policy design by incorporating empirically observed patterns of human behavior into standard economic models. Early classical economists included psychological reasoning in much of their writing, though psychology at the time was not a recognized field of study. In The Theory of Moral Sentiments, Adam Smith wrote on concepts later popularized by modern Behavioral Economic theory, such as loss aversion. Jeremy Bentham, a Utilitarian philosopher in the 1700s conceptualized utility as a product of psychology. Other economists who incorporated psychological explanations in their works included Francis Edgeworth, Vilfredo Pareto and Irving Fisher. A rejection and elimination of psychology from economics in the early 1900s brought on a period defined by a reliance on empiricism. There was a lack of confidence in hedonic theories, which saw pursuance of maximum benefit as an essential aspect in understanding human economic behavior. Hedonic analysis had shown little success in predicting human behavior, leading many to question its viability as a reliable source for prediction. There was also a fear among economists that the involvement of psychology in shaping economic models was inordinate and a departure from accepted principles. They feared that an increased emphasis on psychology would undermine the mathematic components of the field. By the late 1970s, critiques of expected-utility theory began to crystallize into formal alternative models, most notably prospect theory. To boost the ability of economics to predict accurately, economists started looking to tangible phenomena rather than theories based on human psychology. Psychology was seen as unreliable to many of these economists as it was a new field, not regarded as sufficiently scientific. Though a number of scholars expressed concern towards the positivism within economics, models of study dependent on psychological insights became rare. Economists instead conceptualized humans as purely rational and self-interested decision makers, illustrated in the concept of homo economicus. A key precursor was the notion of bounded rationality, which relaxed the assumption of fully optimal decision-making under cognitive and informational constraints. A pivotal early challenge to the dominance of expected-utility theory was mounted by French economist Maurice Allais. In his seminal 1953 paper, Allais presented empirical examples now known as the Allais paradox \u2014 notably the \u201ccommon-ratio\u201d and \u201ccommon-consequence\u201d effects \u2014 which demonstrated systematic deviations from expected-utility maximization. Experimental evidence summarized in recent meta-analytic work confirms that the common-ratio effect remains observable under many conditions. For instance, Blavatskyy, Panchenko & Ortmann (2023) re-examined data from 39 prior experiments (14,909 observations) and found that about 59.4% of designs reproduced the common-ratio pattern. The resurgence of psychology within economics, which facilitated the expansion of behavioral economics, has been linked to the cognitive revolution. In the 1960s, cognitive psychology began to shed more light on the brain as an information processing device (in contrast to behaviorist models). Psychologists in this field, such as Ward Edwards, Amos Tversky and Daniel Kahneman began to compare their cognitive models of decision-making under risk and uncertainty to economic models of rational behavior. These developments spurred economists to reconsider how psychology could be applied to economic models and theories. Concurrently, the Expected utility hypothesis and discounted utility models began to gain acceptance. In challenging the accuracy of generic utility, these concepts established a practice foundational in behavioral economics: Building on standard models by applying psychological knowledge. These developments helped set the stage for the field\u2019s broader acceptance in mainstream economics in subsequent decades, alongside growing research output and incorporation into teaching. Over time, behavioral insights were increasingly applied beyond individual choice to policy design, with evidence informing how economic tools and institutions affect behavior. Mathematical psychology reflects a long-standing interest in preference transitivity and the measurement of utility. Its consolidation as a distinct area is also reflected in scholarly classification systems, which list behavioral economics...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, which of the following was NOT a primary reason for the early 20th-century economists' rejection of psychology's role in their field?",
+        "options": [
+          "A) A preference for empirical observation over theories rooted in human psychology.",
+          "B) Concerns that psychological insights would weaken the mathematical foundations of economics.",
+          "C) The perceived inability of hedonic theories, which incorporated psychology, to accurately predict human behavior.",
+          "D) The complete absence of psychological reasoning in economic thought before the late 1970s."
+        ],
+        "answer": "D",
+        "explanation": "The passage explicitly states that \"Early classical economists included psychological reasoning in much of their writing\" and even mentions Adam Smith's deliberations in the 18th century, indicating psychological reasoning was present well before the late 1970s. Therefore, the claim of 'complete absence' is incorrect. Options A, B, and C are all mentioned in the passage as reasons for the rejection: 'reliance on empiricism', 'fear among economists that the involvement of psychology... was inordinate and a departure from accepted principles' which would 'undermine the mathematic components', and 'Hedonic analysis had shown little success in predicting human behavior'.",
+        "id": "r10-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The Allais paradox, specifically its 'common-ratio' and 'common-consequence' effects, was the first empirical evidence challenging the validity of hedonic theories in predicting human behavior.",
+        "answer": "False",
+        "explanation": "The passage states that the Allais paradox 'demonstrated systematic deviations from expected-utility maximization,' not hedonic theories. The challenges to 'hedonic theories' occurred earlier, noting they 'had shown little success in predicting human behavior' (Paragraph 4), while critiques of 'expected-utility theory began to crystallize into formal alternative models' much later, with the Allais paradox being a 'pivotal early challenge' to this theory (Paragraph 5).",
+        "id": "r10-2"
+      },
+      {
+        "type": "fill",
+        "question": "The concept of _______ played a key precursor role in challenging the notion of humans as purely rational decision-makers by acknowledging limitations in cognitive and informational processing.",
+        "answer": "bounded rationality",
+        "explanation": "The passage states, 'A key precursor was the notion of bounded rationality, which relaxed the assumption of fully optimal decision-making under cognitive and informational constraints.' This directly links 'bounded rationality' to challenging the idea of purely rational decision-makers due to cognitive and informational limits.",
+        "id": "r10-3"
+      }
+    ]
+  },
+  {
+    "id": "r11",
+    "title": "Coral reef",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding coral reef with analytical questions.",
+    "passage": "A coral reef is an underwater ecosystem characterized by reef-building corals. Reefs are formed of colonies of coral polyps held together by calcium carbonate. Most coral reefs are built from stony corals, whose polyps cluster in groups. Coral belongs to the class Anthozoa in the animal phylum Cnidaria, which includes sea anemones and jellyfish. Unlike sea anemones, corals secrete hard carbonate exoskeletons that support and protect the coral. Most reefs grow best in warm, shallow, clear, sunny, and agitated water. Coral reefs first appeared 485 million years ago, at the dawn of the Early Ordovician, displacing the microbial and sponge reefs of the Cambrian. Sometimes called rainforests of the sea, shallow coral reefs form some of Earth's most diverse ecosystems. They occupy less than 0.1% of the world's ocean area, about half the area of France. Yet, they provide a home for at least 25% of all marine species, including fish, mollusks, worms, crustaceans, echinoderms, sponges, tunicates and other cnidarians. Coral reefs flourish in ocean waters that provide few nutrients. They are most commonly found at shallow depths in tropical waters, but deep water and cold water coral reefs exist on smaller scales in other areas. Shallow tropical coral reefs have declined by 50% since 1950, partly because they are sensitive to water conditions. They are under threat from excess nutrients (nitrogen and phosphorus), rising ocean heat content and acidification, overfishing (e.g., from blast fishing, cyanide fishing, spearfishing on scuba), sunscreen use, and harmful land-use practices, including runoff and seeps (e.g., from injection wells and cesspools). Coral reefs deliver ecosystem services for tourism, fisheries, and shoreline protection. The annual global economic value of coral reefs has been estimated at anywhere from US$30\u2013375 billion (1997 and 2003 estimates) to US$2.7 trillion (a 2020 estimate) to US$9.9 trillion (a 2014 estimate). Most coral reefs were formed after the Last Glacial Period when melting ice caused sea level to rise and flood continental shelves. Most coral reefs are less than 10,000 years old. As communities established themselves, the reefs grew upward, keeping pace with rising sea levels. Reefs that rose too slowly could become drowned, without sufficient light. Coral reefs are also found in the deep sea away from continental shelves, around oceanic islands and atolls. The majority of these islands are volcanic in origin. Others have tectonic origins where plate movements lifted the deep ocean floor. In The Structure and Distribution of Coral Reefs, Charles Darwin set out his theory of the formation of atoll reefs, an idea he conceived during the voyage of the Beagle. He theorized that uplift and subsidence of Earth's oceanic crust beneath the oceans formed the atolls. Darwin set out a sequence of three stages in atoll formation. A fringing reef forms around an extinct volcanic island as the island and ocean floor subside. As the subsidence continues, the fringing reef becomes a barrier reef and ultimately an atoll reef. Darwin predicted that underneath each lagoon would be a bedrock base, the remains of the original volcano. Subsequent research supported this hypothesis. Darwin's theory followed from his understanding that coral polyps thrive in the tropics where the water is agitated, but can only live within a limited depth range, starting just below low tide. Where the underlying earth allows, corals grow along the coast to form fringing reefs, which can eventually become barrier reefs. Where the bottom is rising, fringing reefs can grow around the coast, but coral raised above sea level dies. If the land subsides slowly, the fringing reefs keep pace by growing upward on a base of older, dead coral, forming a barrier reef that encloses a lagoon between the reef and the land. A barrier reef can encircle an island, and once the island sinks below sea level, a roughly circular atoll of growing coral continues to keep up with the sea level, forming a central lagoon. Barrier reefs and atolls do not usually form complete circles but are broken in places by storms. Like sea level rise, a rapidly subsiding bottom can overwhelm coral growth, killing the coral and the reef, due to what is called coral drowning. Corals that rely on zooxanthellae can die when the water becomes too deep for their symbionts to adequately photosynthesize, due to decreased light exposure. The two main variables determining the geomorphology, or shape, of coral reefs are the nature of the substrate on which they rest, and the history of the change in sea level relative to that substrate. The approximately 20,000-year-old Great Barrier Reef offers an example of how coral reefs formed on continental shelves. Sea level was then 120 m (390 ft) lower than in the 21st century. As sea level rose, the water and the corals encroached on what had been hills of the Australian coastal plain. By 13,000 years ago,...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following statements regarding the conditions and characteristics of coral reefs is NOT supported by the passage?",
+        "options": [
+          "Coral reefs, despite covering a minuscule portion of the ocean, host a disproportionately large percentage of marine life.",
+          "The primary environmental factors for thriving shallow coral reefs include clear, warm, and nutrient-rich waters.",
+          "Charles Darwin's theory on atoll formation accurately predicted the presence of volcanic bedrock beneath lagoon areas.",
+          "The current economic valuation of global coral reef services represents a substantial increase compared to earlier estimates."
+        ],
+        "answer": "The primary environmental factors for thriving shallow coral reefs include clear, warm, and nutrient-rich waters.",
+        "explanation": "The passage states, 'Coral reefs flourish in ocean waters that provide few nutrients.' This directly contradicts the option suggesting 'nutrient-rich waters'. Other options are supported: 'They occupy less than 0.1% of the world's ocean area... Yet, they provide a home for at least 25% of all marine species' (Option A); 'Darwin predicted that underneath each lagoon would be a bedrock base, the remains of the original volcano. Subsequent research supported this hypothesis' (Option C); and 'The annual global economic value of coral reefs has been estimated at anywhere from US$30\u2013375 billion... to US$2.7 trillion (a 2020 estimate) to US$9.9 trillion (a 2014 estimate)' (Option D).",
+        "id": "r11-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The vast majority of modern coral reefs began their formation during the Last Glacial Period, when sea levels were considerably lower than today.",
+        "answer": "False",
+        "explanation": "The passage states, 'Most coral reefs were formed after the Last Glacial Period when melting ice caused sea level to rise and flood continental shelves. Most coral reefs are less than 10,000 years old.' This directly contradicts the statement that the majority began forming *during* the Last Glacial Period; rather, they formed *after* it as sea levels rose.",
+        "id": "r11-2"
+      },
+      {
+        "type": "fill",
+        "question": "The two principal elements that determine the specific geomorphology, or physical shape, of coral reefs are the nature of the underlying material and the history of changes in sea level relative to that _______.",
+        "answer": "substrate",
+        "explanation": "The passage states, 'The two main variables determining the geomorphology, or shape, of coral reefs are the nature of the substrate on which they rest, and the history of the change in sea level relative to that substrate.' The word 'substrate' accurately completes the sentence as per the text.",
+        "id": "r11-3"
+      }
+    ]
+  },
+  {
+    "id": "r12",
+    "title": "Urbanization",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding urbanization with analytical questions.",
+    "passage": "Urbanization (or urbanisation in British English) is the population shift from rural to urban areas, the corresponding decrease in the proportion of people living in rural areas, and the ways in which societies adapt to this change. It can also mean population growth in urban areas instead of rural ones. It is predominantly the process by which towns and cities are formed and become larger as more people begin to live and work in central areas. Although the two concepts are sometimes used interchangeably, urbanization should be distinguished from urban growth. Urbanization refers to the proportion of the total national population living in areas classified as urban, whereas urban growth strictly refers to the absolute number of people living in those areas. It is predicted that by 2050, about 64% of the developing world and 86% of the developed world will be urbanized. This is predicted to generate artificial scarcities of land, lack of drinking water, playgrounds and other essential resources for most urban dwellers. The predicted urban population growth is equivalent to approximately 3 billion urbanites by 2050, much of which will occur in Africa and Asia. Notably, the United Nations has also recently projected that nearly all global population growth from 2017 to 2030 will take place in cities, with about 1.1 billion new urbanites over the next 10 years. In the long term, urbanization is expected to significantly impact the quality of life in negative ways. Urbanization is relevant to a range of disciplines, including urban planning, geography, sociology, architecture, economics, education, statistics, and public health. The phenomenon has been closely linked to globalization, modernization, industrialization, marketization, administrative/institutional power, and the sociological process of rationalization. Urbanization can be seen as a specific condition at a set time (e.g. the proportion of total population or area in cities or towns), or as an increase in that condition over time. Therefore, urbanization can be quantified either in terms of the level of urban development relative to the overall population, or as the rate at which the urban proportion of the population is increasing. Urbanization creates enormous social, economic and environmental challenges, which provide an opportunity for sustainability with the \"potential to use resources much less or more efficiently, to create more sustainable land use and to protect the biodiversity of natural ecosystems.\" However, current urbanization trends have shown that massive urbanization has led to unsustainable ways of living. Developing urban resilience and urban sustainability in the face of increased urbanization is at the centre of international policy in Sustainable Development Goal 11 \"Sustainable cities and communities.\" Urbanization is not merely a modern phenomenon, but a rapid and historic transformation of human social roots on a global scale, whereby predominantly rural culture is being rapidly replaced by predominantly urban culture. The first major change in settlement patterns was the accumulation of hunter-gatherers into villages many thousands of years ago. Village culture is characterized by common bloodlines, intimate relationships, and communal behaviour, whereas urban culture is characterized by distant bloodlines, unfamiliar relations, and competitive behaviour. This unprecedented movement of people is forecast to continue and intensify during the next few decades, mushrooming cities to sizes unthinkable only a century ago. As a result, the world urban population growth curve has up till recently followed a quadratic-hyperbolic pattern. From the development of the earliest cities in Indus Valley Civilization, Mesopotamia and Egypt until the 18th century, an equilibrium existed between the vast majority of the population who were engaged in subsistence agriculture in a rural context, and small centres of populations in the towns where economic activity consisted only of trade at markets and manufactures on a small scale. Due to the primitive and relatively stagnant state of agriculture throughout this period, the ratio of rural to urban population remained at a fixed equilibrium. However, a significant increase in the percentage of the global urban population can be traced in the 1st millennium BCE. With the onset of the British Agricultural Revolution and Industrial Revolution in the late 18th century, this relationship was finally broken and an unprecedented growth in urban population took place over the course of the 19th century, both through continued migration from the countryside and due to the tremendous demographic expansion that occurred at that time. In England and Wales, the proportion of the population living in cities with more than 20,000 people jumped from 17% in 1801 to 54% in 1891. Moreover, and adopting a broader definition of urbanization, while the urbanized population in England and Wales represented 72% of the total in 1891, for other countries the figure was 37% in France, 41% in Prussia and 28% in the United States. As labourers were freed up from working the land due to higher agricultural productivity, they converged on the new industrial cities like Manchester and Birmingham,...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, which of the following is presented as a method for quantifying urbanization?",
+        "options": [
+          "The cumulative increase in the number of urban dwellers globally.",
+          "The pace at which the percentage of the population living in cities is rising.",
+          "The average density of population per square kilometer within designated urban zones.",
+          "The economic output generated by industries located exclusively within urban regions."
+        ],
+        "answer": "The pace at which the percentage of the population living in cities is rising.",
+        "explanation": "The passage explicitly states: 'Therefore, urbanization can be quantified either in terms of the level of urban development relative to the overall population, or as the rate at which the urban proportion of the population is increasing.' Option B, 'The pace at which the percentage of the population living in cities is rising,' directly corresponds to 'the rate at which the urban proportion of the population is increasing.' Option A describes urban growth, which the passage distinguishes from urbanization.",
+        "id": "r12-1"
+      },
+      {
+        "type": "tfng",
+        "question": "Prior to the 18th century, the proportion of the global urban population experienced no notable increases, maintaining a static rural-to-urban ratio.",
+        "answer": "False",
+        "explanation": "The passage states, 'From the development of the earliest cities... until the 18th century, an equilibrium existed between the vast majority of the population... and small centres of populations... the ratio of rural to urban population remained at a fixed equilibrium.' However, it immediately follows with, 'However, a significant increase in the percentage of the global urban population can be traced in the 1st millennium BCE.' This directly contradicts the idea that there were 'no notable increases' and a 'static' ratio prior to the 18th century.",
+        "id": "r12-2"
+      },
+      {
+        "type": "fill",
+        "question": "While village culture is characterized by common bloodlines and intimate relationships, urban culture is distinctly defined by distant bloodlines, unfamiliar relations, and _______ behaviour.",
+        "answer": "competitive",
+        "explanation": "The passage explicitly contrasts village and urban cultures: 'Village culture is characterized by common bloodlines, intimate relationships, and communal behaviour, whereas urban culture is characterized by distant bloodlines, unfamiliar relations, and competitive behaviour.' The missing word, 'competitive,' completes the description of urban culture.",
+        "id": "r12-3"
+      }
+    ]
+  },
+  {
+    "id": "r13",
+    "title": "DNA",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding dna with analytical questions.",
+    "passage": "Deoxyribonucleic acid (; DNA) is a polymer composed of two polynucleotide chains that coil around each other to form a double helix. The polymer carries genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids. Alongside proteins, lipids and complex carbohydrates (polysaccharides), nucleic acids are one of the four major types of macromolecules that are essential for all known forms of life. The two DNA strands are known as polynucleotides as they are composed of simpler monomeric units called nucleotides. Each nucleotide is composed of one of four nitrogen-containing nucleobases (cytosine [C], guanine [G], adenine [A] or thymine [T]), a sugar called deoxyribose, and a phosphate group. The nucleotides are joined to one another in a chain by covalent bonds (known as the phosphodiester linkage) between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone. The nitrogenous bases of the two separate polynucleotide strands are bound together, according to base pairing rules (A with T and C with G), with hydrogen bonds to make double-stranded DNA. The complementary nitrogenous bases are divided into two groups, the single-ringed pyrimidines and the double-ringed purines. In DNA, the pyrimidines are thymine and cytosine; the purines are adenine and guanine. Both strands of double-stranded DNA store the same biological information. This information is replicated when the two strands separate. The two strands of DNA run in opposite directions to each other and are thus antiparallel. Attached to each sugar is one of four types of nucleobases (or bases). It is the sequence of these four nucleobases along the backbone that encodes genetic information. RNA strands are created using DNA strands as a template in a process called transcription, where DNA bases are exchanged for their corresponding bases except in the case of thymine (T), for which RNA substitutes uracil (U). Under the genetic code, these RNA strands specify the sequence of amino acids within proteins in a process called translation. Within eukaryotic cells, DNA is organized into long structures called chromosomes. Before typical cell division, these chromosomes are duplicated in the process of DNA replication, providing a complete set of chromosomes for each daughter cell. Eukaryotic organisms (animals, plants, fungi and protists) store most of their DNA inside the cell nucleus as nuclear DNA, and some in the mitochondria as mitochondrial DNA or in chloroplasts as chloroplast DNA. In contrast, prokaryotes (bacteria and archaea) store their DNA only in the cytoplasm, in circular chromosomes. Within eukaryotic chromosomes, chromatin proteins, such as histones, compact and organize DNA. These compacting structures guide the interactions between DNA and other proteins, helping control which parts of the DNA are transcribed. DNA is a long polymer made from repeating units called nucleotides. The structure of DNA is dynamic along its length, being capable of coiling into tight loops and other shapes. In all species it is composed of two helical chains, bound to each other by hydrogen bonds. Both chains are coiled around the same axis, and have the same pitch of 34 \u00e5ngstr\u00f6ms (3.4 nm). The pair of chains have a radius of 10 \u00c5 (1.0 nm). According to another study, when measured in a different solution, the DNA chain measured 22\u201326 \u00c5 (2.2\u20132.6 nm) wide, and one nucleotide unit measured 3.3 \u00c5 (0.33 nm) long. The buoyant density of most DNA is 1.7g/cm3. DNA does not usually exist as a single strand, but instead as a pair of strands that are held tightly together. These two long strands coil around each other, in the shape of a double helix. The nucleotide contains both a segment of the backbone of the molecule (which holds the chain together) and a nucleobase (which interacts with the other DNA strand in the helix). A nucleobase linked to a sugar is called a nucleoside, and a base linked to a sugar and to one or more phosphate groups is called a nucleotide. A biopolymer comprising multiple linked nucleotides (as in DNA) is called a polynucleotide. The backbone of the DNA strand is made from alternating phosphate and sugar groups. The sugar in DNA is 2-deoxyribose, which is a pentose (five-carbon) sugar. The sugars are joined by phosphate groups that form phosphodiester bonds between the third and fifth carbon atoms of adjacent sugar rings. These are known as the 3\u2032-end (three prime end), and 5\u2032-end (five prime end) carbons, the prime symbol being used to distinguish these carbon atoms from those of the base to which the deoxyribose forms a glycosidic bond. Therefore, any DNA strand normally has one end at which there is a phosphate group attached to the 5\u2032 carbon of a ribose (the 5\u2032 phosphoryl) and another end at which there is a free hydroxyl group attached to...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which statement accurately describes the hierarchical composition and inter-strand bonding within a double-stranded DNA molecule?",
+        "options": [
+          "A) Single-ringed purines (thymine, cytosine) are linked by phosphodiester bonds to double-ringed pyrimidines (adenine, guanine) to form the sugar-phosphate backbone, with hydrogen bonds stabilizing the two strands.",
+          "B) Nucleotides, each consisting of a nucleobase, deoxyribose sugar, and a phosphate group, are joined by covalent phosphodiester linkages into polynucleotide chains, which then connect via hydrogen bonds between specific nitrogenous bases to form a double helix.",
+          "C) The antiparallel nature of DNA is due to hydrogen bonds between adjacent sugar molecules, while covalent bonds between purines (adenine, guanine) and pyrimidines (thymine, cytosine) secure the two helical chains.",
+          "D) DNA strands are primarily composed of alternating hydrogen bonds and deoxyribose units, with nucleobases extending outwards to compact the structure through interactions with chromatin proteins."
+        ],
+        "answer": "Option B",
+        "explanation": "The passage details that 'Each nucleotide is composed of one of four nitrogen-containing nucleobases... a sugar called deoxyribose, and a phosphate group.' It further explains that 'The nucleotides are joined to one another in a chain by covalent bonds (known as the phosphodiester linkage) between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone.' Finally, for the double-stranded structure, it states, 'The nitrogenous bases of the two separate polynucleotide strands are bound together, according to base pairing rules... with hydrogen bonds to make double-stranded DNA.' Option B accurately synthesizes these elements, including the covalent phosphodiester bonds for the backbone and hydrogen bonds for inter-strand base pairing.",
+        "id": "r13-1"
+      },
+      {
+        "type": "tfng",
+        "question": "Prokaryotic organisms organize all of their DNA into structures called chromosomes within a distinct nuclear compartment, similar to eukaryotic cells.",
+        "answer": "False",
+        "explanation": "The passage states: 'Eukaryotic organisms... store most of their DNA inside the cell nucleus as nuclear DNA... In contrast, prokaryotes (bacteria and archaea) store their DNA only in the cytoplasm, in circular chromosomes.' This directly contradicts the statement, as prokaryotes store DNA in the cytoplasm, not a nucleus, and do not have a 'distinct nuclear compartment'.",
+        "id": "r13-2"
+      },
+      {
+        "type": "fill",
+        "question": "The specific sequence of four nitrogenous _______ along the backbone of a DNA strand is what ultimately encodes the genetic information.",
+        "answer": "nucleobases",
+        "explanation": "The passage explicitly states: 'Attached to each sugar is one of four types of nucleobases (or bases). It is the sequence of these four nucleobases along the backbone that encodes genetic information.' This indicates 'nucleobases' as the correct term for the units that encode information through their sequence.",
+        "id": "r13-3"
+      }
+    ]
+  },
+  {
+    "id": "r14",
+    "title": "Internet of things",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding internet of things with analytical questions.",
+    "passage": "Internet of things (IoT) describes physical objects that are embedded with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communication networks. The field of IoT encompasses electronics, communication, and computer science engineering. \"Internet of things\" has been considered a misnomer because most devices do not need to be connected to the public Internet; they only need to be connected to a network and be individually addressable. The field has evolved due to the convergence of multiple technologies, including ubiquitous computing, sensors, embedded systems, and machine learning. Traditional fields of embedded systems, wireless sensor networks, control systems, and automation independently and collectively enable the Internet of things. While in the consumer market, IoT technology is most commonly as smart home products\u2014including devices and appliances like thermostats and smart speakers\u2014the technology's largest applications are in the business and industrial sectors. Commercial asset tracking and fleet management represent the largest single application of IoT, accounting for 22% of the total market, driven by the need to monitor mobile assets like vehicles and shipping containers. The largest asset tracking sub-segments in transport & logistics are trailer and intermodal container tracking, reaching 5.8 million and 5.3 million active devices globally at the end of 2024 respectively. Other major applications include industrial monitoring, smart metering in utilities, and connected healthcare. There are a number of concerns about the risks in the growth of IoT technologies and products, especially in the areas of privacy and security, and consequently there have been industry and government moves to address these concerns adequately and minimize safety risks, including the development and implementation of international and local standards, guidelines, and regulatory frameworks. Due to their interconnected nature, IoT devices are vulnerable to security breaches and privacy concerns. At the same time, the way these devices communicate wirelessly creates regulatory ambiguities, complicating jurisdictional boundaries of the data transfer. Around 1972, for its remote site use, the Stanford Artificial Intelligence Laboratory developed a computer-controlled vending machine, adapted from a machine rented from Canteen Vending, which sold for cash or, through a computer terminal (Teletype Model 33 KSR), on credit. Amongst its products were beer, yogurt, and milk. It was named Prancing Pony, after the name of the room, which was named after an inn in J. R. R. Tolkien's epic fantasy novel The Lord of the Rings. A successor version still operates in the Computer Science Department at Stanford, with updated hardware and software. In 1982, an early concept of a network connected smart device was constructed as an Internet interface for sensors installed in the Carnegie Mellon University Computer Science Department's departmental Coca-Cola vending machine, supplied by graduate student volunteers, provided a temperature model and an inventory status, inspired by the computer controlled vending machine in the Prancing Pony room at Stanford Artificial Intelligence Laboratory. While it was initially accessible only on the CMU campus, it gained prominence as the first ARPANET-connected appliance. Mark Weiser's 1991 paper on ubiquitous computing, \"The Computer of the 21st Century\", as well as academic venues such as UbiComp and PerCom, produced the contemporary vision of the IoT. In 1994, Reza Raji described the concept in IEEE Spectrum as \"[moving] small packets of data to a large set of nodes, so as to integrate and automate everything from home appliances to entire factories.\" Between 1993 and 1997, several companies proposed solutions, such as Microsoft's at Work or Novell's NEST. The field gained momentum when Bill Joy envisioned device-to-device communication as part of his \"Six Webs\" framework, which was presented at the World Economic Forum in Davos in 1999. The concept of the \"Internet of things\" and the term itself first appeared in a speech by Peter T. Lewis to the Congressional Black Caucus Foundation 15th Annual Legislative Weekend in Washington, D.C., published in September 1985. According to Lewis, \"The Internet of Things, or IoT, is the integration of people, processes, and technology with connectable devices and sensors to enable remote monitoring, status, manipulation, and evaluation of trends of such devices.\" The term \"Internet of things\" was coined independently by Kevin Ashton of Procter & Gamble, later of Massachusetts Institute of Technology's Auto-ID Center, in 1999, despite preferring the phrase \"Internet for things.\" At that point, he considered radio-frequency identification (RFID) an essential component of the Internet of things, as it would effectively enable computers to manage all individual things. The primary defining characteristic of the Internet of things has been considered its ability to embed short-range mobile transceivers in various gadgets and daily necessities, enabling new forms of communication between people and things, as well as between things themselves. In 2004, Cornelius \"Pete\" Peterson, CEO of NetSilicon, predicted that \"The next era of information technology will be dominated by [IoT] devices, and networked...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, the primary reason the term 'Internet of things' is considered a misnomer is that:",
+        "options": [
+          "A) The earliest prototypes of IoT devices, such as the Stanford vending machine, did not utilise the public Internet.",
+          "B) The core functionality of most IoT devices requires only network connectivity and individual addressability, not direct access to the public Internet.",
+          "C) The majority of IoT applications are found in business and industrial sectors, rather than being consumer-focused on the public Internet.",
+          "D) The field of IoT has evolved through the convergence of multiple distinct technologies, making 'Internet' an overly simplistic descriptor."
+        ],
+        "answer": "B",
+        "explanation": "The passage explicitly states: \"'Internet of things' has been considered a misnomer because most devices do not need to be connected to the public Internet; they only need to be connected to a network and be individually addressable.\"",
+        "id": "r14-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The total number of active devices for trailer and intermodal container tracking combined is projected to exceed 11 million globally by the end of 2024.",
+        "answer": "True",
+        "explanation": "The passage states, 'The largest asset tracking sub-segments in transport & logistics are trailer and intermodal container tracking, reaching 5.8 million and 5.3 million active devices globally at the end of 2024 respectively.' Adding these two figures (5.8 million + 5.3 million) totals 11.1 million, which is indeed more than 11 million.",
+        "id": "r14-2"
+      },
+      {
+        "type": "fill",
+        "question": "The wireless communication methods employed by IoT devices can lead to regulatory __________, complicating the establishment of clear jurisdictional boundaries for data transfer.",
+        "answer": "ambiguities",
+        "explanation": "The passage states: 'At the same time, the way these devices communicate wirelessly creates regulatory ambiguities, complicating jurisdictional boundaries of the data transfer.'",
+        "id": "r14-3"
+      }
+    ]
+  },
+  {
+    "id": "r15",
+    "title": "Roman Empire",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding roman empire with analytical questions.",
+    "passage": "The Roman Empire was a state that controlled the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period. The Roman Republic had previously conquered most of these territories, which became ruled by emperors following triumvir Octavian's rise to power and establishment of a Principate regime in 27 BC. By the 4th century AD the empire split into western and eastern halves. The Western Empire collapsed in 476 AD, while the Eastern Empire endured until the fall of Constantinople in 1453. By 100 BC, the city of Rome had expanded its rule from the Italian peninsula to most of the Mediterranean and beyond. However, it was severely destabilised by civil wars and political conflicts, which culminated in the victory of Octavian over Mark Antony and Cleopatra at the Battle of Actium in 31 BC, and the subsequent conquest of the Ptolemaic Kingdom in Egypt. In 27 BC, the Roman Senate granted Octavian overarching military power (imperium) and the new title of Augustus, marking his accession as the first Roman emperor. The vast Roman territories were organized into senatorial provinces, governed by proconsuls who were appointed by lot annually, and imperial provinces, which belonged to the emperor but were governed by legates. The first two centuries of the Empire saw a period of unprecedented stability and prosperity known as the Pax Romana (lit. 'Roman Peace'). Rome reached its greatest territorial extent under Trajan (r. 98\u2013117 AD), but a period of increasing trouble and decline began under Commodus (r. 180\u2013192). In the 3rd century, the Empire underwent a 49-year crisis that threatened its existence due to civil war, plagues and barbarian invasions. The Gallic and Palmyrene empires broke away from the state and a series of short-lived emperors led the Empire, which was later reunified under Aurelian (r. 270\u2013275). The civil wars ended with the victory of Diocletian (r. 284\u2013305), who set up two different imperial courts in the Greek East and Latin West. Constantine the Great (r. 306\u2013337), the first Christian emperor, moved the imperial seat from Rome to Byzantium in 330, and renamed it Constantinople. The Migration Period, involving large invasions by Germanic peoples and by the Huns of Attila, led to the decline of the Western Roman Empire. With the fall of Ravenna to the Germanic Herulians and the deposition of Romulus Augustus in 476 by Odoacer, the Western Empire finally collapsed. The Byzantine (Eastern Roman) Empire survived for another millennium with Constantinople as its sole capital, until the city's fall in 1453. Due to the Empire's extent and endurance, its institutions and culture had a lasting influence on the development of language, religion, art, architecture, literature, philosophy, law, and forms of government across its territories. Latin evolved into the Romance languages while Medieval Greek became the language of the East. The Empire's adoption of Christianity resulted in the formation of medieval Christendom. Roman and Greek art had a profound impact on the Italian Renaissance. Rome's architectural tradition served as the basis for Romanesque, Renaissance, and Neoclassical architecture, influencing Islamic architecture. The rediscovery of classical science and technology (which formed the basis for Islamic science) in medieval Europe contributed to the Scientific Renaissance and Scientific Revolution. Many modern legal systems, such as the Napoleonic Code, descend from Roman law. Rome's republican institutions have influenced the Italian city-state republics of the medieval period, the early United States, and modern democratic republics. Rome had begun expanding shortly after the founding of the Roman Republic in the 6th century BC, though not outside the Italian Peninsula until the 3rd century BC. The Republic was not a nation-state in the modern sense, but a network of self-ruled towns (with varying degrees of independence from the Senate) and provinces administered by military commanders. It was governed by annually elected magistrates (Roman consuls above all) in conjunction with the Senate. The 1st century BC was a time of political and military upheaval, which ultimately led to rule by emperors. The consuls' military power rested in the Roman legal concept of imperium, meaning \"command\" (typically in a military sense). Occasionally, successful consuls or generals were given the honorary title imperator (commander); this is the origin of the word emperor, since this title was always bestowed to the early emperors. Rome suffered a long series of internal conflicts, conspiracies, and civil wars from the late second century BC, (see Crisis of the Roman Republic) while greatly extending its power beyond Italy. In 44 BC Julius Caesar was briefly perpetual dictator before being assassinated by a faction that opposed his concentration of power. This faction was driven from Rome and defeated at the Battle of Philippi in 42 BC by Mark Antony and Caesar's adopted son Octavian. Antony and Octavian divided the Roman world between them, but this did not last long. Octavian's forces...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following events is presented as the primary catalyst for the Roman Republic's definitive transformation into an Empire under an emperor?",
+        "options": [
+          "A) The gradual expansion of Roman territories beyond the Italian Peninsula starting in the 3rd century BC.",
+          "B) The establishment of the Pax Romana, which required a singular, powerful leader to maintain peace.",
+          "C) The culmination of extensive civil wars and political upheaval, leading to Octavian's ultimate triumph.",
+          "D) The Roman Senate's strategic decision to centralize power to effectively manage the existing vast provinces."
+        ],
+        "answer": "C",
+        "explanation": "The passage states, 'However, it was severely destabilised by civil wars and political conflicts, which culminated in the victory of Octavian over Mark Antony and Cleopatra at the Battle of Actium in 31 BC... In 27 BC, the Roman Senate granted Octavian overarching military power (imperium) and the new title of Augustus, marking his accession as the first Roman emperor.' This clearly indicates that the civil wars and Octavian's victory were the primary catalyst for the transition to the Empire.",
+        "id": "r15-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The system of governance under the Roman Empire mandated that proconsuls, appointed annually by lot, held administrative responsibility for both senatorial and imperial provinces.",
+        "answer": "False",
+        "explanation": "The passage clearly differentiates: 'The vast Roman territories were organized into senatorial provinces, governed by proconsuls who were appointed by lot annually, and imperial provinces, which belonged to the emperor but were governed by legates.' This indicates that proconsuls only governed senatorial provinces, while legates governed imperial provinces, making the statement false.",
+        "id": "r15-2"
+      },
+      {
+        "type": "fill",
+        "question": "The enduring cultural impact of the Roman Empire is evident in the linguistic evolution where Latin developed into the various _______ languages.",
+        "answer": "Romance",
+        "explanation": "The passage explicitly states: 'Latin evolved into the Romance languages while Medieval Greek became the language of the East.' This directly answers what type of languages Latin evolved into due to the Empire's influence.",
+        "id": "r15-3"
+      }
+    ]
+  },
+  {
+    "id": "r16",
+    "title": "Memory",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding memory with analytical questions.",
+    "passage": "Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed. It is the retention of information over time for the purpose of influencing future action. If past events could not be remembered, it would be impossible for language, relationships, or personal identity to develop. Memory loss is usually described as forgetfulness or amnesia. Memory is often understood as an information processing system with explicit and implicit functioning that is made up of a sensory processor, short-term (or working) memory, and long-term memory. This can be related to the neuron. The sensory processor allows information from the outside world to be sensed in the form of chemical and physical stimuli and attended to various levels of focus and intent. Working memory serves as an encoding and retrieval processor. Information in the form of stimuli is encoded in accordance with explicit or implicit functions by the working memory processor. The working memory also retrieves information from previously stored material. Finally, the function of long-term memory is to store information through various categorical models or systems. Declarative, or explicit memory, is the conscious storage and recollection of data. Under declarative memory resides semantic and episodic memory. Semantic memory refers to memory that is encoded with specific meaning. Meanwhile, episodic memory refers to information that is encoded along a spatial and temporal plane. Declarative memory is usually the primary process thought of when referencing memory. Non-declarative, or implicit, memory is the unconscious storage and recollection of information. An example of a non-declarative process would be the unconscious learning or retrieval of information by way of procedural memory, or a priming phenomenon. Priming is the process of subliminally arousing specific responses from memory and shows that not all memory is consciously activated, whereas procedural memory is the slow and gradual learning of skills that often occurs without conscious attention to learning. Memory is not a perfect processor and is affected by many factors. The ways by which information is encoded, stored, and retrieved can all be corrupted. Pain, for example, has been identified as a physical condition that impairs memory, and has been noted in animal models as well as chronic pain patients. The amount of attention given new stimuli can diminish the amount of information that becomes encoded for storage. Also, the storage process can become corrupted by physical damage to areas of the brain that are associated with memory storage, such as the hippocampus. Finally, the retrieval of information from long-term memory can be disrupted because of decay within long-term memory. Normal functioning, decay over time, and brain damage all affect the accuracy and capacity of the memory. Sensory memory holds information, derived from the senses, less than one second after an item is perceived. The ability to look at an item and remember what it looked like with just a split second of observation, or memorization, is an example of sensory memory. It is out of cognitive control and is an automatic response. With very short presentations, participants often report that they seem to \"see\" more than they can actually report. The first precise experiments exploring this form of sensory memory were conducted by George Sperling (1963) using the \"partial report paradigm.\" Subjects were presented with a grid of 12 letters, arranged into three rows of four. After a brief presentation, subjects were then played either a high, medium or low tone, cuing them which of the rows to report. Based on these partial report experiments, Sperling was able to show that the capacity of sensory memory was approximately 12 items, but that it degraded very quickly (within a few hundred milliseconds). Because this form of memory degrades so quickly, participants would see the display but be unable to report all of the items (12 in the \"whole report\" procedure) before they decayed. This type of memory cannot be prolonged via rehearsal. Three types of sensory memories exist. Iconic memory is a fast decaying store of visual information, a type of sensory memory that briefly stores an image that has been perceived for a small duration. Echoic memory is a fast decaying store of auditory information, also a sensory memory that briefly stores sounds that have been perceived for short durations. Haptic memory is a type of sensory memory that represents a database for touch stimuli. How we encode information has a big impact on how well we remember it later. Research on levels of processing shows that memory is better when encoding emphasizes \u201cdeep\u201d aspects of a stimulus (such as meaning) vs. \u201cshallow\u201d aspects of a stimulus (such as a place). \u201cDeep\u201d encoding leads to a highly distributed representation and \u201cshallow\u201d encoding leads to a sparse representation. Thinking about meaning creates a richer, more connected memory, while shallow processing leads to weaker,...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, what is the fundamental difference between declarative and non-declarative memory?",
+        "options": [
+          "Declarative memory pertains to skills acquisition, whereas non-declarative memory deals with factual information.",
+          "Declarative memory is always long-term, while non-declarative memory is confined to short-term processing.",
+          "Declarative memory involves conscious recall and storage, while non-declarative memory operates through unconscious processes.",
+          "Declarative memory is susceptible to decay, whereas non-declarative memory is not affected by it."
+        ],
+        "answer": "Declarative memory involves conscious recall and storage, while non-declarative memory operates through unconscious processes.",
+        "explanation": "The passage states that 'Declarative, or explicit memory, is the conscious storage and recollection of data' and 'Non-declarative, or implicit, memory is the unconscious storage and recollection of information.' This clearly delineates the difference based on the involvement of conscious or unconscious processes.",
+        "id": "r16-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The 'partial report paradigm' experiment conducted by George Sperling demonstrated that the capacity of sensory memory could be significantly extended through conscious rehearsal.",
+        "answer": "False",
+        "explanation": "The passage explicitly states regarding sensory memory: 'This type of memory cannot be prolonged via rehearsal.' This directly contradicts the statement that its capacity could be extended through conscious rehearsal.",
+        "id": "r16-2"
+      },
+      {
+        "type": "fill",
+        "question": "The passage identifies physical damage to brain regions like the hippocampus as a factor that can corrupt the _______ process of memory.",
+        "answer": "storage",
+        "explanation": "The passage notes: 'Also, the storage process can become corrupted by physical damage to areas of the brain that are associated with memory storage, such as the hippocampus.' This indicates that the hippocampus's role is specifically tied to the storage aspect of memory.",
+        "id": "r16-3"
+      }
+    ]
+  },
+  {
+    "id": "r17",
+    "title": "Deforestation",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding deforestation with analytical questions.",
+    "passage": "Deforestation or forest clearance is the removal and destruction of a forest or stand of trees from land that is then converted to non-forest use. Deforestation can involve conversion of forest land to farms, ranches, or urban use. About 31% of Earth's land surface is covered by forests at present. This is one-third less than the forest cover before the expansion of agriculture, with half of that loss occurring in the last century. On average 2,400 trees are cut down each minute. Estimates vary widely as to the extent of deforestation in the tropics. In 2019, nearly a third of the overall tree cover loss, or 3.8 million hectares, occurred within humid tropical primary forests. These are areas of mature rainforest that are especially important for biodiversity and carbon storage. By far, the direct cause of most deforestation is agriculture. In 2025 nearly 90% of global deforestation was caused by agriculture, with cropland expansion and pasture creation the primary drivers, this is up from more than 80% in 2012. Forests are being converted to plantations for coffee, palm oil, rubber and various other popular products. Livestock grazing also drives deforestation. Further drivers are the wood industry (logging), urbanization and mining. The effects of climate change are another cause via the increased risk of wildfires (see deforestation and climate change). Deforestation results in habitat destruction which in turn leads to biodiversity loss. Deforestation also leads to extinction of animals and plants, changes to the local climate, and displacement of indigenous people who live in forests. Deforested regions often also suffer from other environmental problems such as desertification and soil erosion. Another problem is that deforestation reduces the uptake of carbon dioxide (carbon sequestration) from the atmosphere. This reduces the potential of forests to assist with climate change mitigation. The role of forests in capturing and storing carbon and mitigating climate change is also important for the agricultural sector. The reason for this linkage is that the effects of climate change on agriculture pose new risks to global food systems. Since 1990, it is estimated that some 420 million hectares of forest have been lost through conversion to other land uses, although the rate of deforestation has decreased over the past three decades. Between 2015 and 2020, the rate of deforestation was estimated at 10 million hectares per year, down from 16 million hectares per year in the 1990s. The area of primary forest worldwide has decreased by over 80 million hectares since 1990. More than 100 million hectares of forests are adversely affected by forest fires, pests, diseases, invasive species, drought and adverse weather events. Deforestation is defined as the conversion of forest to other land uses (regardless of whether it is human-induced). Deforestation and forest area net change are not the same: the latter is the sum of all forest losses (deforestation) and all forest gains (forest expansion) in a given period. Net change, therefore, can be positive or negative, depending on whether gains exceed losses, or vice versa. The world has a total forest area of 4.14 billion hectares (ha), which is 32% of the global land area and equivalent to 0.50 ha of forest per person. The tropical domain has the largest proportion of the world\u2019s forests (45%), followed by the boreal, temperate and subtropical domains. Of the regions, Europe has the largest forest area, accounting for 25% of the world\u2019s total. South America has the highest proportion of forest, at 49% of the total land area. More than half (54%) of the world\u2019s forests is in only five countries (in descending order by area).; Russia, Brazil, Canada, the United States of America and China. The rate of net forest loss decreased globally from 10.7 million ha per year between 1990\u20132000 to 3.68 million ha per year in 2000\u20132015 due mainly to large increases in forest area in Canada, China, the Russian Federation and the United States of America. The annual rate of net forest loss increased in the period 2015\u20132025, to 4.12 million ha, due to a reduction in the rate of forest gain (i.e. afforestation and natural forest expansion). The FAO estimates that the global forest carbon stock has decreased 0.9%, and tree cover 4.2% between 1990 and 2020. As of 2019 there is still disagreement about whether the global forest is shrinking or not: \"While above-ground biomass carbon stocks are estimated to be declining in the tropics, they are increasing globally due to increasing stocks in temperate and boreal forest. Deforestation in many countries\u2014both naturally occurring and human-induced\u2014is an ongoing issue. Between 2000 and 2012, 2.3 million square kilometres (890,000 square miles) of forests around the world were cut down. Deforestation and forest degradation continue to take place at alarming rates, which contributes significantly to the ongoing loss of biodiversity. Forest area increased in Asia...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following best describes the fundamental difference between 'deforestation' and 'forest area net change' according to the passage?",
+        "options": [
+          "A. Deforestation considers only naturally occurring forest losses, whereas net change includes human-induced activities.",
+          "B. Deforestation quantifies the conversion of forest land to other uses, while net change accounts for both forest losses and gains.",
+          "C. Net change focuses exclusively on the expansion of new forests, whereas deforestation measures only primary forest degradation.",
+          "D. Deforestation is a global measurement, while forest area net change is calculated only at regional or national levels."
+        ],
+        "answer": "B",
+        "explanation": "The passage states: 'Deforestation is defined as the conversion of forest to other land uses (regardless of whether it is human-induced). Deforestation and forest area net change are not the same: the latter is the sum of all forest losses (deforestation) and all forest gains (forest expansion) in a given period.' This clearly indicates that deforestation is about conversion/loss, while net change encompasses both losses and gains.",
+        "id": "r17-1"
+      },
+      {
+        "type": "tfng",
+        "question": "As of 2019, there was a general scientific consensus that the global forest area was unequivocally diminishing due to widespread deforestation.",
+        "answer": "False",
+        "explanation": "The passage explicitly states: 'As of 2019 there is still disagreement about whether the global forest is shrinking or not: While above-ground biomass carbon stocks are estimated to be declining in the tropics, they are increasing globally due to increasing stocks in temperate and boreal forest.' This contradicts the idea of a 'general scientific consensus' that the global forest was unequivocally diminishing.",
+        "id": "r17-2"
+      },
+      {
+        "type": "fill",
+        "question": "One of the significant environmental problems caused by deforestation, in addition to habitat destruction and biodiversity loss, is the reduction of the atmosphere's capacity for carbon dioxide uptake, a process known as _______________.",
+        "answer": "carbon sequestration",
+        "explanation": "The passage states: 'Another problem is that deforestation reduces the uptake of carbon dioxide (carbon sequestration) from the atmosphere.' The missing word directly refers to the process described.",
+        "id": "r17-3"
+      }
+    ]
+  },
+  {
+    "id": "r18",
+    "title": "Social media",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding social media with analytical questions.",
+    "passage": "Social media are new media technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks. Common features include: Online platforms enable users to create and share content and participate in social networking. User-generated content such as text posts or comments, digital photos or videos, and data generated through online interactions. Service specific profiles that are designed and maintained by the social media organization. Social media helps the development of online social networks by connecting a user's profile with those of other individuals or groups. The term social in regard to media suggests platforms enable communal activity. Social media helps people connect and build networks. Users access social media through web-based or mobile applications. These interactive platforms allow individuals, communities, businesses, and organizations to share, co-create, discuss, participate in, and modify user-generated or self-curated content. Social media is used to share memories, form friendships, build communities and learn. They may be used to promote people, companies, products, and ideas. Social media can be used to consume, publish, or share news. Popular social media platforms with over 100 million registered users include Twitter, Facebook, WeChat, ShareChat, Instagram, Pinterest, QZone, Weibo, VK, Tumblr, Baidu Tieba, Threads, and LinkedIn. Depending on the interpretation, other popular platforms that are sometimes referred to as social media services include YouTube, Letterboxd, QQ, Quora, Telegram, WhatsApp, Signal, LINE, Snapchat, Viber, Reddit, Discord, and TikTok. Wikis and Roblox are examples of collaborative content creation. Social media outlets differ from old media (e.g. newspapers, TV, and radio broadcasting) in many ways, including quality, reach, frequency, usability, relevancy, and permanence. Social media outlets operate in a dialogic transmission system (many sources to many receivers) while traditional media operate under a monologic transmission model (one source to many receivers). For instance, a newspaper is delivered to many subscribers, and a radio station broadcasts the same programs to a city. Social media has been criticized for a range of negative impacts on children and teenagers, including exposure to inappropriate content, exploitation by adults, sleep problems, attention problems, feelings of exclusion, and various mental health maladies. Social media has also received criticism as worsening political polarization and undermining democracy, exacerbated by platform capture by vested interests, with journalist Maria Ressa deeming it \"toxic sludge\" for increasing distrust among members of society. Major news outlets often have strong controls in place to avoid and fix false claims, but social media's unique qualities bring viral content with little to no oversight. \"Algorithms that track user engagement to prioritize what is shown tend to favor content that spurs negative emotions like anger and outrage. Overall, most online misinformation originates from a small minority of \"superspreaders,\" but social media amplifies their reach and influence.\" The PLATO system was launched in 1960 at the University of Illinois and subsequently commercially marketed by Control Data Corporation. It offered early forms of social media features with innovations such as Notes, PLATO's message-forum application; TERM-talk, its instant-messaging feature; Talkomatic, perhaps the first online chat room; News Report, a crowdsourced online newspaper, and blog and Access Lists, enabling the owner of a note file or other application to limit access to a certain set of users, for example, only friends, classmates, or co-workers. ARPANET, which came online in 1969, had by the late 1970s enabled exchange of non-government/business ideas and communication, as evidenced by the network etiquette (or \"netiquette\") described in a 1982 handbook on computing at MIT's Artificial Intelligence Laboratory. ARPANET evolved into the Internet in the 1990s. Usenet, conceived by Tom Truscott and Jim Ellis in 1979 at the University of North Carolina at Chapel Hill and Duke University, was the first open social media app, established in 1980. A precursor of the electronic bulletin board system (BBS), known as Community Memory, appeared by 1973. Mainstream BBSs arrived with the Computer Bulletin Board System in Chicago, which launched on February 16, 1978. Before long, most major US cities had more than one BBS, running on TRS-80, Apple II, Atari 8-bit computers, IBM PC, Commodore 64, Sinclair, and others. CompuServe, Prodigy, and AOL were three of the largest BBS companies and were the first to migrate to the Internet in the 1990s. Between the mid-1980s and the mid-1990s, BBSes numbered in the tens of thousands in North America alone. Message forums were the signature BBS phenomenon throughout the 1980s and early 1990s. In 1991, Tim Berners-Lee integrated HTML hypertext software with the Internet, creating the World Wide Web. This breakthrough led to an explosion of blogs, list servers, and email services. Message forums migrated to the web, and evolved into Internet forums, supported by cheaper access as well as the ability to handle far more people simultaneously. These early text-based systems expanded to include images and video in...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "According to the passage, what specific characteristic of social media algorithms *primarily exacerbates* the spread of political polarization and misinformation?",
+        "options": [
+          "Their inability to distinguish between factual news and false claims.",
+          "Their design to prioritize content that evokes strong negative emotions for higher user engagement.",
+          "The sheer volume of viral content that bypasses editorial review processes.",
+          "The manipulation of platform content by external vested interests."
+        ],
+        "answer": "Option B",
+        "explanation": "The passage states, 'Algorithms that track user engagement to prioritize what is shown tend to favor content that spurs negative emotions like anger and outrage.' This mechanism directly contributes to the exacerbation of political polarization and the spread of misinformation by giving prominence to inflammatory content.",
+        "id": "r18-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The PLATO system, launched in 1960, was the earliest platform mentioned in the passage to offer features such as instant messaging and message forums.",
+        "answer": "True",
+        "explanation": "The passage introduces PLATO, launched in 1960, stating it 'offered early forms of social media features with innovations such as Notes, PLATO's message-forum application; TERM-talk, its instant-messaging feature.' Later historical entries like Community Memory (1973), Usenet (1979/1980), and BBS (1978) are all described as appearing after PLATO, confirming PLATO as the earliest among those mentioned for these specific features.",
+        "id": "r18-2"
+      },
+      {
+        "type": "fill",
+        "question": "Social media outlets are fundamentally distinct from traditional media because they operate under a ___________ transmission system, facilitating communication from many sources to many receivers.",
+        "answer": "dialogic",
+        "explanation": "The passage explicitly states, 'Social media outlets operate in a dialogic transmission system (many sources to many receivers) while traditional media operate under a monologic transmission model (one source to many receivers).' The missing word directly describes this unique transmission model of social media.",
+        "id": "r18-3"
+      }
+    ]
+  },
+  {
+    "id": "r19",
+    "title": "CRISPR",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding crispr with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following best describes the nature of the information presented in the passage?",
+        "options": [
+          "A) It details a groundbreaking scientific discovery.",
+          "B) It outlines a procedure for data acquisition.",
+          "C) It signals an impediment to content delivery.",
+          "D) It provides an analysis of common technical faults."
+        ],
+        "answer": "C) It signals an impediment to content delivery.",
+        "explanation": "The phrase 'Error fetching data.' directly indicates a failure or obstruction in the process of retrieving or delivering the intended content. Options A, B, and D are incorrect as the passage does not contain information on scientific discoveries, data acquisition procedures, or an analysis of faults, but rather states an error in retrieval.",
+        "id": "r19-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The passage provides an introductory overview of the biological functions of CRISPR.",
+        "answer": "False",
+        "explanation": "The passage contains only the phrase 'Error fetching data.', which describes a technical problem and does not offer any information or overview regarding the biological functions of CRISPR.",
+        "id": "r19-2"
+      },
+      {
+        "type": "fill",
+        "question": "The provided text explicitly indicates a failure in _______ the intended content for analysis.",
+        "answer": "fetching",
+        "explanation": "The passage states 'Error fetching data.', directly pointing to 'fetching' as the failed action in retrieving the content.",
+        "id": "r19-3"
+      }
+    ]
+  },
+  {
+    "id": "r20",
+    "title": "Virtual reality",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding virtual reality with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following challenges to the widespread adoption of Virtual Reality technology is presented as primarily attributable to physiological factors, according to the passage?",
+        "options": [
+          "The high financial cost of premium VR hardware.",
+          "The current scarcity of deeply immersive, long-form content.",
+          "The prevalence of cybersickness or motion sickness among users.",
+          "Limited interoperability with existing digital ecosystems."
+        ],
+        "answer": "The prevalence of cybersickness or motion sickness among users.",
+        "explanation": "The passage details several barriers to VR's mass market penetration, including hardware expense and content limitations. However, it specifically highlights 'cybersickness or motion sickness' as a significant physiological hurdle, explaining how discrepancies between visual input and vestibular system feedback can lead to discomfort, nausea, and disorientation, thus directly linking this challenge to user physiology.",
+        "id": "r20-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The passage suggests that the integration of haptic feedback systems is a novel and largely experimental concept that has yet to yield practical benefits in mainstream VR applications.",
+        "answer": "False",
+        "explanation": "The passage discusses haptic feedback not as a purely experimental concept, but rather as an evolving technology already demonstrating practical benefits. It explains how haptic devices enhance immersion and interaction by providing tactile sensations, mentioning their use in professional training simulators and certain gaming experiences to add a layer of realism and engagement, indicating their established, albeit growing, utility.",
+        "id": "r20-2"
+      },
+      {
+        "type": "fill",
+        "question": "Beyond purely visual and auditory immersion, the passage indicates that a crucial element for achieving true 'presence' within a virtual environment involves the effective integration of _______ feedback.",
+        "answer": "haptic",
+        "explanation": "The passage emphasizes that while sight and sound are fundamental, the feeling of 'presence' \u2013 the sense of actually being in the virtual world \u2013 is significantly amplified by tactile sensations. It specifically points to 'haptic' feedback as the technology responsible for conveying these physical interactions, making the virtual experience more tangible and believable.",
+        "id": "r20-3"
+      }
+    ]
+  },
+  {
+    "id": "r21",
+    "title": "Cold War",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cold war with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Due to the explicit statement 'Error fetching data' for the passage, which of the following is *impossible* to determine?",
+        "options": [
+          "The general subject matter (Cold War) implied by the prompt",
+          "The specific details or arguments presented in the provided text",
+          "The format of questions expected by the IELTS exam creator",
+          "The requirement for a JSON output"
+        ],
+        "answer": "The specific details or arguments presented in the provided text",
+        "explanation": "The prompt clearly stated 'Error fetching data' where the passage should have been. Without the passage content, it is impossible to extract specific details or arguments from it, making option B the correct impossibility.",
+        "id": "r21-1"
+      },
+      {
+        "type": "tfng",
+        "question": "True, False, or Not Given: The academic passage about the Cold War elaborated on the ideological differences between the US and USSR as the primary cause of the conflict.",
+        "answer": "Not Given",
+        "explanation": "The passage content was not provided (indicated by 'Error fetching data'). Therefore, any statement regarding the specific content, such as a detailed elaboration on ideological differences, cannot be verified as true or false and must be classified as 'Not Given'.",
+        "id": "r21-2"
+      },
+      {
+        "type": "fill",
+        "question": "The primary reason why questions cannot be accurately generated about the Cold War passage is that the passage itself is __________.",
+        "answer": "missing",
+        "explanation": "The prompt explicitly stated 'Error fetching data' for the passage. This means the content is missing, which is the fundamental obstacle to generating questions that accurately reflect its content.",
+        "id": "r21-3"
+      }
+    ]
+  },
+  {
+    "id": "r22",
+    "title": "Emotional intelligence",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding emotional intelligence with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q22-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q22-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q22-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r23",
+    "title": "Renewable energy",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding renewable energy with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q23-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q23-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q23-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r24",
+    "title": "Globalization",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding globalization with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q24-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q24-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q24-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r25",
+    "title": "Evolution",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding evolution with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q25-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q25-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q25-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r26",
+    "title": "5G",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding 5g with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q26-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q26-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q26-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r27",
+    "title": "Renaissance",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding renaissance with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q27-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q27-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q27-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r28",
+    "title": "Mental health",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding mental health with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q28-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q28-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q28-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r29",
+    "title": "Pollution",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding pollution with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q29-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q29-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q29-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r30",
+    "title": "Capitalism",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding capitalism with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q30-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q30-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q30-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r31",
+    "title": "Theory of relativity",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding theory of relativity with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q31-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q31-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q31-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r32",
+    "title": "Cybersecurity",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cybersecurity with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q32-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q32-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q32-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r33",
+    "title": "World War I",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding world war i with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q33-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q33-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q33-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r34",
+    "title": "Placebo",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding placebo with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q34-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q34-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q34-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r35",
+    "title": "Sustainability",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding sustainability with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q35-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q35-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q35-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r36",
+    "title": "Human rights",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding human rights with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q36-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q36-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q36-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r37",
+    "title": "Plate tectonics",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding plate tectonics with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q37-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q37-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q37-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r38",
+    "title": "Cloud computing",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cloud computing with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q38-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q38-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q38-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r39",
+    "title": "Ancient Egypt",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding ancient egypt with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q39-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q39-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q39-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r40",
+    "title": "Neuroplasticity",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding neuroplasticity with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q40-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q40-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q40-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r41",
+    "title": "Biodiversity",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding biodiversity with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q41-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q41-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q41-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r42",
+    "title": "Feminism",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding feminism with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q42-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q42-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q42-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r43",
+    "title": "Standard Model",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding standard model with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q43-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q43-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q43-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r44",
+    "title": "Machine learning",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding machine learning with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q44-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q44-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q44-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r45",
+    "title": "American Civil War",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding american civil war with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q45-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q45-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q45-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r46",
+    "title": "Psychoanalysis",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding psychoanalysis with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q46-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q46-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q46-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r47",
+    "title": "Ozone depletion",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding ozone depletion with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q47-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q47-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q47-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r48",
+    "title": "Democracy",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding democracy with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q48-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q48-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q48-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r49",
+    "title": "Dark matter",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding dark matter with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q49-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q49-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q49-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r50",
+    "title": "Quantum computing",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding quantum computing with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q50-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q50-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q50-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  }
+];

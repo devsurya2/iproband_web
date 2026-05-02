@@ -1,0 +1,6 @@
+{
+  "name": "AceIELTS: Complete Preparation Platform",
+  "description": "A comprehensive, interactive IELTS training platform featuring modules for Grammar, Vocabulary, Reading, Writing, Speaking, and Listening with built-in progress tracking and practice labs.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}
