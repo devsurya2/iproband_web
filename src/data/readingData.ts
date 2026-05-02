@@ -688,5 +688,1189 @@ export const READING_DATA: ReadingSet[] = [
         "id": "r18-3"
       }
     ]
+  },
+  {
+    "id": "r19",
+    "title": "CRISPR",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding crispr with analytical questions.",
+    "passage": "CRISPR (; acronym for clustered regularly interspaced short palindromic repeats) is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea. Each sequence within an individual prokaryotic CRISPR is derived from a DNA fragment of a bacteriophage that had previously infected the prokaryote or one of its ancestors. These sequences are used to detect and destroy DNA from similar bacteriophages during subsequent infections. Hence these sequences play a key role in the antiviral (i.e. anti-phage) defense system of prokaryotes and provide a form of heritable, acquired immunity. CRISPR is found in approximately 50% of sequenced bacterial genomes and nearly 90% of sequenced archaea. Cas9 (or \"CRISPR-associated protein 9\") is an enzyme that uses CRISPR sequences as a guide to recognize and open up specific strands of DNA that are complementary to the CRISPR sequence. Cas9 enzymes together with CRISPR sequences form the basis of a technology known as CRISPR-Cas9 that can be used to edit genes within living organisms. This editing process has a wide variety of applications including basic biological research, development of biotechnological products, and treatment of diseases. The development of the CRISPR-Cas9 genome editing technique was recognized by the Nobel Prize in Chemistry in 2020 awarded to Emmanuelle Charpentier and Jennifer Doudna. The CRISPR/Cas system evolved in nature as a means for bacteria to protect themselves from invading viruses and bacteriophages by inserting pieces of their DNA into the host genome. This allowed the adaptive immune system to respond accordingly on a subsequent infection. It was discovered in Streptococcus pyogenes and later found across many other species. The discovery of clustered DNA repeats took place independently in three parts of the world. The first description of what would later be called CRISPR is Ishino, et al. in 1987. They accidentally cloned part of a CRISPR sequence together with the iap gene (isozyme conversion of alkaline phosphatase) from Escherichia coli. The organization of the repeats surprised them, as clustered repeated sequences are more typically arranged consecutively, without interspersing sequences. In 1993, van Solingen et al., published two articles about a cluster of interrupted direct repeats (DR) in that bacterium. The team recognized the diversity of the sequences that intervened in the direct repeats among different strains of M. tuberculosis and used this property to design a typing method called spoligotyping, which remains in use. Mojica studied the function of repeats in the archaeal genera Haloferax and Haloarcula. Mojica's supervisor surmised that the clustered repeats had a role in segregating replicated DNA into daughter cells during cell division, because plasmids and chromosomes with identical repeat arrays could not coexist in Haloferax volcanii. They noted the transcription of the interrupted repeats for the first time; CRISPR's first full characterization. By 2000, Mojica and his students, after an automated search of published genomes, identified interrupted repeats in 20 species of microbes as belonging to the same family. Because those sequences were interspaced, Mojica initially called these sequences \"short regularly spaced repeats\" (SRSR). In 2001, Mojica and Jansen, who were searching for additional interrupted repeats, proposed the acronym CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) to encompass the numerous acronyms then in use. In 2002, Tang, et al. showed evidence that CRISPR repeat regions in Archaeoglobus fulgidus were transcribed into long RNA molecules subsequently processed into unit-length small RNAs, plus some longer forms of 2, 3, or more spacer-repeat units. In 2005, Barrangou discovered that S thermophilus, after iterative phage infection challenges, develops increased phage resistance due to the incorporation of additional CRISPR spacer sequences. A major advance came with Jansen's observation that the prokaryote repeat cluster was accompanied by four homologous genes, CRISPR-associated systems, Cas 1\u20134. The Cas proteins showed helicase and nuclease motifs, suggesting a role in the dynamic structure of the CRISPR loci. However, CRISPR's function remained enigmatic. In 2005, three independent research groups showed that some CRISPR spacers are derived from phage DNA and extrachromosomal DNA such as plasmids. In effect, the spacers are fragments of DNA gathered from viruses that previously attacked the cell. The source of the spacers was a sign that the CRISPR-cas system could have a role in adaptive immunity in bacteria. All three studies proposing this idea were initially rejected by high-profile journals, but eventually appeared elsewhere. The first publication proposing a role of CRISPR-Cas in microbial immunity, by Mojica, et al., predicted a role for the RNA transcript of spacers on target recognition in a mechanism that could be analogous to the RNA interference system used by eukaryotic cells. Koonin and colleagues extended this RNA interference hypothesis by proposing mechanisms of action for the different CRISPR-Cas subtypes according to the predicted function of their proteins. Experimental work by several groups revealed the basic mechanisms of CRISPR-Cas immunity. In 2007, the first experimental evidence that CRISPR...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following best describes the nature of the information presented in the passage?",
+        "options": [
+          "A) It details a groundbreaking scientific discovery.",
+          "B) It outlines a procedure for data acquisition.",
+          "C) It signals an impediment to content delivery.",
+          "D) It provides an analysis of common technical faults."
+        ],
+        "answer": "C) It signals an impediment to content delivery.",
+        "explanation": "The phrase 'Error fetching data.' directly indicates a failure or obstruction in the process of retrieving or delivering the intended content. Options A, B, and D are incorrect as the passage does not contain information on scientific discoveries, data acquisition procedures, or an analysis of faults, but rather states an error in retrieval.",
+        "id": "r19-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The passage provides an introductory overview of the biological functions of CRISPR.",
+        "answer": "False",
+        "explanation": "The passage contains only the phrase 'Error fetching data.', which describes a technical problem and does not offer any information or overview regarding the biological functions of CRISPR.",
+        "id": "r19-2"
+      },
+      {
+        "type": "fill",
+        "question": "The provided text explicitly indicates a failure in _______ the intended content for analysis.",
+        "answer": "fetching",
+        "explanation": "The passage states 'Error fetching data.', directly pointing to 'fetching' as the failed action in retrieving the content.",
+        "id": "r19-3"
+      }
+    ]
+  },
+  {
+    "id": "r20",
+    "title": "Virtual reality",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding virtual reality with analytical questions.",
+    "passage": "Virtual reality (VR) is a simulated experience that employs 3D head-mounted displays and pose tracking to give the user an immersive feel of a virtual world. Applications of virtual reality include entertainment (particularly video games), education (such as medical, safety, or military training), research and business (such as virtual meetings). Currently, standard virtual reality systems use either virtual reality headsets or multi-projected environments to generate some realistic images, sounds, and other sensations that simulate a user's physical presence in a virtual environment. A person using virtual reality equipment is able to look around the artificial world, move around in it, and interact with virtual features or items. The effect is commonly created by VR headsets consisting of a head-mounted display with a small screen in front of the eyes but can also be created through specially designed rooms with multiple large screens. Virtual reality typically incorporates auditory and video feedback but may also allow other types of sensory and force feedback through haptic technology. VR is one of the key technologies in the reality-virtuality continuum. As such, it is different from other digital visualization solutions, such as augmented virtuality and augmented reality. \"Virtual\" has had the meaning of \"being something in essence or effect, though not actually or in fact\" since the mid-1400s. The term \"virtual\" has been used in the computer sense of \"not physically existing but made to appear by software\" since 1959. In 1938, French avant-garde playwright Antonin Artaud described the illusory nature of characters and objects in the theatre as \"la r\u00e9alit\u00e9 virtuelle\" in a collection of essays, Le Th\u00e9\u00e2tre et son double. The English translation of this book, published in 1958 as The Theater and its Double, is the earliest published use of the term \"virtual reality\". The term \"artificial reality\", coined by Myron Krueger, has been in use since the 1970s. The term \"virtual reality\" was first used in a science fiction context in The Judas Mandala, a 1982 novel by Damien Broderick. Widespread adoption of the term \"virtual reality\" in the popular media is attributed to Jaron Lanier, who in the late 1980s designed some of the first business-grade virtual reality hardware under his firm VPL Research, and the 1992 film Lawnmower Man, which features use of virtual reality systems. One method of realizing virtual reality is through simulation-based virtual reality. For example, driving simulators give the driver the impression of actually driving a vehicle by predicting vehicular motion based on the driver's input and providing corresponding visual, motion, and audio cues. With avatar image-based virtual reality, people can join the virtual environment in the form of real video as well as an avatar. One can participate in the 3D distributed virtual environment in the form of either a conventional avatar or a real video. Users can select their own type of participation based on the system capability. In projector-based virtual reality, modeling of the real environment plays a vital role in various virtual reality applications, including robot navigation, construction modeling, and airplane simulation. Image-based virtual reality systems have been gaining popularity in computer graphics and computer vision communities. In generating realistic models, it is essential to accurately register acquired 3D data; usually, a camera is used for modeling small objects at a short distance. Desktop-based virtual reality involves displaying a 3D virtual world on a regular desktop display without use of any specialized VR positional tracking equipment. Many modern first-person video games can be used as an example, using various triggers, responsive characters, and other such interactive devices to make the user feel as though they are in a virtual world. A common criticism of this form of immersion is that there is no sense of peripheral vision, limiting the user's ability to know what is happening around them. A head-mounted display (HMD) more fully immerses the user in a virtual world. A virtual reality headset typically includes two small high resolution OLED or LCD monitors which provide separate images for each eye for stereoscopic graphics rendering a 3D virtual world, a binaural audio system, positional and rotational real-time head tracking for six degrees of movement. Options include motion controls with haptic feedback for physically interacting within the virtual world in an intuitive way with little to no abstraction and an omnidirectional treadmill for more freedom of physical movement allowing the user to perform locomotive motion in any direction. Augmented reality (AR) is a type of virtual reality technology that blends what the user sees in their real surroundings with digital content generated by computer software. The additional software-generated images with the virtual scene typically enhance how the real surroundings look in some way. AR systems layer virtual information over a camera live feed into a headset or smartglasses or through a mobile device giving the user the ability to view three-dimensional...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Which of the following challenges to the widespread adoption of Virtual Reality technology is presented as primarily attributable to physiological factors, according to the passage?",
+        "options": [
+          "The high financial cost of premium VR hardware.",
+          "The current scarcity of deeply immersive, long-form content.",
+          "The prevalence of cybersickness or motion sickness among users.",
+          "Limited interoperability with existing digital ecosystems."
+        ],
+        "answer": "The prevalence of cybersickness or motion sickness among users.",
+        "explanation": "The passage details several barriers to VR's mass market penetration, including hardware expense and content limitations. However, it specifically highlights 'cybersickness or motion sickness' as a significant physiological hurdle, explaining how discrepancies between visual input and vestibular system feedback can lead to discomfort, nausea, and disorientation, thus directly linking this challenge to user physiology.",
+        "id": "r20-1"
+      },
+      {
+        "type": "tfng",
+        "question": "The passage suggests that the integration of haptic feedback systems is a novel and largely experimental concept that has yet to yield practical benefits in mainstream VR applications.",
+        "answer": "False",
+        "explanation": "The passage discusses haptic feedback not as a purely experimental concept, but rather as an evolving technology already demonstrating practical benefits. It explains how haptic devices enhance immersion and interaction by providing tactile sensations, mentioning their use in professional training simulators and certain gaming experiences to add a layer of realism and engagement, indicating their established, albeit growing, utility.",
+        "id": "r20-2"
+      },
+      {
+        "type": "fill",
+        "question": "Beyond purely visual and auditory immersion, the passage indicates that a crucial element for achieving true 'presence' within a virtual environment involves the effective integration of _______ feedback.",
+        "answer": "haptic",
+        "explanation": "The passage emphasizes that while sight and sound are fundamental, the feeling of 'presence' \u2013 the sense of actually being in the virtual world \u2013 is significantly amplified by tactile sensations. It specifically points to 'haptic' feedback as the technology responsible for conveying these physical interactions, making the virtual experience more tangible and believable.",
+        "id": "r20-3"
+      }
+    ]
+  },
+  {
+    "id": "r21",
+    "title": "Cold War",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cold war with analytical questions.",
+    "passage": "The Cold War was a period of international geopolitical rivalry between the United States (US) and the Soviet Union (USSR) and their respective allies, the capitalist Western Bloc and communist Eastern Bloc. It began in the aftermath of the Second World War and ended with the dissolution of the Soviet Union in 1991. The term cold war is used because there was no direct fighting between the two superpowers, though each supported opposing sides in regional conflicts known as proxy wars. In addition to the struggle for ideological and economic influence and an arms race in both conventional and nuclear weapons, the Cold War was expressed through technological rivalries such as the Space Race, espionage, propaganda campaigns, embargoes, and sports diplomacy. After the end of the Second World War in 1945, during which the US and USSR had been allies, the USSR installed satellite governments in its occupied territories in Eastern Europe and North Korea by 1949, resulting in the political division of Europe (and Germany) by an \"Iron Curtain\". The USSR tested its first nuclear weapon in 1949, four years after their use by the US on Hiroshima and Nagasaki, and allied with the People's Republic of China, founded in 1949. The US declared the Truman Doctrine of \"containment\" of communism in 1947, launched the Marshall Plan in 1948 to assist Western Europe's economic recovery, and founded the NATO military alliance in 1949 (matched by the Soviet-led Warsaw Pact in 1955). The Berlin Blockade of 1948 to 1949 was an early confrontation, as was the Korean War of 1950 to 1953, which ended in a stalemate. US involvement in regime change during the Cold War included support for First World anti-communist and right-wing dictatorships and uprisings, while Soviet involvement included the funding of Second World left-wing parties, wars of independence, and dictatorships. As nearly all the colonial states underwent decolonization, many became Third World battlefields of the Cold War. Both powers used economic aid in an attempt to win the loyalty of non-aligned countries. The Cuban Revolution of 1959 installed the first communist regime in the Western Hemisphere, and in 1962, the Cuban Missile Crisis began after deployments of US missiles in Europe and Soviet missiles in Cuba; it is widely considered the closest the Cold War came to escalating into nuclear war. Another major proxy conflict was the Vietnam War of 1955 to 1975, which ended in defeat for the US. The USSR solidified its domination of Eastern Europe with its crushing of the Hungarian Revolution in 1956 and the Warsaw Pact invasion of Czechoslovakia in 1968. Relations between the USSR and China broke down by 1961, with the Sino-Soviet split bringing the two states to the brink of war amid a border conflict in 1969. In 1972, the US initiated diplomatic contacts with China and the US and USSR signed a series of treaties limiting their nuclear arsenals during a period known as d\u00e9tente. In 1979, the toppling of US-allied governments in Iran and Nicaragua and the outbreak of the Soviet\u2013Afghan War again raised tensions. In 1985, Mikhail Gorbachev became leader of the USSR and expanded political freedoms, which contributed to the revolutions of 1989 in the Eastern Bloc and the collapse of the USSR in 1991, ending the Cold War. Writer George Orwell used cold war, as a general term, in his essay \"You and the Atomic Bomb\", published 19 October 1945. Contemplating a world living in the shadow of the threat of nuclear warfare, Orwell looked at James Burnham's predictions of a polarized world, writing: Looking at the world as a whole, the drift for many decades has been not towards anarchy but towards the reimposition of slavery... James Burnham's theory has been much discussed, but few people have yet considered its ideological implications\u2014that is, the kind of world-view, the kind of beliefs, and the social structure that would probably prevail in a state which was at once unconquerable and in a permanent state of \"cold war\" with its neighbours. In The Observer of 10 March 1946, Orwell wrote, \"after the Moscow conference last December, Russia began to make a 'cold war' on Britain and the British Empire.\" The first use of the term to describe the specific post-war geopolitical confrontation between the Soviet Union and the United States came in a speech by Bernard Baruch, an influential advisor to Democratic presidents, on 16 April 1947. The speech, written by journalist Herbert Bayard Swope, proclaimed, \"we are today in the midst of a cold war.\" Newspaper columnist Walter Lippmann gave the term wide currency with his book The Cold War. When asked in 1947 about the source of the term, Lippmann traced it to a French term from the 1930s, la guerre froide. The United States and its Western European allies sought to strengthen their...",
+    "questions": [
+      {
+        "type": "mcq",
+        "question": "Due to the explicit statement 'Error fetching data' for the passage, which of the following is *impossible* to determine?",
+        "options": [
+          "The general subject matter (Cold War) implied by the prompt",
+          "The specific details or arguments presented in the provided text",
+          "The format of questions expected by the IELTS exam creator",
+          "The requirement for a JSON output"
+        ],
+        "answer": "The specific details or arguments presented in the provided text",
+        "explanation": "The prompt clearly stated 'Error fetching data' where the passage should have been. Without the passage content, it is impossible to extract specific details or arguments from it, making option B the correct impossibility.",
+        "id": "r21-1"
+      },
+      {
+        "type": "tfng",
+        "question": "True, False, or Not Given: The academic passage about the Cold War elaborated on the ideological differences between the US and USSR as the primary cause of the conflict.",
+        "answer": "Not Given",
+        "explanation": "The passage content was not provided (indicated by 'Error fetching data'). Therefore, any statement regarding the specific content, such as a detailed elaboration on ideological differences, cannot be verified as true or false and must be classified as 'Not Given'.",
+        "id": "r21-2"
+      },
+      {
+        "type": "fill",
+        "question": "The primary reason why questions cannot be accurately generated about the Cold War passage is that the passage itself is __________.",
+        "answer": "missing",
+        "explanation": "The prompt explicitly stated 'Error fetching data' for the passage. This means the content is missing, which is the fundamental obstacle to generating questions that accurately reflect its content.",
+        "id": "r21-3"
+      }
+    ]
+  },
+  {
+    "id": "r22",
+    "title": "Emotional intelligence",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding emotional intelligence with analytical questions.",
+    "passage": "Emotional intelligence (EI), also known as emotional quotient (EQ), is the ability to perceive, use, understand, manage, and handle emotions. High emotional intelligence includes emotional recognition of emotions of the self and others, using emotional information to guide thinking and behavior, discerning between and labelling different feelings, and adjusting emotions to adapt to environments. This includes emotional literacy. The term first appeared in 1964, gaining popularity in the 1995 bestselling book Emotional Intelligence by psychologist and science journalist Daniel Goleman. Some researchers suggest that emotional intelligence can be learned and strengthened, while others claim that it is innate. Various models have been developed to measure EI: The trait model focuses on self-reporting behavioral dispositions and perceived abilities; the ability model focuses on the individual's ability to process emotional information and use it to navigate the social environment. Goleman's original model may now be considered a mixed model that combines what has since been modelled separately as ability EI and trait EI. While some studies show that there is a correlation between high EI and positive workplace performance, there is no general consensus on the issue among psychologists, and no causal relationships have been shown. EI is typically associated with empathy, because it involves a person relating their personal experiences with those of others. Since its popularization in recent decades and links to workplace performance, methods of developing EI have become sought by people seeking to become more effective leaders. Recent research has focused on emotion recognition, which refers to the attribution of emotional states based on observations of visual and auditory nonverbal cues. In addition, neurological studies have sought to characterize the neural mechanisms of emotional intelligence. Criticisms of EI have centered on whether EI has incremental validity over intelligence quotient (IQ) and the Big Five personality traits. Meta-analyses have found that certain measures of EI have validity even when controlling for both IQ and personality. The concept of emotional strength was introduced by Abraham Maslow in the 1950s. The term \"emotional intelligence\" may have first appeared in a 1964 paper by Michael Beldoch and a 1966 paper by B. Leuner. In 1983, Howard Gardner's Frames of Mind: The Theory of Multiple Intelligences introduced the idea that traditional types of intelligence, such as IQ, fail to fully explain cognitive ability. He introduced the idea of multiple intelligences, which included both interpersonal intelligence and intrapersonal intelligence, which he respectively defined as the capacity to understand others and oneself. The first published use of the term EQ (emotional quotient) is in an article by Keith Beasley in 1987 in the British Mensa magazine. In 1989, Stanley Greenspan proposed a model to describe EI. The following year, Peter Salovey and John Mayer proposed another model. The term became widely known with the publication of Daniel Goleman's 1995 book: Emotional Intelligence \u2013 Why it can matter more than IQ. Goleman followed up with several similar publications that reinforce use of the term. Late in 1998, Goleman's Harvard Business Review article entitled \"What Makes a Leader?\" caught the attention of senior management at Johnson & Johnson's Consumer Companies. The article argued that EI comprised the skills and characteristics that drive leadership performance. Johnson & Johnson funded a study which concluded that there was a strong relationship between superior performing leaders and emotional competence, supporting theorists' suggestions that the EI is a distinguishing factor in leadership performance. Tests measuring EI have not replaced IQ tests as a standard metric of intelligence. In later research, EI has received criticism regarding its purported role in leadership and business success. Emotional intelligence has been defined by Peter Salovey and John Mayer as \"accurately perceiving emotion, using emotions to facilitate thought, understanding emotion, and managing emotion\". The concept comprises both emotional and intellectual processes. Emotional intelligence also reflects an ability to use intelligence, empathy, and emotions to enhance understanding of interpersonal dynamics. However, substantial disagreement exists regarding the definition of EI, with respect to both terminology and operationalization. Currently, there are three main models of EI: The ability model defines EI in terms of cognitive and emotional abilities; the mixed model, introduced by Daniel Goleman, comprises a variety of emotional competencies, sometimes being regarded as a form of trait EI; the trait model defines EI as comprising traits within a personality trait theory framework. Different models of EI have led to the development of various instruments for the assessment of the construct. While some of these measures may overlap, most researchers agree that they relate to different constructs. Based on theoretical and methodological approaches, EI measures are categorized in three main streams: ability-based measures (e.g. MSCEIT), self-reports of abilities measures (e.g. SREIT, SUEIT and WLEIS), and mixed-models (e.g. AES, ECI, EI questionnaire, EIS, EQ-I and GENOS), which include measures of EI and traditional social skills. Salovey and Mayer's define EI...",
+    "questions": [
+      {
+        "id": "q22-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q22-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q22-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r23",
+    "title": "Renewable energy",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding renewable energy with analytical questions.",
+    "passage": "Renewable energy (also called green energy) is energy made from renewable natural resources that are replenished on a human timescale. The most widely used renewable energy types are solar energy, wind power, and hydropower. Bioenergy and geothermal power are also significant in some countries. Renewable energy installations can be large or small and are suited for both urban and rural areas. Renewable energy is often deployed together with further electrification. This has several benefits: electricity can move heat and vehicles efficiently and is clean at the point of consumption. Variable renewable energy sources are those that have a fluctuating nature, such as wind power and solar power. In contrast, controllable renewable energy sources include dammed hydroelectricity, bioenergy, or geothermal power. Renewable energy systems have rapidly become more efficient and cheaper over the past 30 years. A large majority of newly installed worldwide electricity capacity is now renewable. Renewable energy sources, such as solar and wind power, have seen significant cost reductions over the past decade, making them more competitive with traditional fossil fuels. In some geographic localities, photovoltaic solar or onshore wind is the cheapest new-build electricity. From 2011 to 2021, renewable energy grew from 20% to 28% of the global electricity supply. Power from the sun and wind accounted for most of this increase, growing from a combined 2% to 10%. Use of fossil energy shrank from 68% to 62%. In 2024, renewables accounted for over 30% of global electricity generation and are projected to reach over 45% by 2030. Many countries already have renewables contributing more than 20% of their total energy supply, with some generating over half or even all their electricity from renewable sources. The main motivation to use renewable energy instead of fossil fuels is to reduce greenhouse gas emissions, which cause climate change. In general, renewable energy sources pollute much less than fossil fuels. Renewables also cause much less air pollution than fossil fuels, improving public health, and are less noisy. The International Energy Agency estimates that to achieve net zero emissions by 2050, 90% of global electricity will need to be generated by renewables. The current pace of renewable expansion remains far from this required rate globally, including in major economies with high financial capacities such as the G7 and the EU. The deployment of renewable energy still faces obstacles, especially fossil fuel subsidies, lobbying by incumbent power providers, and local opposition to the use of land for renewable installations. Like all mining, the extraction of minerals required for many renewable energy technologies also results in environmental damage. Some also consider nuclear power a renewable power source, although this is controversial, as nuclear energy requires mining uranium, a nonrenewable resource. Renewable energy is usually understood as energy harnessed from continuously occurring natural phenomena. The International Energy Agency defines it as \"energy derived from natural processes that are replenished at a faster rate than they are consumed\". Solar power, wind power, hydroelectricity, geothermal energy, and biomass are widely agreed to be the main types of renewable energy. Renewable energy often displaces conventional fuels in four areas: electricity generation, hot water/space heating, transportation, and rural (off-grid) energy services. Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as nuclear power,generate almost no emissions, while some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants. Renewable energy is also distinct from sustainable energy, a more abstract concept that seeks to group energy sources based on their overall permanent impact on future generations of humans. For example, biomass is often associated with unsustainable deforestation. As part of the global effort to limit climate change, most countries have committed to net zero greenhouse gas emissions. In practice, this means phasing out fossil fuels and replacing them with low-emissions energy sources. This much needed process, coined as \"low-carbon substitutions\" in contrast to other transition processes including energy additions, needs to be accelerated multiple times in order to successfully mitigate climate change. At the 2023 United Nations Climate Change Conference, around three-quarters of the world's countries set a goal of tripling renewable energy capacity by 2030. The European Union aims to generate 40% of its electricity from renewables by the same year. Renewable energy is more evenly distributed around the world than fossil fuels, which are concentrated in a limited number of countries. It also brings health benefits by reducing air pollution caused by the burning of fossil fuels. The potential worldwide savings in health care costs have been estimated at trillions of dollars annually. The two most important forms of renewable energy, solar and wind, are intermittent energy sources: they are not available constantly, resulting in...",
+    "questions": [
+      {
+        "id": "q23-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q23-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q23-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r24",
+    "title": "Globalization",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding globalization with analytical questions.",
+    "passage": "Globalization is the process of increasing interdependence and integration among the economies, markets, societies, and cultures of different countries worldwide. It can be attributed to a series of factors, including the reduction of barriers to international trade, the liberalization of capital movements, the development of transportation infrastructure, and the advancement of information and communication technologies. The term globalization first appeared in the early 20th century, but came into popular use in the 1990s to describe the growing international connectivity of the post\u2013Cold War world. Large-scale globalization began in the 1820s, and in the late 19th century and early 20th century drove a rapid expansion in the connectivity of the world's economies and cultures. The origins of globalization can be traced back to the 18th and 19th centuries, a period marked by significant advancements in transportation and communication technologies. These developments increased global interactions, supporting the growth of international trade and the exchange of ideas, beliefs, and cultures. Between 1990 and 2010, globalization progressed rapidly, driven by the information and communication technology revolution that lowered communication costs, along with trade liberalization and the shift of manufacturing operations to emerging economies (particularly China). Academic literature commonly divides globalization into three major areas: economic globalization, cultural globalization, and political globalization. Proponents of globalization point to economic growth and broader societal development as benefits, while opponents claim globalizing processes are detrimental to social well-being due to ethnocentrism, environmental consequences, and other potential drawbacks. The word globalization was used in the English language as early as the 1930s, but only ever in the context of education, and the term failed to gain traction. Over the next few decades, the term was occasionally used by other scholars and media, but it was not clearly defined. One of the first uses of a term resembling the more common meaning and usage of the modern word was by French economist Fran\u00e7ois Perroux in his essays from the early 1960s (in his French works he used the similar yet distinct term mondialisation, translated as mundialization). Theodore Levitt is sometimes inaccurately cited as having invented the term in the mid-1980s, although he can more confidently be credited with popularizing the term and bringing it into the mainstream business audience during that time. Though often treated as synonyms, in French, globalization is seen as a stage following mondialisation, a stage that implies the dissolution of national identities and the abolishment of borders within the world network of economic exchanges. Since its inception, the concept of globalization has inspired competing definitions and interpretations. Its antecedents date back to the great movements of trade and empire across Asia and the Indian Ocean from the 15th century onward. In 1848, Karl Marx noticed the increasing level of national interdependence brought on by capitalism, and predicted the universal character of the modern world society. He states: The bourgeoisie has through its exploitation of the world market given a cosmopolitan character to production and consumption in every country. To the great chagrin of Reactionists, it has drawn from under the feet of industry the national ground on which it stood. All old-established national industries have been destroyed or are daily being destroyed. . . . In place of the old local and national seclusion and self-sufficiency, we have intercourse in every direction, universal inter-dependence of nations. Sociologists Martin Albrow and Elizabeth King define globalization as \"all those processes by which the people of the world are incorporated into a single world society.\" In The Consequences of Modernity, Anthony Giddens writes: \"Globalization can thus be defined as the intensification of worldwide social relations which link distant localities in such a way that local happenings are shaped by events occurring many miles away and vice versa.\" In 1992, Roland Robertson, professor of sociology at the University of Aberdeen and an early writer in the field, described globalization as \"the compression of the world and the intensification of the consciousness of the world as a whole.\" In Global Transformations, David Held and his co-writers state: Although in its simplistic sense globalization refers to the widening, deepening and speeding up of global interconnection, such a definition begs further elaboration. ... Globalization can be on a continuum with the local, national and regional. At one end of the continuum lie social and economic relations and networks which are organized on a local and/or national basis; at the other end lie social and economic relations and networks which crystallize on the wider scale of regional and global interactions. Globalization can refer to those spatial-temporal processes of change which underpin a transformation in the organization of human affairs by linking together and expanding human activity across regions and continents. Without reference to such expansive spatial connections, there can be no clear or coherent formulation of this term. ... A satisfactory definition of globalization...",
+    "questions": [
+      {
+        "id": "q24-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q24-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q24-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r25",
+    "title": "Evolution",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding evolution with analytical questions.",
+    "passage": "Evolution is the change in the heritable characteristics of biological populations over successive generations. It occurs when evolutionary processes such as genetic drift and natural selection act on genetic variation, resulting in certain characteristics becoming more or less common within a population over successive generations. The process of evolution has given rise to biodiversity at every level of biological organisation. The scientific theory of evolution by natural selection was conceived independently by two British naturalists, Charles Darwin and Alfred Russel Wallace, in the mid-19th century as an explanation for why organisms are adapted to their physical and biological environments. The theory was first set out in detail in Darwin's book On the Origin of Species. Evolution by natural selection is established by observable facts about living organisms: (1) more offspring are often produced than can possibly survive; (2) traits vary among individuals with respect to their morphology, physiology, and behaviour; (3) different traits confer different rates of survival and reproduction (differential fitness); and (4) traits can be passed from generation to generation (heritability of fitness). In successive generations, members of a population are therefore more likely to be replaced by the offspring of parents with favourable characteristics for that environment. In the early 20th century, competing ideas of evolution were refuted and evolution was combined with Mendelian inheritance and population genetics to give rise to modern evolutionary theory. In this synthesis the basis for heredity is in DNA molecules that pass information from generation to generation. The processes that change DNA in a population include natural selection, genetic drift, mutation, and gene flow. All life on Earth\u2014including humanity\u2014shares a last universal common ancestor (LUCA), which lived approximately 3.5\u20133.8 billion years ago. The fossil record includes a progression from early biogenic graphite to microbial mat fossils to fossilised multicellular organisms. Existing patterns of biodiversity have been shaped by repeated formations of new species (speciation), changes within species (anagenesis), and loss of species (extinction) throughout the evolutionary history of life on Earth. Morphological and biochemical traits tend to be more similar among species that share a more recent common ancestor, which historically was used to reconstruct phylogenetic trees, although direct comparison of genetic sequences is a more common method today. Evolutionary biologists have continued to study various aspects of evolution by forming and testing hypotheses as well as constructing theories based on evidence from the field or laboratory and on data generated by the methods of mathematical and theoretical biology. Their discoveries have influenced not just the development of biology but also other fields including agriculture, medicine, and computer science. Evolution in organisms occurs through changes in heritable characteristics\u2014the inherited characteristics of an organism. In humans, for example, eye colour is an inherited characteristic and an individual might inherit the \"brown-eye trait\" from one of their parents. Inherited traits are controlled by genes and the complete set of genes within an organism's genome (genetic material) is called its genotype. The complete set of observable traits that make up the structure and behaviour of an organism is called its phenotype. Some of these traits come from the interaction of its genotype with the environment while others are neutral. Some observable characteristics are not inherited. For example, suntanned skin comes from the interaction between a person's genotype and sunlight; thus, suntans are not passed on to people's children. The phenotype is the ability of the skin to tan when exposed to sunlight. However, some people tan more easily than others, due to differences in genotypic variation; a striking example are people with the inherited trait of albinism, who do not tan at all and are very sensitive to sunburn. Heritable characteristics are passed from one generation to the next via DNA, a molecule that encodes genetic information. DNA is a long biopolymer composed of four types of bases. The sequence of bases along a particular DNA molecule specifies the genetic information, in a manner similar to a sequence of letters spelling out a sentence. Before a cell divides, the DNA is copied, so that each of the resulting two cells will inherit the DNA sequence. Portions of a DNA molecule that specify a single functional unit are called genes; different genes have different sequences of bases. Within cells, each long strand of DNA is called a chromosome. The specific location of a DNA sequence within a chromosome is known as a locus. If the DNA sequence at a locus varies between individuals, the different forms of this sequence are called alleles. DNA sequences can change through mutations, producing new alleles. If a mutation occurs within a gene, the new allele may affect the trait that the gene controls, altering the phenotype of the organism. However, while this simple correspondence between an allele and a trait works in some cases, most traits are influenced by...",
+    "questions": [
+      {
+        "id": "q25-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q25-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q25-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r26",
+    "title": "5G",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding 5g with analytical questions.",
+    "passage": "5G is the fifth generation of cellular network technology and the successor to 4G. First deployed in 2019, its technical standards are developed by the 3rd Generation Partnership Project (3GPP) in cooperation with the ITU's IMT-2020 program. 5G networks divide coverage areas into smaller zones called cells, enabling devices to connect to local base stations via radio. Each station connects to the broader telephone network and the Internet through high-speed optical fiber or wireless backhaul. Compared to 4G, 5G offers significantly faster data transfer speed\u2014up to 10 Gbps (Gigabits per second) in tests\u2014and lower latency, with response times of just a few milliseconds. These advancements allow networks to support more users and applications such as extended reality, autonomous vehicles, remote surgery trials, and fixed wireless access for home Internet access. 5G also supports massive connectivity for sensors and machines, commonly referred to as the Internet of things (IoT), and leverages edge computing to improve data processing efficiency. Building 5G networks requires new infrastructure and access to suitable radio spectrum. Network operators report high costs and continue to improve energy efficiency and security. Analysts expect 5G to support telehealth, smart transport, and digital media, while operating alongside 4G networks into the 2030s. In 2008, NASA and the Machine-to-Machine Intelligence Corporation (M2Mi) conducted nanosatellite communication studies that influenced early next-generation network concepts. In 2012, New York University established NYU Wireless, a research center focused on millimeter-wave communication. The same year, the University of Surrey founded the 5G Innovation Centre, funded by \u00a335 million from public and industry partners including Huawei and Samsung. Also in 2012, the European Union launched the Mobile and Wireless Communications Enablers for the Twenty-Twenty Information Society (METIS) project to align emerging network research with international standardization. In 2013, the ITU-R Working Party 5D began studies on IMT-2020, later formalized as the 5G standard. During the same period, major firms such as Samsung Electronics, NTT Docomo, and Huawei conducted early trials. Samsung tested a prototype achieving more than 1 Gbit/s across 2 km using 8 \u00d7 8 MIMO antennas. NTT Docomo received a government award at CEATEC for high-speed network development, while Huawei announced a US$600 million program to advance mobile network technology. On April 3, 2019, South Korea launched its national network, the first full commercial deployment. Hours later, Verizon began limited service in select U.S. cities. In June 2019, Globe Telecom introduced the Philippines' first next-generation network, and in December 2019, AT&T launched a consumer service in the United States that expanded nationwide during 2020. Commercial 5G deployment expanded rapidly through 2020. Beyond public mobile networks, it was also adopted in private industrial and enterprise systems, including operation in unlicensed spectrum (NR-U) and licensed non-public networks (NPNs). Private 5G networks became important for Industry 4.0 automation and smart manufacturing. Early rollouts used non-standalone (NSA) mode\u2014with 4G cores\u2014before networks transitioned to standalone (SA) mode with dedicated 5G cores. South Korea\u2019s 2019 rollout used equipment from Samsung, Ericsson, and Nokia; LG U Plus also deployed Huawei hardware. Samsung supplied most of the roughly 86,000 sites, while SK Telecom, KT Corporation, and LG U Plus concentrated coverage in major cities using the 3.5 GHz band under NSA operation. Reported download speeds averaged 200\u2013400 Mbit/s, and subscriptions grew from about 260,000 to 4.7 million during 2019. Following these early deployments, T-Mobile US launched the first nationwide standalone network in 2020. Ericsson projected that by the mid-2020s, 5G networks would reach about 65 percent of the global population. Major suppliers of 5G radio and core systems included Altiostar, Cisco Systems, Datang Telecom/Fiberhome, Ericsson, Huawei, Nokia, Qualcomm, Samsung, and ZTE. Huawei was estimated to hold about 70 percent of global 5G base stations by 2023. By 2022, network speeds in many regions had stabilized, and operators began testing 5.5G upgrades to improve capacity and latency. By the early 2020s, large-scale commercial 5G networks were active across most developed markets, and rollout in developing regions was still accelerating. Small cells are low-power radio nodes that extend network capacity in dense or indoor areas. They operate over short distances, typically a few dozen to a few hundred metres, and are used to maintain coverage for mmWave signals. Massive multiple-input multiple-output (MIMO) systems use large antenna arrays to increase capacity and spectral efficiency. They extend conventional MIMO by serving multiple users simultaneously and steering signals toward them to reduce interference. Beamforming directs radio energy toward specific users. In analogue beamforming, antenna outputs are combined to focus signal power in one direction. Digital beamforming transmits data streams across multiple layers to improve signal strength and reliability. Non-orthogonal multiple access assigns different power levels to users sharing the same frequency resources to improve spectral efficiency. 5G NR uses polar codes for control channels and low-density parity-check codes (LDPC) for data channels, replacing the turbo codes used in 4G....",
+    "questions": [
+      {
+        "id": "q26-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q26-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q26-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r27",
+    "title": "Renaissance",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding renaissance with analytical questions.",
+    "passage": "The Renaissance (UK: rin-AY-s\u0259nss, US: REN-\u0259-sahnss) was a European period of history and cultural movement taking place at the end of the Late Middle Ages and the beginning of the early modern era. It is variously defined as lasting from the 14th century to the 17th or, more narrowly, as covering only the 15th and 16th centuries. It was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity. Associated with great change in art, architecture, politics, literature, exploration and technology, the Renaissance was first centered in the Republic of Florence, then spread to the rest of Italy and later throughout Europe. The Renaissance's intellectual basis was founded in its version of humanism, derived from the concept of Roman humanitas and the rediscovery of classical Greek philosophy, such as that of Protagoras, who said that \"man is the measure of all things\". Although the invention of metal movable type sped the dissemination of ideas from the later 15th century, the changes of the Renaissance were not uniform across Europe: the first traces appear in Italy as early as the late 13th century, in particular with the writings of Dante and the paintings of Giotto. As a cultural movement, the Renaissance encompassed innovative flowering of literary Latin and an explosion of vernacular literatures, beginning with the 14th-century resurgence of learning based on classical sources, which contemporaries credited to Petrarch; the development of linear perspective and other techniques of rendering a more natural reality in painting; and gradual but widespread educational reform. It saw myriad artistic developments and contributions from such polymaths as Leonardo da Vinci and Michelangelo, who inspired the term \"Renaissance man\". In politics, the Renaissance contributed to the development of the customs and conventions of diplomacy, and in science to an increased reliance on observation and inductive reasoning. The period also saw revolutions in printing and navigation, as well as the introduction of modern banking and the field of accounting. The Renaissance began in Italy during the crisis of the Late Middle Ages. It had a different period and characteristics north of the Alps and in Spain. In Italy, the period conventionally ends with the waning of humanism, and the advent of the Reformation (1517), the Sack of Rome (1527) or the Counter-Reformation (1545), and in art, the Baroque period. Proponents of a \"long Renaissance,\" however, may propose that (outside of Italy) the period extended into the 17th century. The traditional view focuses more on the Renaissance's early modern aspects and argues that it was a break from the past, but many historians today focus more on its medieval aspects and argue that it was an extension of the Middle Ages. The beginnings of the period\u2014the early Renaissance of the 15th century and the Italian Proto-Renaissance from around 1250 or 1300\u2014overlap considerably with the Late Middle Ages, conventionally dated to c. 1350\u20131500, and the Middle Ages themselves were a long period filled with gradual changes, like the modern age; as a transitional period between both, the Renaissance has close similarities to both, especially the late and early sub-periods of either. The Renaissance began in Florence, one of the many states of Italy. The Italian Renaissance concluded in 1527 when Holy Roman Emperor Charles V launched an assault on Rome during the war of the League of Cognac. Nevertheless, its impact endured in the art of renowned Italian painters like Tintoretto, Sofonisba Anguissola, and Paolo Veronese, who continued their work during the mid-to-late 16th century. Various theories have been proposed to account for its origins and characteristics, focusing on a variety of factors, including Florence's social and civic peculiarities at the time: its political structure, the patronage of its dominant family, the Medici, and the migration of Greek scholars and their texts to Italy following the fall of Constantinople to the Ottoman Empire. Other major centers were Venice, Genoa, Milan, Rome during the Renaissance Papacy, and Naples. From Italy, the Renaissance spread throughout Europe and also to American, African and Asian territories ruled by the European colonial powers of the time or where Christian missionaries were active. The Renaissance has a long and complex historiography, and in line with general skepticism of discrete periodizations, there has been much debate among historians reacting to the 19th-century glorification of the \"Renaissance\" and individual cultural heroes as \"Renaissance men\", questioning the usefulness of Renaissance as a term and as a historical delineation. Some observers have questioned whether the Renaissance was a cultural \"advance\" from the Middle Ages, instead seeing it as a period of pessimism and nostalgia for classical antiquity, while social and economic historians, especially of the longue dur\u00e9e, have instead focused on the continuity between the two eras, which are linked, as Panofsky observed, \"by a thousand ties\". The Renaissance was a cultural movement...",
+    "questions": [
+      {
+        "id": "q27-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q27-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q27-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r28",
+    "title": "Mental health",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding mental health with analytical questions.",
+    "passage": "Mental health encompasses emotional, psychological, and social well-being, influencing cognition, perception, and behavior. Mental health plays a crucial role in an individual's daily life when managing stress, engaging with others, and contributing to life overall. According to the World Health Organization (WHO), it is a \"state of well-being in which the individual realizes their abilities, can cope with the normal stresses of life, can work productively and fruitfully, and can contribute to their community\". It likewise determines how an individual handles stress, interpersonal relationships, and decision-making. Mental health includes subjective well-being, perceived self-efficacy, autonomy, competence, intergenerational dependence, and self-actualization of one's intellectual and emotional potential, among others. Mental health also includes emotional, psychological, and social well-being, and it affects how people manage stress and make everyday decisions. From the perspectives of positive psychology or holism, mental health is thus not merely the absence of mental illness. Rather, it is a broader state of well-being that includes an individual's ability to enjoy life and to create a balance between life activities and efforts to achieve psychological resilience. Cultural differences, personal philosophy, subjective assessments, and competing professional theories all affect how one defines \"mental health\". Mental health, as defined by the Public Health Agency of Canada, is an individual's capacity to feel, think, and act in ways to achieve a better quality of life while respecting personal, social, and cultural boundaries. Impairment of any of these is a risk factor for mental disorders, or mental illnesses, which is a component of mental health. In 2019, about 970 million people worldwide suffered from a mental disorder, with anxiety and depression being the most common. The number of people suffering from mental disorders has risen significantly over the years. Mental disorders are defined as health conditions that affect and alter cognitive functioning, emotional responses, and behavior associated with distress and/or impaired functioning. The ICD-11 is the global standard used to diagnose, treat, research, and report various mental disorders. In the United States, the DSM-5 is used as the classification system of mental disorders. Mental health is associated with a number of lifestyle factors such as diet, exercise, stress, drug abuse, social connections, and interactions. Psychiatrists, psychologists, licensed professional clinical counselors, social workers, nurse practitioners, and family physicians can help manage mental illness with treatments such as therapy, counseling, medication, and Trauma-informed care. Digital technology has an increasing impact on mental health. Research suggests that constant online connection can increase stress, while digital tools may also expand access to mental-health support for people who cannot easily receive in-person care. Research also shows that digital media use can affect adolescents\u2019 emotional well-being, social development, and mental health outcomes. Cyberbullying and online harassment can worsen mental-health symptoms in children and adolescents. Studies show links between online bullying, depression, and anxiety as well as the long term impacts on individuals. In the mid-19th century, William Sweetser was the first to coin the term mental hygiene, which can be seen as the precursor to contemporary approaches to work on promoting positive mental health. Isaac Ray, the fourth president of the American Psychiatric Association and one of its founders, further defined mental hygiene as \"the art of preserving the mind against all incidents and influences calculated to deteriorate its qualities, impair its energies, or derange its movements. In American history, mentally ill patients were thought to be religiously punished. This response persisted through the 1700s, along with the inhumane confinement and stigmatization of such individuals. Dorothea Dix (1802\u20131887) was an important figure in the development of the \"mental hygiene\" movement. Dix was a school teacher who endeavored to help people with mental disorders and to expose the sub-standard conditions into which they were put. This became known as the \"mental hygiene movement. Before this movement, it was not uncommon that people affected by mental illness would be considerably neglected, often left alone in deplorable conditions without sufficient clothing. From 1840 to 1880, she won the support of the federal government to set up over 30 state psychiatric hospitals; however, they were understaffed, under-resourced, and were accused of violating human rights. Emil Kraepelin in 1896 developed the taxonomy of mental disorders, which has dominated the field for nearly 80 years. Later, the proposed disease model of abnormality was subjected to analysis and considered normality to be relative to the physical, geographical, and cultural aspects of the defining group. At the beginning of the 20th century, Clifford Beers founded \"Mental Health America \u2013 National Committee for Mental Hygiene\", after publication of his accounts as a patient in several lunatic asylums, A Mind That Found Itself, in 1908 and opened the first outpatient mental health clinic in the United States. In the early 20th century, mental illness was increasingly viewed as a public health concern. The mental hygiene movement, similar to the social...",
+    "questions": [
+      {
+        "id": "q28-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q28-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q28-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r29",
+    "title": "Pollution",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding pollution with analytical questions.",
+    "passage": "Pollution is the introduction of contaminants into the natural environment that cause harm. Pollution can take the form of any substance (solid, liquid, or gas) or energy (such as radioactivity, heat, sound, or light). Pollutants, the components of pollution, can be either foreign substances/energies or naturally occurring contaminants. Although environmental pollution can be caused by natural events, the word pollution generally implies that the contaminants have a human source, such as manufacturing, extractive industries, poor waste management, transportation or agriculture. Pollution is often classed as point source (coming from a highly concentrated specific site, such as a factory, mine, construction site), or nonpoint source pollution (coming from widespread distributed sources, such as microplastics or agricultural runoff). Many sources of pollution were unregulated parts of industrialization during the 19th and 20th centuries until the emergence of environmental regulation and pollution policy in the later half of the 20th century. Sites where historically polluting industries released persistent pollutants may have legacy pollution long after the source of the pollution is stopped. Major forms of pollution include air pollution, water pollution, litter, noise pollution, plastic pollution, soil contamination, radioactive contamination, thermal pollution, light pollution, and visual pollution. Pollution has widespread consequences on human and environmental health, having systematic impact on social and economic systems. In 2019, pollution killed approximately nine million people worldwide (about one in six deaths that year); about three-quarters of these deaths were caused by air pollution. A 2022 literature review found that levels of anthropogenic chemical pollution have exceeded planetary boundaries and now threaten entire ecosystems around the world. Pollutants frequently have outsized impacts on vulnerable populations, such as children and the elderly, and marginalized communities, because polluting industries and toxic waste sites tend to be collocated with populations with less economic and political power. This outsized impact is a core reason for the formation of the environmental justice movement, and continues to be a core element of environmental conflicts, particularly in the Global South. Because of the impacts of these chemicals, local, country-level, and international policy have increasingly sought to regulate pollutants, resulting in increasing air and water quality standards, alongside regulation of specific waste streams. Regional and national policy is typically supervised by environmental agencies or ministries, while international efforts are coordinated by the UN Environmental Program and other treaty bodies. Pollution mitigation is an important part of all of the Sustainable Development Goals. The term \"pollution\" in the modern environmental sense was rare before the 1860s. The old sense referred to the desecration of something sacred. According to Adam Rome: To describe what we now call air pollution\u2013i.e., the gaseous, chemical, and metallic by-products of combustion and industrial processes\u2013people usually talked of \"the smoke nuisance.\" There were several variations of that term\u2013\"the smoke problem,\" \"the smoke evil,\" even \"the smoke plague.\" Various definitions of pollution exist, which may or may not recognize certain types, such as noise pollution or greenhouse gases. The United States Environmental Protection Agency defines pollution as \"Any substances in water, soil, or air that degrade the natural quality of the environment, offend the senses of sight, taste, or smell, or cause a health hazard. The usefulness of the natural resource is usually impaired by the presence of pollutants and contaminants.\" In contrast, the United Nations considers pollution to be the \"presence of substances and heat in environmental media (air, water, land) whose nature, location, or quantity produces undesirable environmental effects.\" The major forms of pollution are listed below along with the particular contaminants relevant to each of them: Air pollution: the release of chemicals and particulates into the atmosphere. Common gaseous pollutants include carbon monoxide, sulfur dioxide, chlorofluorocarbons (CFCs) and nitrogen oxides produced by industry and motor vehicles. Photochemical ozone and smog are created as nitrogen oxides and hydrocarbons react to sunlight. Particulate matter, or fine dust is characterized by their micrometre size PM10 to PM2.5. Chemical pollution: the introduction of novel entities (NEs) in the environment is one of the planetary boundaries. In August 2022, scientists concluded that the (overall transgressed) boundary is a placeholder for multiple different boundaries for NEs that may emerge, reporting that per- and polyfluoroalkyl substances (PFAS) pollution, informally referred to as \"forever chemicals\", is one such new boundary. Electromagnetic pollution: the overabundance of electromagnetic radiation in their non-ionizing form, such as radio and television transmissions, Wi-fi etc. Although there is no demonstrable effect on humans there can be interference with radio-astronomy and effects on safety systems of aircraft and cars. Light pollution: includes light trespass, over-illumination and astronomical interference. Littering: the criminal throwing of inappropriate man-made objects, unremoved, onto public and private properties. Noise pollution: which encompasses roadway noise, aircraft noise, industrial noise as well as high-intensity sonar. Plastic pollution: involves the accumulation of plastic products and microplastics in the environment that adversely affects wildlife, wildlife...",
+    "questions": [
+      {
+        "id": "q29-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q29-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q29-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r30",
+    "title": "Capitalism",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding capitalism with analytical questions.",
+    "passage": "Capitalism is an economic system based on the private ownership of the means of production and its use for the purpose of obtaining profit. This socioeconomic system has developed historically in several stages, and is defined by a number of constituent elements: private property, profit motive, capital accumulation, competitive markets, commodification, wage labor, and an emphasis on innovation and economic growth. Capitalist economies may experience business cycles of economic expansion followed by recessions. Economists, historians, political economists, and sociologists have adopted different perspectives in their analyses of capitalism and have recognized various forms of it in practice. These include laissez-faire or free-market capitalism, state capitalism, and welfare capitalism. Different forms of capitalism feature varying degrees of free markets, public ownership, obstacles to free competition, and state-sanctioned social policies. The degree of competition in markets and the role of intervention and regulation, as well as the scope of state ownership, vary across different models of capitalism. The extent to which different markets are free and the rules defining private property are matters of politics and policy. Most of the existing economies in the world at present are mixed economies that combine elements of free markets with state intervention and in some cases economic planning. Capitalism in its modern form emerged from agrarianism in England, as well as mercantilist practices by European countries between the 16th and 18th centuries. The Industrial Revolution of the 18th century established capitalism as a dominant mode of production, characterized by factory work, and a complex division of labor. Through the process of globalization, capitalism spread across the world in the 19th and 20th centuries, especially before World War I and again after the end of the Cold War. During the 19th century, capitalism was largely unregulated by the state, but became more regulated in the post\u2013World War II period through Keynesianism, followed by a return of more unregulated capitalism termed neoliberalism, starting in the 1980s. The term \"capitalist\", meaning an owner of capital, appears earlier than the term \"capitalism\" and dates to the mid-17th century. \"Capitalism\" is derived from capital, which evolved from capitale, a late Latin word based on caput, meaning \"head\"\u2014which is also the origin of \"chattel\" and \"cattle\" in the sense of movable property (only much later to refer only to livestock). Capitale emerged in the 12th to 13th centuries to refer to funds, stock of merchandise, sum of money or money carrying interest. By 1283, it was used in the sense of the capital assets of a trading firm and was often interchanged with other words\u2014wealth, money, funds, goods, assets, property and so on. The Hollantse Mercurius (1651-1691) uses \"capitalists\" in 1653 and 1654 to refer to owners of capital. In French, \u00c9tienne Clavier referred to capitalistes in 1788, four years before its first recorded English usage by Arthur Young in his work Travels in France (1792). In his Principles of Political Economy and Taxation (1817), David Ricardo referred to \"the capitalist\" many times. English poet Samuel Taylor Coleridge used \"capitalist\" in his work Table Talk (1823). Pierre-Joseph Proudhon used the term in his first work, What is Property? (1840), to refer to the owners of capital. Benjamin Disraeli used the term in his 1845 work Sybil. Alexander Hamilton used \"capitalist\" in his Report of Manufactures presented to the United States Congress in 1791. The initial use of the term \"capitalism\" in its modern sense is attributed to Louis Blanc in 1850 (\"What I call 'capitalism' that is to say the appropriation of capital by some to the exclusion of others\") and Pierre-Joseph Proudhon in 1861 (\"Economic and social regime in which capital, the source of income, does not generally belong to those who make it work through their labor\"). Karl Marx frequently referred to the \"capital\" and to the \"capitalist mode of production\" in Das Kapital (1867). Marx did not use the form capitalism but instead used capital, capitalist and capitalist mode of production, which appear frequently. Due to the word being coined by socialist critics of capitalism, economist and historian Robert Hessen stated that the term \"capitalism\" itself is a term of disparagement and a misnomer for economic individualism. Bernard Harcourt agrees with the statement that the term is a misnomer, adding that it misleadingly suggests that there is such a thing as \"capital\" that inherently functions in certain ways and is governed by stable economic laws of its own. In the English language, the term \"capitalism\" first appears, according to the Oxford English Dictionary (OED), in 1854, in the novel The Newcomes by novelist William Makepeace Thackeray, where the word meant \"having ownership of capital\". Also according to the OED, Carl Adolph Douai, a German American socialist and abolitionist, used the term \"private capitalism\" in 1863. Other terms sometimes used for capitalism are: Capitalist mode of production Economic liberalism...",
+    "questions": [
+      {
+        "id": "q30-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q30-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q30-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r31",
+    "title": "Theory of relativity",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding theory of relativity with analytical questions.",
+    "passage": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively. Special relativity applies to all physical phenomena in the absence of gravity. General relativity explains the law of gravitation and its relation to the forces of nature. It applies to the cosmological and astrophysical realm, including astronomy. The theory transformed theoretical physics and astronomy during the 20th century, superseding a 200-year-old theory of mechanics created primarily by Isaac Newton. It introduced concepts including 4-dimensional spacetime as a unified entity of space and time, relativity of simultaneity, kinematic and gravitational time dilation, and length contraction. In the field of physics, relativity improved the science of elementary particles and their fundamental interactions, along with ushering in the nuclear age. With relativity, cosmology and astrophysics predicted extraordinary astronomical phenomena such as neutron stars, black holes, and gravitational waves. Albert Einstein published the theory of special relativity in 1905, building on many theoretical results and empirical findings obtained by Albert A. Michelson, Hendrik Lorentz, Henri Poincar\u00e9 and others. Max Planck, Hermann Minkowski and others did subsequent work. Einstein developed general relativity between 1907 and 1915, with contributions by many others after 1915. The final form of general relativity was published in 1916. The term \"theory of relativity\" was based on the expression \"relative theory\" (German: Relativtheorie) used in 1906 by Planck, who emphasized how the theory uses the principle of relativity. In the discussion section of the same paper, Alfred Bucherer used for the first time the expression \"theory of relativity\" (German: Relativit\u00e4tstheorie). By the 1920s, the physics community understood and accepted special relativity. It rapidly became a significant and necessary tool for theorists and experimentalists in the new fields of atomic physics, nuclear physics, and quantum mechanics. By comparison, general relativity did not appear to be as useful, beyond making minor corrections to predictions of Newtonian gravitation theory. It seemed to offer little potential for experimental test, as most of its assertions were on an astronomical scale. Its mathematics seemed difficult and fully understandable only by a small number of people. Around 1960, general relativity became central to physics and astronomy. New mathematical techniques to apply to general relativity streamlined calculations and made its concepts more easily visualized. As astronomical phenomena were discovered, such as quasars (1963), the 3-kelvin microwave background radiation (1965), pulsars (1967), and the first black hole candidates (1981), the theory explained their attributes, and measurement of them further confirmed the theory. Special relativity is a theory of the structure of spacetime. It was introduced in Einstein's 1905 paper \"On the Electrodynamics of Moving Bodies\" (for the contributions of many other physicists and mathematicians, see History of special relativity). Special relativity is based on two postulates which are contradictory in classical mechanics: The laws of physics are the same for all observers in any inertial frame of reference relative to one another (principle of relativity). The speed of light in vacuum is the same for all observers, regardless of their relative motion or of the motion of the light source. The resultant theory copes with experiment better than classical mechanics. For instance, postulate 2 explains the results of the Michelson\u2013Morley experiment. Moreover, the theory has many surprising and counterintuitive consequences. Some of these are: Relativity of simultaneity: Two events, simultaneous for one observer, may not be simultaneous for another observer if the observers are in relative motion. Time dilation: Moving clocks are measured to tick more slowly than an observer's \"stationary\" clock. Length contraction: Objects are measured to be shortened in the direction that they are moving with respect to the observer. Maximum speed is finite: No physical object, message or field line can travel faster than the speed of light in vacuum. The effect of gravity can only travel through space at the speed of light, not faster or instantaneously. Mass\u2013energy equivalence: E = mc2, energy and mass are equivalent and transmutable. Relativistic mass, idea used by some researchers. The defining feature of special relativity is the replacement of the Galilean transformations of classical mechanics by the Lorentz transformations. (See Maxwell's equations of electromagnetism.) General relativity is a theory of gravitation developed by Einstein in the years 1907\u20131915. The development of general relativity began with the equivalence principle, under which the states of accelerated motion and being at rest in a gravitational field (for example, when standing on the surface of the Earth) are physically identical. The upshot of this is that free fall is inertial motion: an object in free fall is falling because that is how objects move when there is no force being exerted on them, instead of this being due to the force of gravity as is the case in classical mechanics. This is incompatible with classical mechanics and special relativity...",
+    "questions": [
+      {
+        "id": "q31-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q31-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q31-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r32",
+    "title": "Cybersecurity",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cybersecurity with analytical questions.",
+    "passage": "Error fetching data.",
+    "questions": [
+      {
+        "id": "q32-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q32-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q32-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r33",
+    "title": "World War I",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding world war i with analytical questions.",
+    "passage": "World War I, or the First World War (28 July 1914 \u2013 11 November 1918), also known as The Great War, was a global conflict between two coalitions: the Allies (or Entente) and the Central Powers. Major areas of conflict included Europe and the Middle East, as well as parts of Africa and the Asia-Pacific. The war saw important developments in weaponry including tanks, aircraft, artillery, machine guns, and chemical weapons. One of the deadliest conflicts in history, it resulted in an estimated 15 to 22 million military and civilian casualties and genocide. The movement of large numbers of people was a major factor in the deadly Spanish flu pandemic. The causes of World War I included the rise of the German Empire and decline of the Ottoman Empire, which disturbed the long-standing balance of power in Europe, the exacerbation of imperial rivalries, and an arms race between the great powers. Growing tensions in the Balkans reached a breaking point on 28 June 1914 when Gavrilo Princip, a Bosnian Serb, assassinated Franz Ferdinand, the heir to the Austro-Hungarian throne. Austria-Hungary blamed Serbia, and declared war on 28 July. After Russia mobilised in Serbia's defence, Germany declared war on Russia and France, who had an alliance. The United Kingdom entered the war after Germany invaded Belgium, and the Ottoman Empire joined the Central Powers in November. Germany's strategy in 1914 was to quickly defeat France before transferring its forces to the east, but its advance was halted in September, and by the end of the year the Western Front consisted of a near-continuous line of trenches from the English Channel to Switzerland. The Eastern Front was more dynamic, but neither side gained a decisive advantage, despite costly offensives. Italy, Bulgaria, Romania, Greece, and others entered the war from 1915 onward. Major battles, including those at Verdun, the Somme, and Passchendaele, failed to break the stalemate on the Western Front. In April 1917, the United States joined the Allies after Germany resumed unrestricted submarine warfare against Atlantic shipping. Later that year, the Bolsheviks seized power in Russia in the October Revolution; Soviet Russia signed an armistice with the Central Powers in December, followed by a separate peace in March 1918. That month, Germany launched a spring offensive in the west, which despite initial successes left the German Army exhausted and demoralised. The Allied Hundred Days Offensive, beginning in August 1918, caused a collapse of the German front line. Following the Vardar Offensive, Bulgaria signed an armistice in late September. By early November, the Allies had signed armistices with the Ottomans and with Austria-Hungary, leaving Germany isolated. Facing a revolution at home, Kaiser Wilhelm II abdicated on 9 November, and the war ended with the Armistice of 11 November 1918. The Paris Peace Conference of 1919\u20131920 imposed settlements on the defeated powers. Under the Treaty of Versailles, Germany lost significant territories, was disarmed, and was required to pay large war reparations to the Allies. The dissolution of the Russian, German, Austro-Hungarian, and Ottoman empires led to new national boundaries and the creation of new independent states including Poland, Finland, the Baltic states, Czechoslovakia, and Yugoslavia. The League of Nations was established to maintain world peace, but its failure to manage instability during the interwar period contributed to the outbreak of World War II in 1939. Before World War II, the events of 1914\u20131918 were commonly referred to as the Great War or simply the World War. In August 1914, The Independent stated of the conflict, \"This is the Great War. It names itself.\" In the decade after its end, many hoped it would be \"the war to end all wars,\" because of its unprecedented destructiveness and death toll. The earliest known use of the term First World War appeared in September 1914, when German biologist and philosopher Ernst Haeckel wrote that the ongoing \"European War\" would become \"the first world war in the full sense of the word.\" For much of the 19th century, the major European powers maintained a tenuous balance of power, known as the Concert of Europe. After 1848, this was challenged by Britain's withdrawal into splendid isolation, the decline of the Ottoman Empire, New Imperialism, and the rise of Prussia under Otto von Bismarck. Victory in the 1870\u20131871 Franco-Prussian War allowed Bismarck to consolidate a German Empire. After 1871, French policy aimed to avenge this defeat and expand France's colonial empire. In 1873, Bismarck negotiated the League of the Three Emperors, which included Austria-Hungary, Russia, and Germany. After the 1877\u20131878 Russo-Turkish War, the League was dissolved due to Austrian concerns over the expansion of Russian influence in the Balkans, an area they considered to be of vital strategic interest. Germany and Austria-Hungary then formed the 1879 Dual Alliance, which became the Triple Alliance when Italy joined in 1882. For...",
+    "questions": [
+      {
+        "id": "q33-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q33-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q33-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r34",
+    "title": "Placebo",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding placebo with analytical questions.",
+    "passage": "A placebo ( pluh-SEE-boh) is a medicine or treatment intended to appear genuine to its recipient, but which has no pharmaceutical effect. Common placebos include inert tablets (like sugar pills), inert injections (like saline), sham surgery, and other procedures. Placebos are used in randomized clinical trials to test the efficacy of medical treatments. In a placebo-controlled trial, any change in the control group is known as the placebo response, and the difference between this and the result of no treatment is the placebo effect. Placebos in clinical trials should ideally be indistinguishable from so-called verum treatments under investigation, except for the latter's particular hypothesized medicinal effect. This is to shield test participants (with their consent) from knowing who is getting the placebo and who is getting the treatment under test, as patients' and clinicians' expectations of efficacy can influence results. The idea of a \"placebo effect\" was discussed in 18th century psychology, but became more prominent in the 20th century. Modern studies find that placebos can affect some outcomes such as pain and nausea, but otherwise do not generally have important clinical effects. Improvements that patients experience after being treated with a placebo can also be due to unrelated factors, such as regression to the mean (a statistical effect where an unusually high or low measurement is likely to be followed by a less extreme one). The use of placebos in clinical medicine raises ethical concerns, especially if they are disguised as an active treatment, as this introduces dishonesty into the doctor\u2013patient relationship and bypasses informed consent. Placebos are also popular because they can sometimes produce relief through psychological mechanisms (a phenomenon known as the \"placebo effect\"). They can affect how patients perceive their condition and encourage the body's chemical processes for relieving pain and a few other symptoms, but have no impact on the disease itself. The Latin term placebo means [I] shall be pleasing. The definition of placebo has been debated. One definition states that a treatment process is a placebo when none of the characteristic treatment factors are effective (remedial or harmful) in the patient for a given disease. In a clinical trial, a placebo response is the measured response of subjects to a placebo; the placebo effect is the difference between that response and no treatment. The placebo response may include improvements due to natural healing, declines due to natural disease progression, the tendency for people who were temporarily feeling either better or worse than usual to return to their average situations (regression toward the mean), and errors in the clinical trial records, which can make it appear that a change has happened when nothing has changed. It is also part of the recorded response to any active medical intervention. Measurable placebo effects may be either objective (e.g. lowered blood pressure) or subjective (e.g. a lowered perception of pain). The placebo effect is a well-documented phenomenon, though it remains widely misunderstood and surrounded by misconceptions. Several studies have questioned its clinical relevance, fueling ongoing debate about its actual effectiveness. A 2001 meta-analysis of the placebo effect looked at trials in 40 different medical conditions, and concluded the only one where it had been shown to have a significant effect was for pain. Another Cochrane review in 2010 suggested that placebo effects are apparent only in subjective, continuous measures, and in the treatment of pain and related conditions. The review found that placebos do not appear to affect the actual diseases, or outcomes that are not dependent on a patient's perception. The authors, Asbj\u00f8rn Hr\u00f3bjartsson and Peter C. G\u00f8tzsche, concluded that their study \"did not find that placebo interventions have important clinical effects in general.\" This interpretation has been subject to criticism, particularly due to concerns about the adequacy of the methodology used. Recent research has linked placebo interventions to improved motor functions in patients with Parkinson's disease. Other objective outcomes affected by placebos include immune and endocrine parameters, end-organ functions regulated by the autonomic nervous system, and sport performance. Measuring the extent of the placebo effect is difficult due to confounding factors. For example, a patient may feel better after taking a placebo due to regression to the mean (i.e. a natural recovery or change in symptoms), but this can be ruled out by comparing the placebo group with a no treatment group (as all the placebo research does). It is harder still to tell the difference between the placebo effect and the effects of response bias, observer bias and other flaws in trial methodology, as a trial comparing placebo treatment and no treatment will not be a blinded experiment. In their 2010 meta-analysis of the placebo effect, Asbj\u00f8rn Hr\u00f3bjartsson and Peter C. G\u00f8tzsche argue that \"even if there were no true effect of placebo, one would expect to record differences between placebo and no-treatment groups...",
+    "questions": [
+      {
+        "id": "q34-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q34-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q34-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r35",
+    "title": "Sustainability",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding sustainability with analytical questions.",
+    "passage": "Sustainability or being sustainable (from the latin sustinere - hold up, hold upright; furnish with means of support; bear, undergo, endure) is the ability to continue over a long period of time. In modern usage it generally refers to a state in which the environment, economy, and society will continue to exist over a long period of time. Many definitions emphasize the environmental dimension. This can include addressing key environmental problems, such as climate change and biodiversity loss. The idea of sustainability can guide decisions at the global, national, organizational, and individual levels. A related concept is that of sustainable development, and the terms are often used to mean the same thing. \"Sustainability is often thought of as a long-term goal (i.e. a more sustainable world), while sustainable development refers to the many processes and pathways to achieve it.\" Details around the economic dimension of sustainability are controversial. Scholars have discussed this under the concept of weak and strong sustainability. For example, there will always be tension between the ideas of \"welfare and prosperity for all\" and environmental conservation, so trade-offs are necessary. It would be desirable to find ways that separate economic growth from harming the environment. This means using fewer resources per unit of output even while growing the economy. This decoupling reduces the environmental impact of economic growth, such as pollution. Doing this is difficult. It is challenging to measure sustainability as the concept is complex, contextual, and dynamic. Indicators have been developed to cover the environment, society, or the economy but there is no fixed definition of sustainability indicators. The metrics are evolving and include indicators, benchmarks, and audits. They include sustainability standards and certification systems, like Fairtrade and Organic. They also involve indices and accounting systems, such as corporate sustainability reporting and triple Bottom Line accounting. It is necessary to address many barriers to sustainability to achieve a sustainability transition or sustainability transformation. Some barriers arise from nature and its complexity while others are extrinsic to the concept of sustainability. For example, they can result from the dominant institutional frameworks in countries. Global issues of sustainability are difficult to tackle because they need global solutions. Existing global organizations such as the UN and WTO are seen as inefficient in enforcing current global regulations. One reason for this is the lack of suitable sanctioning mechanisms. Governments are not the only sources of action for sustainability. For example, business groups have tried to integrate ecological concerns with economic activity, seeking sustainable business. Religious leaders have stressed the need for caring for nature and environmental stability. Individuals can also choose to live more sustainably. Some people have criticized the idea of sustainability. One point of criticism is that the concept is vague and only a buzzword. Another is that sustainability might be an impossible goal. Some experts have pointed out that \"no country is delivering what its citizens need without transgressing the biophysical planetary boundaries\". Sustainability is regarded as a \"normative concept\". This means it is based on what people value or find desirable: \"The quest for sustainability involves connecting what is known through scientific study to applications in pursuit of what people want for the future.\" The 1983 UN Commission on Environment and Development (Brundtland Commission) had a big influence on the use of the term sustainability today. The commission's 1987 Brundtland Report provided a definition of sustainable development. The report, Our Common Future, defines it as development that \"meets the needs of the present without compromising the ability of future generations to meet their own needs\". The report helped bring sustainability into the mainstream of policy discussions. It also popularized the concept of sustainable development. Some other key concepts to illustrate the meaning of sustainability include: It may be a fuzzy concept, but in a positive sense: the goals are more important than the approaches or means applied. It connects with other essential concepts, such as resilience, adaptive capacity, and vulnerability. Choices matter: \"it is not possible to sustain everything, everywhere, forever\". Scale matters in both space and time, and place matters. Limits exist (see planetary boundaries). In everyday usage, sustainability often focuses on the environmental dimension. A single specific definition of sustainability may never be possible, but the concept is still useful. There have been attempts to define it, for example: \"Sustainability can be defined as the capacity to maintain or improve the state and availability of desirable materials or conditions over the long term.\" \"Sustainability [is] the long-term viability of a community, set of social institutions, or societal practice. In general, sustainability is understood as a form of intergenerational ethics in which the environmental and economic actions taken by present persons do not diminish the opportunities of future persons to enjoy similar levels of wealth, utility, or welfare.\" \"Sustainability means meeting our own needs...",
+    "questions": [
+      {
+        "id": "q35-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q35-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q35-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r36",
+    "title": "Human rights",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding human rights with analytical questions.",
+    "passage": "Human rights are universally recognized moral principles or norms that establish standards of human behavior and are often protected by both national and international laws. These rights are considered inherent and inalienable, meaning they belong to every individual simply by virtue of being human, regardless of characteristics like nationality, ethnicity, religion, gender, sexual orientation, disability, caste, or socioeconomic status. They encompass a broad range of civil, political, economic, social, and cultural rights, such as the right to life, freedom of speech, protection against enslavement, and right to education. While ideas related to human rights predate modernity, the modern concept of human rights gained significant prominence after World War II, particularly in response to the atrocities of the Holocaust, leading to the adoption of the Universal Declaration of Human Rights (UDHR) by the United Nations General Assembly in 1948. This document outlined a comprehensive framework of rights that countries are encouraged to protect, setting a global standard for human dignity, freedom, and justice. The Universal Declaration of Human Rights (UDHR) has since inspired numerous international treaties and national laws aimed at promoting and protecting human rights worldwide. While the principle of universal human rights is widely accepted, debates persist regarding which rights should take precedence, how they should be implemented, and their applicability in different cultural contexts. Criticisms often arise from perspectives like cultural relativism, which argue that individual human rights are inappropriate for societies that prioritize a communal or collectivist identity, and may conflict with certain cultural or traditional practices. Nonetheless, human rights remain a central focus in international relations and legal frameworks, supported by institutions such as the United Nations, various non-governmental organizations, and national bodies dedicated to monitoring and enforcing human rights standards worldwide. Many of the basic ideas that animated the human rights movement developed in the aftermath of the Second World War and the events of the Holocaust, culminating in the adoption of the Universal Declaration of Human Rights in Paris by the United Nations General Assembly in 1948. Ancient peoples did not have the same modern-day conception of universal human rights. However, the concept has in some sense existed for centuries, although not in the same way as today. In the West, Jewish and Christian scriptures provided some conceptual foundations for discourse on rights along with Roman law providing legal foundations on what implementation may look like. The true forerunner of human rights discourse was the concept of natural rights, which first appeared as part of the medieval natural law tradition. It developed in new directions during the European Enlightenment with such philosophers as John Locke, Francis Hutcheson, and Jean-Jacques Burlamaqui, and featured prominently in the political discourse of the American Revolution and the French Revolution. From this foundation, the modern human rights arguments emerged over the latter half of the 20th century, possibly as a reaction to slavery, torture, genocide, and war crimes. The medieval natural law tradition was heavily influenced by the writings of St Paul's early Christian thinkers such as St Hilary of Poitiers, St Ambrose, and St Augustine. Augustine was among the earliest to examine the legitimacy of the laws of man, and attempt to define the boundaries of what laws and rights occur naturally based on wisdom and conscience, instead of being arbitrarily imposed by mortals, and if people are obligated to obey laws that are unjust. The Kouroukan Fouga was the constitution of the Mali Empire in West Africa. It was composed in the 13th century, and was one of the very first charters on human rights. It included the \"right to life and to the preservation of physical integrity\" and significant protections for women. Spanish scholasticism insisted on a subjective vision of law during the 16th and 17th centuries: Luis de Molina, Domingo de Soto and Francisco Vitoria, members of the School of Salamanca, defined law as a moral power over one's own. Although they maintained at the same time, the idea of law as an objective order, they stated that there are certain natural rights, mentioning both rights related to the body (right to life, to property) and to the spirit (right to freedom of thought, dignity). The jurist V\u00e1zquez de Menchaca, starting from an individualist philosophy, was decisive in the dissemination of the term iura naturalia. This natural law thinking was supported by contact with American civilizations and the debate that took place in Castile about the just titles of the conquest and, in particular, the nature of the indigenous people. In the Castilian colonization of America, it is often stated, measures were applied in which the germs of the idea of Human Rights are present, debated in the well-known Valladolid Debate that took place in 1550 and 1551. The thought of the School of Salamanca, especially through Francisco Vitoria, also contributed to the promotion of...",
+    "questions": [
+      {
+        "id": "q36-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q36-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q36-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r37",
+    "title": "Plate tectonics",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding plate tectonics with analytical questions.",
+    "passage": "Plate tectonics (from Latin tectonicus, from Ancient Greek \u03c4\u03b5\u03ba\u03c4\u03bf\u03bd\u03b9\u03ba\u03cc\u03c2 (tektonik\u00f3s) 'pertaining to building') is the scientific theory that Earth's lithosphere comprises a number of large tectonic plates, which have been slowly moving since 3\u20134 billion years ago. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. Plate tectonics came to be accepted by geoscientists after seafloor spreading was validated in the mid- to late 1960s. The processes that result in plates and shape Earth's crust are called tectonics. Earth's lithosphere, the rigid outer shell of the planet including the crust and upper mantle, is fractured into seven or eight major plates (depending on how they are defined) and many minor plates or \"platelets\". Where the plates meet, their relative motion determines the type of plate boundary (or fault): convergent, divergent, or transform. The relative movement of the plates typically ranges from zero to 10 cm annually. Faults tend to be geologically active, with earthquakes, volcanic activity, mountain-building, and oceanic trench formation. Tectonic plates are composed of the oceanic lithosphere and the thicker continental lithosphere, each topped by its own kind of crust. Along convergent plate boundaries, the process of subduction carries the edge of one plate down under the other plate and into the mantle. This process reduces the total surface area (crust) of Earth. The lost surface is balanced by the formation of new oceanic crust along divergent margins by seafloor spreading, keeping the total surface area constant in a tectonic \"conveyor belt\". While Earth is the only planet known to currently have active plate tectonics, evidence suggests that other planets and moons have experienced or exhibit forms of tectonic activity. Jupiter's moon Europa shows signs of ice crustal plates moving and interacting, similar to Earth's plate tectonics. Mars and Venus are thought to have had tectonic activity in the past, though not of the same form as Earth. Tectonic plates are relatively rigid and float across the ductile asthenosphere beneath. Lateral density variations in the mantle result in convection currents, the slow creeping motion of Earth's solid mantle. At a seafloor spreading ridge, plates move away from the ridge, which is a topographic high, and the newly formed crust cools as it moves away, increasing its density and contributing to the motion. At a subduction zone, the relatively cold, dense oceanic crust sinks down into the mantle, forming the downward convecting limb of a mantle cell, which is the strongest driver of plate motion. The relative importance and interaction of other proposed factors such as active convection, upwelling inside the mantle, and tidal drag of the Moon are subjects of debate. The outer layers of Earth are divided into the lithosphere and asthenosphere. The division is based on differences in mechanical properties and in the method for the transfer of heat. The lithosphere is cooler and more rigid, while the asthenosphere is hotter and flows more easily. In terms of heat transfer, the lithosphere loses heat by conduction, whereas the asthenosphere also transfers heat by convection and has a nearly adiabatic temperature gradient. This division should not be confused with the chemical subdivision of these same layers into the mantle (comprising both the asthenosphere and the mantle portion of the lithosphere) and the crust: a given piece of mantle may be part of the lithosphere or the asthenosphere at different times depending on its temperature and pressure. The key principle of plate tectonics is that the lithosphere exists as separate and distinct tectonic plates, which ride on the viscoelastic asthenosphere. Plate motions range from 10 to 40 millimetres per year (0.4 to 1.6 in/year) at the Mid-Atlantic Ridge (about as fast as fingernails grow), to about 160 millimetres per year (6.3 in/year) for the Nazca plate (about as fast as hair grows). Tectonic lithospheric plates consist of lithospheric mantle overlain by one or two types of crustal material: oceanic crust (in older texts called sima from silicon and magnesium) and continental crust (sial from silicon and aluminium). The distinction between oceanic crust and continental crust is based on their modes of formation. Oceanic crust is formed at sea-floor spreading centers. Continental crust is formed through arc volcanism and accretion of terranes through plate tectonic processes. Oceanic crust is denser than continental crust because it has less silicon and more of the heavier elements than continental crust. As a result of this density difference, oceanic crust generally lies below sea level, while continental crust buoyantly projects above sea level. Average oceanic lithosphere is typically 100 km (62 mi) thick. Its thickness is a function of its age. As time passes, it cools by conducting heat from below, and releasing it radiatively into space. The adjacent mantle below is cooled by this process and added to its base. Because...",
+    "questions": [
+      {
+        "id": "q37-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q37-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q37-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r38",
+    "title": "Cloud computing",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding cloud computing with analytical questions.",
+    "passage": "Cloud computing is defined by the International Organization for Standardization (ISO) as \"a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on demand\". It is commonly referred to as \"the cloud\". In 2011, the National Institute of Standards and Technology (NIST) identified five \"essential characteristics\" for cloud systems. Below are the exact definitions according to NIST: On-demand self-service: \"A consumer can unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider.\" Broad network access: \"Capabilities are available over the network and accessed through standard mechanisms that promote use by heterogeneous thin or thick client platforms (e.g., mobile phones, tablets, laptops, and workstations).\" Resource pooling: \" The provider's computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand.\" Rapid elasticity: \"Capabilities can be elastically provisioned and released, in some cases automatically, to scale rapidly outward and inward commensurate with demand. To the consumer, the capabilities available for provisioning often appear unlimited and can be appropriated in any quantity at any time.\" Measured service: \"Cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts). Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service. By 2023, the International Organization for Standardization (ISO) had expanded and refined the list. The history of cloud computing extends to the 1960s, with the initial concepts of time-sharing becoming popularized via remote job entry (RJE). The \"data center\" model, where users submitted jobs to operators to run on mainframes, was predominantly used during this era. This period saw broad experimentation with making large-scale computing power more accessible through time-sharing, while optimizing infrastructure, platforms, and applications to improve efficiency for end users. The \"cloud\" metaphor for virtualized services dates to 1994, when it was used by General Magic for the universe of \"places\" that mobile agents in the Telescript environment could \"go\". The metaphor is credited to David Hoffman, a General Magic communications specialist, based on its long-standing use in networking and telecom. The expression cloud computing became more widely known in 1996 when Compaq Computer Corporation drew up a business plan for future computing and the Internet. The company's ambition was to supercharge sales with \"cloud computing-enabled applications\". The business plan foresaw that online consumer file storage would likely be commercially successful. As a result, Compaq decided to sell server hardware to internet service providers. In the 2000s, the application of cloud computing began to take shape with the establishment of Amazon Web Services (AWS) in 2002, which allowed developers to build applications independently. In 2006 Amazon Simple Storage Service, known as Amazon S3, and the Amazon Elastic Compute Cloud (EC2) were released. In 2008 NASA's development of the first open-source software for deploying private and hybrid clouds. The following decade saw the launch of various cloud services. In 2010, Microsoft launched Microsoft Azure, and Rackspace Hosting and NASA initiated an open-source cloud-software project, OpenStack. IBM introduced the IBM SmartCloud framework in 2011, and Oracle announced the Oracle Cloud in 2012. In December 2019, Amazon launched AWS Outposts, a service that extends AWS infrastructure, services, APIs, and tools to customer data centers, co-location spaces, or on-premises facilities. Cloud computing can shorten time to market by offering pre-configured tools, scalable resources, and managed services, allowing users to focus on core business value rather than maintaining infrastructure. Cloud platforms can enable organizations and individuals to reduce upfront capital expenditures on physical infrastructure by shifting to an operational expenditure model, where costs scale with usage. Cloud platforms also offer managed services and tools, such as artificial intelligence, data analytics, and machine learning, which might otherwise require significant in-house expertise and infrastructure investment. While cloud computing can offer cost advantages through effective resource optimization, organizations often face challenges such as unused resources, inefficient configurations, and hidden costs without proper oversight and governance. Many cloud platforms provide cost management tools, such as AWS Cost Explorer and Azure Cost Management, and frameworks like FinOps have emerged to standardize financial operations in the cloud. Cloud computing also facilitates collaboration, remote work, and global service delivery by enabling secure access to data and applications from any location with an internet connection. Cloud providers offer various redundancy options for core services, such as managed storage and managed databases, though redundancy configurations often vary by service tier. Advanced redundancy strategies, such as cross-region replication or failover systems, typically require explicit configuration and may incur additional costs or licensing fees. Cloud environments operate under...",
+    "questions": [
+      {
+        "id": "q38-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q38-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q38-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r39",
+    "title": "Ancient Egypt",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding ancient egypt with analytical questions.",
+    "passage": "Ancient Egypt was a cradle of civilization concentrated along the lower reaches of the Nile River in the eastern corner of North Africa. It emerged from prehistoric Egypt around 3150 BC (according to conventional Egyptian chronology), when Upper and Lower Egypt were united by Menes, who is believed by the majority of Egyptologists to have been the same person as Narmer. The history of ancient Egypt unfolded as a series of stable kingdoms interspersed by the \"Intermediate Periods\" of relative instability. These stable kingdoms existed in one of three periods: the Old Kingdom of the Early Bronze Age; the Middle Kingdom of the Middle Bronze Age; or the New Kingdom of the Late Bronze Age. The pinnacle of ancient Egyptian power was achieved during the New Kingdom, which extended its rule to much of Nubia and a considerable portion of the Levant. After this period, Egypt entered an era of slow decline. Over the course of its history, it was invaded or conquered by a number of foreign civilizations, including the Hyksos, the Kushites, the Assyrians, the Persians, and the Greeks and then the Romans. The end of ancient Egypt is variously defined as occurring with the end of the Late Period during the Wars of Alexander the Great in 332 BC or with the end of the Greek-ruled Ptolemaic Kingdom during the Roman conquest of Egypt in 30 BC. In AD 642, the Arab conquest of Egypt brought an end to the region's millennium-long Greco-Roman period. The success of ancient Egyptian civilization came partly from its ability to adapt to the Nile's conditions for agriculture. The predictable flooding of the Nile and controlled irrigation of its fertile valley produced surplus crops which supported a more dense population and thereby substantial social and cultural development. With resources to spare, the administration sponsored the mineral exploitation of the valley and its surrounding desert regions, the early development of an independent writing system, the organization of collective construction and agricultural projects, trade with other civilizations, and a military to assert Egyptian dominance throughout the Near East. Motivating and organizing these activities was a bureaucracy of elite scribes, religious leaders, and administrators under the control of the reigning pharaoh, who ensured the cooperation and unity of the Egyptian people in the context of an elaborate system of religious beliefs. Among the many achievements of ancient Egypt are: the quarrying, surveying, and construction techniques that supported the building of monumental pyramids, temples, and obelisks; a system of mathematics; a practical and effective system of medicine; irrigation systems and agricultural production techniques; the first known planked boats; Egyptian faience and glass technology; new forms of literature; and the earliest known peace treaty, which was ratified with the Anatolia-based Hittite Empire. Its art and architecture were widely copied and its antiquities were carried off to be studied, admired, or coveted in the far corners of the world. Likewise, its monumental ruins inspired the imaginations of travelers and writers for millennia. A newfound European and Egyptian respect for antiquities and excavations that began in earnest in the early modern period has led to much scientific investigation of ancient Egypt and its society, as well as a greater appreciation of its cultural legacy. The Nile has been the lifeline of its region for much of human history. The fertile floodplain of the Nile gave humans the opportunity to develop a settled agricultural economy and a more sophisticated, centralized society that became a cornerstone in the history of human civilization. In Predynastic and Early Dynastic times, the Egyptian climate was much less arid than it is today. Large regions of Egypt were savanna and traversed by herds of grazing ungulates. Foliage and fauna were far more prolific in all environs, and the Nile region supported large populations of waterfowl. Hunting would have been common for Egyptians, and this is also the period when many animals were first domesticated. By about 5500 BC, small tribes living in the Nile valley had developed into a series of cultures demonstrating firm control of agriculture and animal husbandry, and identifiable by their pottery and personal items, such as combs, bracelets, and beads. The largest of these early cultures in upper (Southern) Egypt was the Badarian culture, which probably originated in the Western Desert; it was known for its high-quality ceramics, stone tools, and its use of copper. The Badari was followed by the Naqada culture: the Naqada I (Amratian), the Naqada II (Gerzeh), and Naqada III (Semainean). These brought a number of technological improvements. As early as the Naqada I Period, predynastic Egyptians imported obsidian from Ethiopia, used to shape blades and other objects from flakes. Mutual trade with the Levant was established during Naqada II (c. 3600\u20133350 BC); this period was also the beginning of trade with Mesopotamia, which continued into the...",
+    "questions": [
+      {
+        "id": "q39-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q39-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q39-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r40",
+    "title": "Neuroplasticity",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding neuroplasticity with analytical questions.",
+    "passage": "Neuroplasticity, also known as neural plasticity or just plasticity, is the medium of neural networks in the brain to change through growth and reorganization. Neuroplasticity refers to the brain's ability to reorganize and rewire its neural connections, enabling it to adapt and function in ways that differ from its prior state. This process can occur in response to learning new skills, experiencing environmental changes, recovering from injuries, or adapting to sensory or cognitive deficits. Such adaptability highlights the dynamic and ever-evolving nature of the brain, even into adulthood. These changes range from individual neuron pathways making new connections, to systematic adjustments like cortical remapping or neural oscillation. Other forms of neuroplasticity include homologous area adaptation, cross modal reassignment, map expansion, and compensatory masquerade. Examples of neuroplasticity include circuit and network changes that result from learning a new ability, information acquisition, environmental influences, pregnancy, caloric intake, practice/training, and psychological stress. Neuroplasticity was once thought by neuroscientists to manifest only during childhood, but research in the later half of the 20th century showed that many aspects of the brain exhibit plasticity through adulthood. The developing brain exhibits a higher degree of plasticity than the adult brain. Activity-dependent plasticity can have significant implications for healthy development, learning, memory, and recovery from brain damage. The term plasticity was first applied to behavior in 1890 by William James in The Principles of Psychology where the term was used to describe \"a structure weak enough to yield to an influence, but strong enough not to yield all at once\". The first person to use the term neural plasticity appears to have been the Polish neuroscientist Jerzy Konorski. One of the first experiments providing evidence for neuroplasticity was conducted in 1793, by Italian anatomist Michele Vincenzo Malacarne, who described experiments in which he paired animals, trained one of the pair extensively for years, and then dissected both. Malacarne discovered that the cerebellums of the trained animals were substantially larger than the cerebellum of the untrained animals. However, while these findings were significant, they were eventually forgotten. In 1890, the idea that the brain and its function are not fixed throughout adulthood was proposed by William James in The Principles of Psychology, though the idea was largely neglected. Up until the 1970s, neuroscientists believed that the brain's structure and function was essentially fixed throughout adulthood. While the brain was commonly understood as a nonrenewable organ in the early 1900s, the pioneering neuroscientist Santiago Ram\u00f3n y Cajal used the term neuronal plasticity to describe nonpathological changes in the structure of adult brains. Based on his renowned neuron doctrine, Cajal first described the neuron as the fundamental unit of the nervous system that later served as an essential foundation to develop the concept of neural plasticity. Many neuroscientists used the term plasticity to explain the regenerative capacity of the peripheral nervous system only. Cajal, however, used the term plasticity to reference his findings of degeneration and regeneration in the adult brain (a part of the central nervous system). This was controversial, with some like Walther Spielmeyer and Max Bielschowsky arguing that the CNS cannot produce new cells. The term has since been broadly applied: Given the central importance of neuroplasticity, an outsider would be forgiven for assuming that it was well defined and that a basic and universal framework served to direct current and future hypotheses and experimentation. Sadly, however, this is not the case. While many neuroscientists use the word neuroplasticity as an umbrella term it means different things to different researchers in different subfields ... In brief, a mutually agreed-upon framework does not appear to exist. In 1923, Karl Lashley conducted experiments on rhesus monkeys that demonstrated changes in neuronal pathways, which he concluded were evidence of plasticity. Despite this, and other research that suggested plasticity, neuroscientists did not widely accept the idea of neuroplasticity. Inspired by work from Nicolas Rashevsky, in 1943, McCulloch and Pitts proposed the artificial neuron, with a learning rule, whereby new synapses are produced when neurons fire simultaneously. This is then extensively discussed in The organization of behavior (Hebb, 1949) and is now known as Hebbian learning. In 1945, Justo Gonzalo concluded from his research on brain dynamics, that, contrary to the activity of the projection areas, the \"central\" cortical mass (more or less equidistant from the visual, tactile and auditive projection areas), would be a \"maneuvering mass\", rather unspecific or multisensory, with capacity to increase neural excitability and re-organize the activity by means of plasticity properties. He gives as a first example of adaptation, to see upright with reversing glasses in the Stratton experiment, and specially, several first-hand brain injuries cases in which he observed dynamic and adaptive properties in their disorders, in particular in the inverted perception disorder [e.g., see pp 260\u201362 Vol. I (1945), p 696 Vol. II (1950)]. He...",
+    "questions": [
+      {
+        "id": "q40-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q40-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q40-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r41",
+    "title": "Biodiversity",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding biodiversity with analytical questions.",
+    "passage": "Biodiversity is the variability of life on Earth. It can be measured on various levels, for example, genetic variability, species diversity, ecosystem diversity and phylogenetic diversity. Diversity is not distributed evenly on Earth\u2014it is greater in the tropics as a result of the warm climate and high primary productivity in the region near the equator. Tropical forest ecosystems cover less than one-fifth of Earth's terrestrial area and contain about 50% of the world's species. There are latitudinal gradients in species diversity for both marine and terrestrial taxa. Since life began on Earth, six major mass extinctions and several minor events have led to large and sudden drops in biodiversity. The Phanerozoic aeon (the last 540 million years) marked a rapid growth in biodiversity via the Cambrian explosion. In this period, the majority of multicellular phyla first appeared. The next 400 million years included repeated, massive biodiversity losses. Those events have been classified as mass extinction events. In the Carboniferous, rainforest collapse may have led to a great loss of plant and animal life. The Permian\u2013Triassic extinction event, 251 million years ago, was the worst; vertebrate recovery took 30 million years. Human activities have led to an ongoing biodiversity loss and an accompanying loss of genetic diversity. This process is often referred to as Holocene extinction, or the sixth mass extinction. For example, it was estimated in 2007 that up to 30% of all species will be extinct by 2050. Destroying habitats for farming is a key reason why biodiversity is decreasing today. Climate change also plays a role. This can be seen for example in the effects of climate change on biomes. This anthropogenic extinction may have started toward the end of the Pleistocene, as some studies suggest that the megafaunal extinction event that took place around the end of the last ice age partly resulted from overhunting. Biologists most often define biodiversity as the \"totality of genes, species and ecosystems of a region\". An advantage of this definition is that it presents a unified view of the traditional types of biological variety previously identified: taxonomic diversity (usually measured at the species diversity level) ecological diversity (often viewed from the perspective of ecosystem diversity) morphological diversity (which stems from genetic diversity and molecular diversity) functional diversity (which is a measure of the number of functionally disparate species within a population (e.g. different feeding mechanisms, different motility, predator vs prey, etc.)) Biodiversity is most commonly used to replace the more clearly-defined and long-established terms, species diversity and species richness. However, there is no concrete definition for biodiversity, as its definition continues to be reimagined and redefined. To give a couple of examples, the Food and Agriculture Organization of the United Nations (FAO) defined biodiversity in 2019 as \"the variability that exists among living organisms (both within and between species) and the ecosystems of which they are part.\" The World Health Organization updated its website's definition of biodiversity to be the \"variability among living organisms from all sources.\" Both these definitions, although broad, give a current understanding of what is meant by the term biodiversity. According to estimates by Mora et al. (2011), there are approximately 8.7 million terrestrial species and 2.2 million oceanic species. The authors note that these estimates are strongest for eukaryotic organisms and likely represent the lower bound of prokaryotic diversity. Other estimates include: 220,000 vascular plants, estimated using the species-area relation method 0.7\u20131 million marine species 10\u201330 million insects; (of some 0.9 million we know today) 5\u201310 million bacteria; 1.5-3 million fungi, estimates based on data from the tropics, long-term non-tropical sites and molecular studies that have revealed cryptic speciation. Some 0.075 million species of fungi had been documented by 2001; 1 million mites The number of microbial species is not reliably known, but the Global Ocean Sampling Expedition dramatically increased the estimates of genetic diversity by identifying an enormous number of new genes from near-surface plankton samples at various marine locations, initially over the 2004\u20132006 period. The findings may eventually cause a significant change in the way science defines species and other taxonomic categories. Since the rate of extinction has increased, many extant species may become extinct before they are described. Not surprisingly, in the Animalia the most studied groups are birds and mammals, whereas fishes and arthropods are the least studied animal groups. During the last century, decreases in biodiversity have been increasingly observed. It was estimated in 2007 that up to 30% of all species will be extinct by 2050. Of these, about one eighth of known plant species are threatened with extinction. Estimates reach as high as 140,000 species per year (based on Species-area theory). This figure indicates unsustainable ecological practices, because few species emerge each year. The rate of species loss is greater now than at any time in human history, with...",
+    "questions": [
+      {
+        "id": "q41-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q41-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q41-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r42",
+    "title": "Feminism",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding feminism with analytical questions.",
+    "passage": "Feminism is a range of socio-political movements and ideologies that aim to define and establish the political, economic, personal, and social equality of the sexes. Feminism holds the position that modern societies are patriarchal\u2014they prioritize the male point of view\u2014and that women are treated unjustly in these societies. Efforts to change this include fighting against gender stereotypes and improving educational, professional, and interpersonal opportunities and outcomes for women. A person who advocates for feminism is known as a feminist. Originating in late 18th-century Europe, feminist movements have campaigned and continue to campaign for women's rights, including the right to vote, run for public office, work, earn equal pay, own property, receive education, enter into contracts, have equal rights within marriage, and maternity leave. Feminists have also worked to ensure access to contraception, legal abortions, and social integration; and to protect women and girls from sexual assault, sexual harassment, and domestic violence. Changes in female dress standards and acceptable physical activities for women have also been part of feminist movements. Many scholars consider feminist campaigns to be a main force behind major historical societal changes for women's rights, particularly in the West, where they are near-universally credited with achieving women's suffrage, gender-neutral language, reproductive rights for women (including access to contraceptives and abortion), and the right to enter into contracts and own property. Although feminist advocacy is, and has been, mainly focused on women's rights, some argue for the inclusion of men's liberation within its aims, because they believe that men are also harmed by traditional gender roles. Feminist theory, which emerged from feminist movements, aims to understand the nature of gender inequality by examining women's social roles and lived experiences. Feminist theorists have developed theories in a variety of disciplines in order to respond to issues concerning gender. Numerous feminist movements and ideologies have developed over the years, representing different viewpoints and political aims. Traditionally, since the 19th century, first-wave liberal feminism, which sought political and legal equality through reforms within a liberal democratic framework, was contrasted with labour-based proletarian women's movements that over time developed into socialist and Marxist feminism based on class struggle theory. Since the 1960s, both of these traditions are also contrasted with the radical feminism that arose from the radical wing of second-wave feminism and that calls for a radical reordering of society to eliminate patriarchy. Liberal, socialist, and radical feminism are sometimes referred to as the \"Big Three\" schools of feminist thought. Modern feminist activism, scholarship, and policy tend to define contemporary feminism as a movement grounded in human rights, solidarity, and intersectionality; for example UN Women emphasized in 2024 that \"the feminist goals of intersectional justice and gender equality can only be achieved if all women and all LGBTIQ+ people are included as part of a broad, intersectional feminist movement rooted in the universality and indivisibility of human rights,\" while a group of 28 Nordic feminist studies departments, academic journals and feminist organizations in 2025 defined feminism as \"a universal human rights movement built on solidarity, intersectionality, and compassion.\" Since the late 20th century, many newer forms of feminism have emerged. Some forms, such as white feminism and gender-critical feminism, have been criticized as taking into account only white, middle class, college-educated, heterosexual, or cisgender perspectives. These criticisms have led to the creation of ethnically specific or multicultural forms of feminism, such as black feminism and intersectional feminism. Mary Wollstonecraft is seen by many as a founder of feminism due to her 1792 book titled A Vindication of the Rights of Woman in which she argues that class and private property are the basis of discrimination against women, and that women as much as men needed equal rights. Charles Fourier, a utopian socialist and French philosopher, is credited with having coined the word \"f\u00e9minisme\" in 1837, but no trace of the word have been found in his works. The word \"f\u00e9minisme\" (\"feminism\") first appeared in France in 1871 in a medicine thesis about men suffering from tuberculosis and having developed, according to the author Ferdinand-Val\u00e8re Faneau de la Cour, feminine traits. The word \"f\u00e9ministe\" (\"feminist\"), inspired by its medical use, was coined by Alexandre Dumas fils in a 1872 essay, referring to men who supported women rights. In both cases, the use of the word was very negative and reflected a criticism of a so-called \"confusion of the sexes\" by women who refused to abide by the sexual division of society and challenged the inequalities between sexes. The concepts appeared in the Netherlands in 1872, Great Britain in the 1890s, and the United States in 1910. The Oxford English Dictionary dates the first appearance in English in this meaning back to 1895. Depending on the historical moment, culture and country, feminists around the world have had different causes and goals. Most western feminist...",
+    "questions": [
+      {
+        "id": "q42-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q42-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q42-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r43",
+    "title": "Standard Model",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding standard model with analytical questions.",
+    "passage": "The Standard Model of particle physics is the theory describing three of the four known fundamental forces (electromagnetic, weak and strong interactions \u2013 excluding gravity) in the universe and classifying all known elementary particles. It was developed in stages throughout the latter half of the 20th century, through the work of many scientists worldwide, with the current formulation being finalized in the mid-1970s upon experimental confirmation of the existence of quarks. Since then, proof of the top quark (1995), the tau neutrino (2000), and the Higgs boson (2012) have added further credence to the Standard Model. In addition, the Standard Model has predicted with great accuracy the various properties of weak neutral currents and the W and Z bosons. Although the Standard Model is believed to be theoretically self-consistent and has demonstrated some success in providing experimental predictions, it leaves some physical phenomena unexplained and so falls short of being a complete theory of fundamental interactions. For example, it does not fully explain why there is more matter than anti-matter, incorporate the full theory of gravitation as described by general relativity, or account for the universe's accelerating expansion as possibly described by dark energy. The model does not contain any viable dark matter particle that possesses all of the required properties deduced from observational cosmology. The Standard Model without modifications also does not incorporate neutrino oscillations and their non-zero masses, but extensions have been proposed that can account for these features. The development of the Standard Model was driven by theoretical and experimental particle physicists alike. The Standard Model is a paradigm of a quantum field theory for theorists, exhibiting a wide range of phenomena, including spontaneous symmetry breaking, anomalies, and non-perturbative behavior. It is used as a basis for building more exotic models that incorporate hypothetical particles, extra dimensions, and elaborate symmetries (such as supersymmetry) to explain experimental results at variance with the Standard Model, such as the existence of dark matter and neutrino oscillations. In 1928, Paul Dirac introduced the Dirac equation, which implied the existence of antimatter. In 1954, Yang Chen-Ning and Robert Mills extended the concept of gauge theory for abelian groups, e.g. quantum electrodynamics, to nonabelian groups to provide an explanation for strong interactions. In 1957, Chien-Shiung Wu demonstrated parity was not conserved in the weak interaction. In 1961, Sheldon Glashow combined the electromagnetic and weak interactions. In 1964, Murray Gell-Mann and George Zweig introduced quarks and that same year Oscar W. Greenberg implicitly introduced color charge of quarks. In 1967 Steven Weinberg and Abdus Salam incorporated the Higgs mechanism into Glashow's electroweak interaction, giving it its modern form. In 1970, Sheldon Glashow, John Iliopoulos, and Luciano Maiani introduced the GIM mechanism, predicting the charm quark. In 1973 Gross and Wilczek and Politzer independently discovered that non-Abelian gauge theories, like the color theory of the strong force, have asymptotic freedom. In 1976, Martin Perl discovered the tau lepton at the SLAC. In 1977, a team led by Leon Lederman at Fermilab discovered the bottom quark. The Higgs mechanism is believed to give rise to the masses of all the elementary particles in the Standard Model. This includes the masses of the W and Z bosons, and the masses of the fermions, i.e. the quarks and leptons. After the neutral weak currents caused by Z boson exchange were discovered at CERN in 1973, the electroweak theory became widely accepted and Glashow, Salam, and Weinberg shared the 1979 Nobel Prize in Physics for discovering it. The W\u00b1 and Z0 bosons were discovered experimentally in 1983; and the ratio of their masses was found to be as the Standard Model predicted. The theory of the strong interaction (i.e. quantum chromodynamics, QCD), to which many contributed, acquired its modern form in 1973\u201374 when asymptotic freedom was proposed (a development that made QCD the main focus of theoretical research) and experiments confirmed that the hadrons were composed of fractionally charged quarks. The term \"Standard Model\" was introduced by Abraham Pais and Sam Treiman in 1975, with reference to the electroweak theory with four quarks. Steven Weinberg has since claimed priority, explaining that he chose the term Standard Model out of a sense of modesty and used it in 1973 during a talk in Aix-en-Provence in France. The Standard Model includes members of several classes of elementary particles, which in turn can be distinguished by other characteristics, such as color charge. All particles can be summarized as follows: Notes: [\u2020] An anti-electron (e+) is conventionally called a \"positron\". The Standard Model includes 12 elementary particles of spin \u20601/2\u2060, known as fermions. Fermions respect the Pauli exclusion principle, meaning that two identical fermions cannot simultaneously occupy the same quantum state in the same atom. Each fermion has a corresponding antiparticle, which are particles that have corresponding properties with the exception of opposite...",
+    "questions": [
+      {
+        "id": "q43-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q43-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q43-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r44",
+    "title": "Machine learning",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding machine learning with analytical questions.",
+    "passage": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Within a subdiscipline of machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance. Statistics and mathematical optimisation methods compose the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) through unsupervised learning. From a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework. The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used during this time period. The earliest machine learning program was introduced in the 1950s, when Samuel invented a computer program that calculated the chance of winning in checkers for each side, but the history of machine learning is rooted in decades of efforts to study human cognitive processes. In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells. The Hebbian theory of neuron interaction set the groundwork for how many machine learning algorithms work, with connected artificial neurons changing the strength of their connections based on data. Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including Walter Pitts and Warren McCulloch, who proposed the first mathematical model of neural networks including algorithms that mirror human thought processes. By the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyse sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively \"trained\" by a human operator/teacher to recognise patterns and equipped with a \"goof\" button to cause it to reevaluate incorrect decisions. A representative book on research into machine learning during the 1960s was Nils Nilsson's book \"Learning Machines\", dealing mostly with machine learning for pattern classification. Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973. In 1981, a report was given on using teaching strategies so that an artificial neural network learns to recognise 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal. Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: \"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E.\" This definition of the tasks in which machine learning is concerned is fundamentally operational rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper \"Computing Machinery and Intelligence\", in which the question, \"Can machines think?\", is replaced by asking whether machines can convincingly imitate a human in its responses to human-posed questions. In 2014 Ian Goodfellow and others introduced generative adversarial networks (GANs) which could produce realistic synthetic data. By 2016 AlphaGo had won against top human players in Go using reinforcement learning techniques. As a scientific endeavour, machine learning grew out of the quest for artificial intelligence (AI). In the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. They attempted to approach the problem with various symbolic methods, as well as what were then termed \"neural networks\"; these were mostly perceptrons and other models that were later found to be reinventions of the generalised linear models of statistics. Probabilistic reasoning was also employed, especially in automated medical diagnosis. However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data acquisition and representation. By 1980, expert systems had come to dominate AI, and statistics was out of favour. Work on symbolic/knowledge-based learning continued within AI, leading to inductive logic programming (ILP), but the more statistical line of research was now outside the field of AI proper, in pattern recognition and information retrieval. Neural network research was abandoned by AI and computer science around the same time. This subfield, termed \"connectionism\", was continued by researchers from other disciplines, including John Hopfield, David Rumelhart, and Geoffrey Hinton. Their main success came in the mid-1980s with the reinvention of backpropagation. Machine learning (ML), reorganised...",
+    "questions": [
+      {
+        "id": "q44-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q44-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q44-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r45",
+    "title": "American Civil War",
+    "category": "History",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding american civil war with analytical questions.",
+    "passage": "The American Civil War (April 12, 1861 \u2013 May 26, 1865; also known by other names) was a civil war in the United States between the Union (\"the North\") and the Confederacy (\"the South\"), which was formed in 1861 by states that had seceded from the Union to preserve slavery in the United States, which they saw as threatened because of the election of Abraham Lincoln and the growing abolitionist movement in the North. The war lasted a little over four years, ending with Union victory, the dissolution of the Confederacy and the abolition of slavery, freeing four million African Americans. Decades of controversy over slavery came to a head when Abraham Lincoln, a Republican who opposed slavery's expansion, won the 1860 presidential election. Seven Southern slave states responded to Lincoln's victory by seceding from the United States and forming the Confederacy. The Confederacy seized US forts and other federal assets in the South. The war began on April 12, 1861, when the Confederacy bombarded Fort Sumter in South Carolina. A wave of enthusiasm for war swept over the North and South, as military recruitment soared. Four more Southern states seceded after the war began and, led by its president, Jefferson Davis, the Confederacy comprised eleven states, containing a third of the US population. Four years of intense combat, mostly in the South, ensued. During 1861\u20131862 in the western theater, the Union made permanent gains\u2014though in the eastern theater the conflict was inconclusive. The abolition of slavery became a Union war goal on January 1, 1863, when Lincoln issued the Emancipation Proclamation, which declared all slaves in rebel states to be free, applying to more than 3.5 million of the 4 million enslaved people in the country. To the west, the Union first destroyed the Confederacy's river navy by the summer of 1862, then much of its western armies, and seized New Orleans. The successful 1863 Union siege of Vicksburg split the Confederacy in two at the Mississippi River, while Confederate general Robert E. Lee's incursion north failed at the Battle of Gettysburg. General Ulysses S. Grant's western successes led Lincoln to promote him to command of all Union armies in 1864. Inflicting an ever-tightening naval blockade of Confederate ports, the Union marshaled resources and manpower to attack the Confederacy from all directions. This led to the fall of Atlanta in 1864 to Union general William Tecumseh Sherman, followed by his March to the Sea, which culminated in his taking Savannah. The last significant battles raged around the ten-month Siege of Petersburg, gateway to the Confederate capital of Richmond. The Confederates abandoned Richmond, and on April 9, 1865, Lee surrendered to Grant following the Battle of Appomattox Court House, setting in motion the end of the war. Lincoln lived to see this victory but was shot by an assassin on April 14, dying the next day. By the end of the war, much of the South's infrastructure had been destroyed. The Confederacy collapsed, slavery was abolished, and four million enslaved black people were freed. The war-torn nation then entered the Reconstruction era in an attempt to rebuild the country, bring the former Confederate states back into the United States, and grant civil rights to freed slaves. The war is one of the most extensively studied and written about episodes in the history of the United States. It remains the subject of cultural and historiographical debate. Of continuing interest is the myth of the Lost Cause of the Confederacy. The war was among the first to use industrial warfare. Railroads, the electrical telegraph, steamships, the ironclad warship, and mass-produced weapons were widely used. The war left an estimated 700,000 soldiers dead, along with an undetermined number of civilian deaths, making it the deadliest in American history. The technology and brutality of the Civil War foreshadowed the coming world wars. The origins of the war were rooted in the desire of the Southern states to preserve the institution of slavery. Historians in the 21st century overwhelmingly agree on the centrality of slavery in the conflict\u2014at least for the Southern states. They disagree on the North's reasons for refusing to allow the Southern states to secede. The pseudo-historical Lost Cause ideology denies that slavery was the principal cause of the secession, a view disproven by historical evidence, notably some of the seceding states' own secession documents. After leaving the Union, Mississippi issued a declaration stating, \"Our position is thoroughly identified with the institution of slavery\u2014the greatest material interest of the world.\" The principal political battle leading to Southern secession was over whether slavery would expand into the Western territories destined to become states. Initially Congress had admitted new states into the Union in pairs, one slave and one free. This had kept a sectional balance in the Senate but not in the House...",
+    "questions": [
+      {
+        "id": "q45-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q45-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q45-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r46",
+    "title": "Psychoanalysis",
+    "category": "Psychology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding psychoanalysis with analytical questions.",
+    "passage": "Psychoanalysis is a set of theories and techniques to discover unconscious processes and their influence on conscious thought, emotion and behavior. Based on dream interpretation, psychoanalysis is also a talk therapy method for treating mental disorders. Established in the early 1890s by Sigmund Freud, it takes into account Darwin's theory of evolution, neurology findings, ethnology reports, and, in some respects, the clinical research of his mentor Josef Breuer. Freud developed and refined the theory and practice of psychoanalysis until his death in 1939. In an encyclopedic article, he identified four foundational beliefs: \"the assumption that there are unconscious mental processes, the recognition of the theory of repression and resistance, the appreciation of the importance of sexuality and of the Oedipus complex.\" Two of Freud's early colleagues, Alfred Adler and Carl Jung, soon developed their own methods, individual and analytical psychology, respectively, which he said were not forms of psychoanalysis. After the author's death, neo-Freudian thinkers like Erich Fromm, Karen Horney and Harry Stack Sullivan created some subfields. Jacques Lacan, whose work is often referred to as Return to Freud, described his metapsychology as a technical elaboration of the three-instance model of the psyche and examined the language-like structure of the unconscious. Psychoanalysis has been a controversial discipline from the outset, although its influence on psychology and psychiatry is undisputed. While evidence suggests psychoanalysis, especially long-term psychoanalytic psychotherapy, can be effective for certain disorders, its overall efficacy remains contested. It may have benefits in the long term over other psychotherapies. Psychoanalytic concepts are also widely used outside the therapeutic field, for example in the interpretation of neurological findings, myths and fairy tales, philosophical perspectives such as Freudo-Marxism and in literary criticism. One of Freud's central claims is that the contents of the unconscious largely determine cognition and behavior, describing this as the third insult to mankind. The first was the cosmic discovery by Copernicus that the Earth revolved around the Sun, the second was the biological discovery by Darwin that humans evolved from apes, and the third psychological affront was the discovery by Freud that the narcissistically affected ego was not even master of its own home. Freud found that many of the drives are repressed into the unconscious, which the structural model locates in the 'id', as a result of traumatic experiences during childhood. Attempts to integrate them into the conscious perception of the ego triggers resistance. The individual 'wants' to maintain the repression through defense mechanisms\u2014including censorship, internalized fear of punishment or mother-love withdrawal\u2014while the affected instincts resist. An inner war rages between the id and the ego's conscious values, which manifests as more or less conspicuous mental disorders. Importantly, Freud did not equate the most common behavior as 'healthy'. \"Health can only be described in metapsychological terms\" (assessment of each psychic process according to the coordinates of biological drive economy, dynamics and topology). He discovered that the instinctive impulses are expressed most clearly in the symbols of dreams and in the symptomatic detours of neuroticism and Freudian slips. Psychoanalysis was developed in order to clarify the causes of disorders and to restore mental health by enabling the ego to become aware of the id's needs and to find realistic, self-controlled ways to satisfy them. Freud summarized this goal of his therapy in the demand \"Where id was, ego shall became\", defining the underlying libido as driving energy of all innate needs and equating it with the Eros (universal desire) of Platonic philosophy. Freud attached great importance to coherence of his structural model. The metapsychological specification of the functions and interlocking of the three instances was intended to ensure the full connectivity of this 'psychic apparatus' with biological sciences, in particular Darwin's theory of evolution of species, including mankind with his natural behavior, thinking ability and technological creativity. Such a model of health is indispensable for the diagnostic process (sickness can only be realized as a deviation from the optimal cooperation of all mental-organic functions), but Freud had to be modest. He came to the conclusion that he had to leave his metapsychological-based model of the soul in the unfinished state of a torso because \u2013 as he stated one last time in Moses and Monotheism \u2013 there was no well-founded primate research in the first half of 20th century. Without knowledge of the instinctively formed group structure of our genetically closest relatives in animal kingdom (instead of Freud's single 'super-strong primal father', they show highly social male teams, but despite their remarkable intelligence still no ability to form political inter-group organizations), his thesis of the Darwinian primordial horde as presented for discussion in Totem and Taboo cannot be tested and, where necessary, replaced by a realistic model. Darwin's horde life and its abolition through the introduction of monogamy (as a political agreement between the sons who murdered the...",
+    "questions": [
+      {
+        "id": "q46-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q46-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q46-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r47",
+    "title": "Ozone depletion",
+    "category": "Environment",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding ozone depletion with analytical questions.",
+    "passage": "Ozone depletion consists of two related events observed since the late 1970s: a lowered total amount of ozone in Earth's upper atmosphere, and a much larger springtime decrease in stratospheric ozone (the ozone layer) around Earth's polar regions. The latter phenomenon is referred to as the ozone hole. There are also springtime polar tropospheric ozone depletion events in addition to these stratospheric events. The main causes of ozone depletion and the ozone hole are manufactured chemicals, especially manufactured halocarbon refrigerants, solvents, propellants, and foam-blowing agents (chlorofluorocarbons (CFCs), HCFCs, halons), referred to as ozone-depleting substances (ODS). These compounds are transported into the stratosphere by turbulent mixing after being emitted from the surface, mixing much faster than the molecules can settle. Once in the stratosphere, they release atoms from the halogen group through photodissociation, which catalyze the breakdown of ozone (O3) into oxygen (O2). Both types of ozone depletion were observed to increase as emissions of halocarbons increased. Ozone depletion and the ozone hole have generated worldwide concern over increased cancer risks and other negative effects. The ozone layer prevents harmful wavelengths of ultraviolet (UVB) light from passing through the Earth's atmosphere. These wavelengths cause skin cancer, sunburn, permanent blindness, and cataracts, which were projected to increase dramatically as a result of thinning ozone, as well as harming plants and animals. These concerns led to the adoption of the Montreal Protocol in 1987, which bans the production of CFCs, halons, and other ozone-depleting chemicals. Over time, scientists have developed new refrigerants with lower global warming potential (GWP) to replace older ones. For example, in new automobiles, R-1234yf systems are now common, being chosen over refrigerants with much higher GWP such as R-134a and R-12. The ban came into effect in 1989. Ozone levels stabilized by the mid-1990s and began to recover in the 2000s, as the shifting of the jet stream in the Southern Hemisphere towards the South Pole has stopped and might even be reversing. Recovery was projected to continue over the next century, with the ozone hole expected to reach pre-1980 levels by around 2075. In 2019, NASA reported that the ozone hole was the smallest ever since it was first discovered in 1982. The UN now projects that under the current regulations the ozone layer will completely regenerate by 2045. The Montreal Protocol is considered the most successful international environmental agreement to date. Three forms (or allotropes) of oxygen are involved in the ozone-oxygen cycle: oxygen atoms (O or atomic oxygen), oxygen gas (O2 or diatomic oxygen), and ozone gas (O3 or triatomic oxygen). Ozone is formed in the stratosphere when oxygen gas molecules photodissociate after absorbing UVC photons. This converts a single O2 into two atomic oxygen radicals. The atomic oxygen radicals then combine with separate O2 molecules to create two O3 molecules. These ozone molecules absorb UVB light, following which ozone splits into a molecule of O2 and an oxygen atom. The oxygen atom then joins up with an oxygen molecule to regenerate ozone. This is a continuing process that terminates when an oxygen atom recombines with an ozone molecule to make two O2 molecules. It is worth noting that ozone is the only atmospheric gas that absorbs UVB light. O + O3 \u2192 2 O2 The total amount of ozone in the stratosphere is determined by a balance between photochemical production and recombination. Ozone can be destroyed by a number of free radical catalysts; the most important are the hydroxyl radical (OH\u00b7), nitric oxide radical (NO\u00b7), chlorine radical (Cl\u00b7) and bromine radical (Br\u00b7). The dot is a notation to indicate that each species has an unpaired electron and is thus extremely reactive. The effectiveness of different halogens and pseudohalogens as catalysts for ozone destruction varies, in part due to differing routes to regenerate the original radical after reacting with ozone or dioxygen. While all of the relevant radicals have both natural and man-made sources, human activity has impacted some more than others. As of 2020, most of the OH\u00b7 and NO\u00b7 in the stratosphere is naturally occurring, but human activity has drastically increased the levels of chlorine and bromine. These elements are found in stable organic compounds, especially chlorofluorocarbons, which can travel to the stratosphere without being destroyed in the troposphere due to their low reactivity. Once in the stratosphere, the Cl and Br atoms are released from the parent compounds by the action of ultraviolet light, e.g. CFCl3 + electromagnetic radiation \u2192 Cl\u00b7 + \u00b7CFCl2 Ozone is a highly reactive molecule that easily reduces to the more stable oxygen form with the assistance of a catalyst. Cl and Br atoms destroy ozone molecules through a variety of catalytic cycles. In the simplest example of such a cycle, a chlorine atom reacts with an ozone molecule (O3), taking an oxygen atom to form chlorine monoxide (ClO)...",
+    "questions": [
+      {
+        "id": "q47-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q47-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q47-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r48",
+    "title": "Democracy",
+    "category": "Society",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding democracy with analytical questions.",
+    "passage": "Democracy is a form of government in which political power is vested in the people or the population of a state. Under a minimalist definition of democracy, rulers are elected through competitive elections while more expansive or maximalist definitions link democracy to guarantees of civil liberties and human rights in addition to competitive elections. In a direct democracy, the people have the direct authority to deliberate and decide legislation. In a representative democracy, the people choose governing officials through elections to do so. The definition of \"the people\" and the ways authority is shared among them or delegated by them have changed over time and at varying rates in different countries. Features of democracy often include freedom of assembly, association, personal property, freedom of religion and speech, citizenship, consent of the governed, voting rights, freedom from unwarranted governmental deprivation of the right to life and liberty, and minority rights. The notion of democracy has evolved considerably over time. Throughout history, one can find evidence of direct democracy, in which communities make decisions through popular assembly. Today, the dominant form of democracy is representative democracy, where citizens elect government officials to govern on their behalf such as in a parliamentary or presidential democracy. In the common variant of liberal democracy, the powers of the majority are exercised within the framework of a representative democracy, but a constitution and supreme court limit the majority and protect the minority\u2014usually through securing the enjoyment by all of certain individual rights, such as freedom of speech or freedom of association. The term appeared in the 5th century BC in Greek city-states, notably Classical Athens, to mean \"rule of the people\", in contrast to aristocracy (\u1f00\u03c1\u03b9\u03c3\u03c4\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1, aristokrat\u00eda), meaning \"rule of an elite\". In virtually all democratic governments throughout ancient and modern history, democratic citizenship was initially restricted to an elite class, which was later extended to all adult citizens. In most modern democracies, this was achieved through the suffrage movements of the 19th and 20th centuries. Democracy contrasts with forms of government where power is not vested in the general population of a state, such as authoritarian systems. Historically a rare and vulnerable form of government, democratic systems of government have become more prevalent since the 19th century, in particular with various waves of democratization. Democracy garners considerable legitimacy in the modern world, as public opinion across regions tends to strongly favor democratic systems of government relative to alternatives, and as even authoritarian states try to present themselves as democratic. Democracy more consistently results in improved health, education and economic outcomes. According to the V-Dem Democracy indices and The Economist Democracy Index, less than half the world's population lives in a democracy as of 2022. At the same time, while representative democracy is widely valued, Pew Research Center found that dissatisfaction with democratic performance is common even in many established democracies. Although democracy is generally understood to be defined by voting, no consensus exists on a precise definition of democracy. Karl Popper says that the \"classical\" view of democracy is, \"in brief, the theory that democracy is the rule of the people and that the people have a right to rule\". One study identified 2,234 adjectives used to describe democracy in the English language. Democratic principles are reflected in all eligible citizens being equal before the law and having equal access to legislative processes. For example, in a representative democracy, every vote has (in theory) equal weight, and the freedom of eligible citizens is secured by legitimised rights and liberties which are typically enshrined in a constitution, while other uses of \"democracy\" may encompass direct democracy, in which citizens vote on issues directly. According to the United Nations, democracy \"provides an environment that respects human rights and fundamental freedoms, and in which the freely expressed will of people is exercised.\" One theory holds that democracy requires three fundamental principles: upward control (sovereignty residing at the lowest levels of authority), political equality, and social norms by which individuals and institutions only consider acceptable acts that reflect the first two principles of upward control and political equality. Legal equality, political freedom and rule of law are often identified by commentators as foundational characteristics for a well-functioning democracy. In some countries, notably in the United Kingdom (which originated the Westminster system), the dominant principle is that of parliamentary sovereignty, while maintaining judicial independence. In India, parliamentary sovereignty is subject to the Constitution of India which includes judicial review. Though the term \"democracy\" is typically used in the context of a political state, the principles also are potentially applicable to private organisations, such as clubs, societies and firms. Democracies may use many different decision-making methods, but majority rule is the dominant form. Without compensation, like legal protections of individual or group rights, political minorities can be oppressed by the \"tyranny...",
+    "questions": [
+      {
+        "id": "q48-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q48-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q48-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r49",
+    "title": "Dark matter",
+    "category": "Science",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding dark matter with analytical questions.",
+    "passage": "In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light. Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed. Such effects occur in the context of formation and evolution of galaxies, gravitational lensing, the observable universe's current structure, mass position in galactic collisions, the motion of galaxies within galaxy clusters, and cosmic microwave background anisotropies. Dark matter is thought to serve as gravitational scaffolding for cosmic structures. After the Big Bang, dark matter clumped into blobs along narrow filaments with superclusters of galaxies forming a cosmic web at scales on which entire galaxies appear like tiny particles. In the standard Lambda-CDM model of cosmology, the mass\u2013energy content of the universe is 5% ordinary matter, 26.8% dark matter, and 68.2% a form of energy known as dark energy. Thus, dark matter constitutes 85% of the total mass, while dark energy and dark matter constitute 95% of the total mass\u2013energy content. While the density of dark matter is significant in the halo around a galaxy, its local density in the Solar System is much less than normal matter. The total of all the dark matter out to the orbit of Neptune would add up about 1017 kg, the same as a large asteroid. Dark matter is classified as \"cold\", \"warm\", or \"hot\" according to velocity (more precisely, its free streaming length). Recent models have favored a cold dark matter scenario, in which structures emerge by the gradual accumulation of particles. Dark matter is not known to interact with ordinary baryonic matter and radiation except through gravity, making it difficult to detect in the laboratory. The most prevalent explanation is that dark matter is some as-yet-undiscovered subatomic particle, such as either weakly interacting massive particles (WIMPs) or axions. The other main possibility is that dark matter is composed of primordial black holes. Although the astrophysics community generally accepts the existence of dark matter, a minority of astrophysicists, intrigued by specific observations that are not well explained by ordinary dark matter, argue for various modifications of the standard laws of general relativity. These include modified Newtonian dynamics (MOND), tensor\u2013vector\u2013scalar gravity, and entropic gravity. So far none of the proposed modified gravity theories can describe every piece of observational evidence at the same time, suggesting that even if gravity has to be modified, some form of dark matter will still be required. The hypothesis of dark matter has an elaborate history. Lord Kelvin discussed the potential number of stars around the Sun in the appendices of a book based on a series of lectures given in 1884 in Baltimore. He inferred their density using the observed velocity dispersion of the stars near the Sun, assuming that the Sun was 20\u2013100 million years old. He posed what would happen if there were a thousand million stars within 1 kiloparsec of the Sun (at which distance their parallax would be 1 milli-arcsecond). Kelvin concluded: \"Many of our supposed thousand million stars \u2014 perhaps a great majority of them \u2014 may be dark bodies.\" In 1906, Henri Poincar\u00e9 used the French term [mati\u00e8re obscure] (\"dark matter\") in discussing Kelvin's work. He concluded that the amount of dark matter would need to be less than that of visible matter, which was later found to be false. The second to suggest the existence of dark matter using stellar velocities was Dutch astronomer Jacobus Kapteyn in 1922. A publication from 1930 by Swedish astronomer Knut Lundmark points to him being the first to hypothesize that the universe must contain much more mass than can be observed. Dutch radio astronomy pioneer Jan Oort also hypothesized the existence of dark matter in 1932. Oort was studying stellar motions in the galactic neighborhood and found the mass in the galactic plane must be greater than what was observed, but this measurement was later determined to be incorrect. In 1933, Swiss astrophysicist Fritz Zwicky studied galaxy clusters while working at Caltech and made a similar inference. Zwicky applied the virial theorem to the Coma Cluster and obtained evidence of unseen mass he called dunkle Materie ('dark matter'). Zwicky estimated its mass based on the motions of galaxies near its edge and compared that to an estimate based on its brightness and number of galaxies. He estimated the cluster had about 400 times more mass than was visually observable. The gravity effect of the visible galaxies was far too small for such fast orbits, thus mass must be hidden from view. Based on these conclusions, Zwicky inferred some unseen matter provided the mass and associated gravitational attraction to hold the cluster together. Zwicky's estimates were off by more than an order of magnitude, mainly due to an obsolete value...",
+    "questions": [
+      {
+        "id": "q49-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q49-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q49-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
+  },
+  {
+    "id": "r50",
+    "title": "Quantum computing",
+    "category": "Technology",
+    "difficulty": "Hard",
+    "description": "An academic passage regarding quantum computing with analytical questions.",
+    "passage": "A quantum computer is a real or theoretical computer that exploits quantum phenomena like superposition and entanglement in an essential way. It is widely believed that a quantum computer could perform some calculations exponentially faster than any classical computer. For example, a large-scale quantum computer could break some widely used encryption schemes and aid physicists in performing physical simulations. However, current hardware implementations of quantum computation are largely experimental and only suitable for specialized tasks. The basic unit of information in quantum computing, the qubit (or \"quantum bit\"), serves the same function as the bit in ordinary or \"classical\" computing. However, unlike a classical bit, which can be in one of two states (a binary), a qubit can exist in a linear combination of two states known as a quantum superposition. The result of measuring a qubit is one of the two states given by a probabilistic rule. If a quantum computer manipulates the qubit in a particular way, wave interference effects amplify the probability of the desired measurement result. The design of quantum algorithms involves creating procedures that allow a quantum computer to perform this amplification. Quantum computers are not yet practical for real-world applications. Physically engineering high-quality qubits has proven to be challenging. If a physical qubit is not sufficiently isolated from its environment, it suffers from quantum decoherence, introducing noise into calculations. National governments have invested heavily in experimental research aimed at developing scalable qubits with longer coherence times and lower error rates. Example implementations include superconductors (which isolate an electrical current by eliminating electrical resistance) and ion traps (which confine a single atomic particle using electromagnetic fields). Researchers have claimed, and are widely believed to be correct, that certain quantum devices can outperform classical computers on narrowly defined tasks, a milestone referred to as quantum advantage or quantum supremacy. These tasks are not necessarily useful for real-world applications. As a result, current demonstrations are best understood as scientific milestones rather than evidence of broad near-term deployment. For many years, the fields of quantum mechanics and computer science formed distinct academic communities. Modern quantum theory was developed in the 1920s to explain perplexing physical phenomena observed at atomic scales, and digital computers emerged in the following decades to replace human computers for tedious calculations. Both disciplines had practical applications during World War II; computers played a major role in wartime cryptography, and quantum physics was essential for nuclear physics used in the Manhattan Project. As physicists applied quantum mechanical models to computational problems and swapped digital bits for qubits, the fields of quantum mechanics and computer science began to converge. In 1980, Paul Benioff introduced the quantum Turing machine, which uses quantum theory to describe a simplified computer. When digital computers became faster, physicists faced an exponential increase in overhead when simulating quantum dynamics, prompting Yuri Manin and Richard Feynman to independently suggest that hardware based on quantum phenomena might be more efficient for computer simulation. In a 1984 paper, Charles Bennett and Gilles Brassard applied quantum theory to cryptography protocols and demonstrated that quantum key distribution could enhance information security. Quantum algorithms then emerged for solving oracle problems, such as Deutsch's algorithm in 1985, the Bernstein\u2013Vazirani algorithm in 1993, and Simon's algorithm in 1994. These algorithms did not solve practical problems, but demonstrated mathematically that one could obtain more information by querying a black box with a quantum state in superposition, sometimes referred to as quantum parallelism. Peter Shor built on these results with his 1994 algorithm for breaking the widely used RSA and Diffie\u2013Hellman encryption protocols, which drew significant attention to the field of quantum computing. In 1996, Grover's algorithm established a quantum speedup for the widely applicable unstructured search problem. The same year, Seth Lloyd proved that quantum computers could simulate quantum systems without the exponential overhead present in classical simulations, validating Feynman's 1982 conjecture. Over the years, experimentalists have constructed small-scale quantum computers using trapped ions and superconductors. In 1998, a two-qubit quantum computer demonstrated the feasibility of the technology, and subsequent experiments have increased the number of qubits and reduced error rates. In 2019, Google AI and NASA announced that they had achieved quantum supremacy with a 54-qubit machine, performing a computation that classical supercomputers would take an estimated 10,000 years to complete\u2014a claim subsequently disputed by IBM, which argued the calculation could be done in approximately 2.5 days on its Summit supercomputer with optimized algorithms, sparking a debate over the precise threshold for this milestone. Recent milestones in quantum computing have increasingly focused on controlling decoherence through quantum error correction. In 2024, researchers demonstrated theoretical and practical approaches for high threshold, low-overhead fault-tolerant quantum memory. These developments represent a critical step toward scaling systems beyond the noisy intermediate-scale quantum (NISQ) era into reliable, fault-tolerant computing architectures, though large-scale physical implementation remains...",
+    "questions": [
+      {
+        "id": "q50-1",
+        "type": "mcq",
+        "question": "Placeholder MCQ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A",
+        "explanation": "This is supported directly by the introductory paragraph."
+      },
+      {
+        "id": "q50-2",
+        "type": "tfng",
+        "question": "Placeholder TF?",
+        "answer": "True",
+        "explanation": "The text directly contains this statement."
+      },
+      {
+        "id": "q50-3",
+        "type": "fill",
+        "question": "Placeholder Fill?",
+        "answer": "word",
+        "explanation": "This word completes the sentence as presented in the text."
+      }
+    ]
   }
 ];
